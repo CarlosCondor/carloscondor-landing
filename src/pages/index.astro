@@ -2,15 +2,108 @@
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Web personal de Juan Carlos Delgado, CTO / CPO"
+    />
+    <title>Juan Carlos Delgado</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+          sans-serif;
+        line-height: 1.5;
+        color: #000;
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        text-align: center;
+        max-width: 400px;
+      }
+
+      .profile-image {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: white;
+      }
+      .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #000;
+        font-weight: 600;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 3rem;
+        font-weight: 400;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .link {
+        color: #000;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .link:hover {
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-image">
+        <img src="/images/yo.jpg" alt="" />
+      </div>
+
+      <h1>Juan Carlos Delgado</h1>
+      <p class="subtitle">CTO / CPO</p>
+      <div class="links">
+        <a href="#" class="link">Blog</a>
+        <a href="mailto:j.carloscondor@gmail.com" class="link">Contacto</a>
+        <a
+          href="https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/"
+          class="link">LinkedIn</a
+        >
+        <a href="#" class="link">GitHub</a>
+      </div>
+    </div>
+  </body>
 </html>
