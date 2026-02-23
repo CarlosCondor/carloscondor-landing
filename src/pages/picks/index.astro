@@ -1,0 +1,176 @@
+---
+import PicksLayout from '../../layouts/PicksLayout.astro';
+import PicksFooter from '../../components/picks/PicksFooter.astro';
+import PickCard from '../../components/picks/PickCard.astro';
+import { categoryLabels, picks } from '../../data/picks';
+import type { PickCategoryKey } from '../../data/picks';
+
+const categories = Object.entries(categoryLabels) as [PickCategoryKey, string][];
+const featuredCount = picks.filter((pick) => pick.featured).length;
+---
+
+<PicksLayout
+  title="Picks | CarlosCondor"
+  description="Catálogo de productos recomendados por CarlosCondor."
+>
+  <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100" data-purpose="main-nav">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-8">
+        <a class="text-xl font-bold tracking-tighter text-primary" href="/">CARLOSCONDOR</a>
+        <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-500">
+          <a class="hover:text-black transition-colors" href="/">Inicio</a>
+          <a class="hover:text-black transition-colors text-black" href="/picks">Picks</a>
+          <a class="hover:text-black transition-colors" href="https://CarlosCondor.github.io/">Blog</a>
+        </div>
+      </div>
+      <div class="flex items-center gap-4">
+        <a class="p-2 text-gray-500 hover:text-black" href="mailto:j.carloscondor@gmail.com" aria-label="Contacto">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16v12H4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M22 7l-10 7L2 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="max-w-4xl mx-auto px-6 pt-20 pb-12 text-center" data-purpose="hero-section">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-50 text-green-600 text-[10px] font-semibold uppercase tracking-wider mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
+        Selección actualizada manualmente
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6 leading-tight">
+        Productos que recomiendo<br />y uso como referencia
+      </h1>
+      <p class="text-lg text-gray-500 mb-10 max-w-2xl mx-auto">
+        Un catálogo curado con herramientas, objetos y accesorios que considero útiles en trabajo y vida diaria. Sin base de datos: todo se publica de forma estática desde el repositorio.
+      </p>
+      <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-2" onsubmit="event.preventDefault()">
+        <input class="flex-1 min-w-0 px-4 py-3 rounded-custom border border-gray-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all text-sm" placeholder="tu@email.com" type="email" />
+        <button class="w-full sm:w-auto px-6 py-3 bg-gray-900 text-white font-medium rounded-custom hover:bg-black transition-colors text-sm" type="submit">Avisadme</button>
+      </form>
+    </section>
+
+    <section class="border-y border-gray-100 mb-12" data-purpose="filter-bar">
+      <div class="max-w-7xl mx-auto px-6 py-4 sm:flex sm:items-center sm:justify-between sm:gap-4">
+        <div class="overflow-x-auto no-scrollbar">
+          <div class="flex items-center gap-2 md:gap-6 min-w-max">
+            <button
+              type="button"
+              class="js-filter-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gray-100 text-black text-sm font-medium transition-colors"
+              data-filter-btn
+              data-filter="all"
+              aria-pressed="true"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" fill-rule="evenodd"></path></svg>
+              Todos
+            </button>
+            {categories.map(([key, label]) => (
+              <button
+                type="button"
+                class="js-filter-btn px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap rounded-full"
+                data-filter-btn
+                data-filter={key}
+                aria-pressed="false"
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+        <span class="block mt-3 sm:mt-0 text-sm font-medium text-gray-900 whitespace-nowrap" data-filter-stats>
+          {picks.length} productos · {featuredCount} destacados
+        </span>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 pb-20" data-purpose="catalog-grid">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12" data-picks-grid>
+        {picks.map((product) => (
+          <PickCard product={product} />
+        ))}
+      </div>
+      <div class="hidden mt-12 text-center" data-empty-state>
+        <p class="text-sm text-gray-500">
+          No hay productos en esta categoría todavía.
+        </p>
+      </div>
+      <div class="flex justify-center mt-16">
+        <a class="px-8 py-3 border border-gray-200 rounded-custom text-sm font-semibold text-gray-900 hover:bg-gray-50 transition-colors" href="#top">
+          Volver arriba
+        </a>
+      </div>
+    </section>
+
+    <PicksFooter />
+  </main>
+
+  <script>
+    const buttons = Array.from(
+      document.querySelectorAll('[data-filter-btn]'),
+    );
+    const cards = Array.from(
+      document.querySelectorAll('[data-pick-card]'),
+    );
+    const VALID_FILTERS = new Set(
+      buttons.map((button) => button.dataset.filter).filter(Boolean),
+    );
+    const stats = document.querySelector('[data-filter-stats]');
+    const emptyState = document.querySelector('[data-empty-state]');
+
+    const updateStats = (visibleCards) => {
+      if (!stats) return;
+      const featuredVisible = visibleCards.filter(
+        (card) => card.dataset.featured === 'true',
+      ).length;
+      stats.textContent = `${visibleCards.length} producto${visibleCards.length === 1 ? '' : 's'} · ${featuredVisible} destacado${featuredVisible === 1 ? '' : 's'}`;
+    };
+
+    const setButtonState = (activeFilter) => {
+      buttons.forEach((button) => {
+        const isActive = button.dataset.filter === activeFilter;
+        button.setAttribute('aria-pressed', String(isActive));
+        button.classList.toggle('bg-gray-100', isActive);
+        button.classList.toggle('text-black', isActive);
+        button.classList.toggle('text-gray-500', !isActive);
+      });
+    };
+
+    const syncUrl = (filter) => {
+      const url = new URL(window.location.href);
+      if (filter === 'all') {
+        url.searchParams.delete('category');
+      } else {
+        url.searchParams.set('category', filter);
+      }
+      window.history.replaceState({}, '', url);
+    };
+
+    const applyFilter = (filter, shouldSyncUrl = true) => {
+      const activeFilter = VALID_FILTERS.has(filter) ? filter : 'all';
+      const visibleCards = [];
+
+      cards.forEach((card) => {
+        const matches =
+          activeFilter === 'all' || card.dataset.category === activeFilter;
+        card.classList.toggle('hidden', !matches);
+        if (matches) visibleCards.push(card);
+      });
+
+      if (emptyState) {
+        emptyState.classList.toggle('hidden', visibleCards.length > 0);
+      }
+
+      setButtonState(activeFilter);
+      updateStats(visibleCards);
+      if (shouldSyncUrl) syncUrl(activeFilter);
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        applyFilter(button.dataset.filter ?? 'all');
+      });
+    });
+
+    const initialFilter = new URLSearchParams(window.location.search).get('category') ?? 'all';
+    applyFilter(initialFilter, false);
+  </script>
+</PicksLayout>

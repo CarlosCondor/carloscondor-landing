@@ -1,0 +1,15 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#f6f6f6"/>
+  <g>
+    <rect x="250" y="200" width="300" height="400" rx="16" fill="#ececec" stroke="#1a1a1a" stroke-width="16"/>
+    <rect x="290" y="200" width="16" height="400" fill="#1a1a1a" opacity="0.2"/>
+    <g fill="#9ca3af">
+      <circle cx="350" cy="300" r="4"/><circle cx="400" cy="300" r="4"/><circle cx="450" cy="300" r="4"/>
+      <circle cx="350" cy="350" r="4"/><circle cx="400" cy="350" r="4"/><circle cx="450" cy="350" r="4"/>
+      <circle cx="350" cy="400" r="4"/><circle cx="400" cy="400" r="4"/><circle cx="450" cy="400" r="4"/>
+      <circle cx="350" cy="450" r="4"/><circle cx="400" cy="450" r="4"/><circle cx="450" cy="450" r="4"/>
+      <circle cx="350" cy="500" r="4"/><circle cx="400" cy="500" r="4"/><circle cx="450" cy="500" r="4"/>
+    </g>
+  </g>
+  <text x="400" y="700" text-anchor="middle" font-family="Inter, sans-serif" font-size="30" fill="#6b7280">Cuaderno A5</text>
+</svg>

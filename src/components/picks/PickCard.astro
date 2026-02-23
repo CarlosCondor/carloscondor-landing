@@ -1,0 +1,41 @@
+---
+import type { PickProduct } from '../../data/picks';
+import { categoryLabels } from '../../data/picks';
+
+interface Props {
+  product: PickProduct;
+}
+
+const { product } = Astro.props;
+const categoryLabel = categoryLabels[product.category];
+---
+
+<a
+  class="block group"
+  href={`/picks/${product.slug}/`}
+  data-pick-card
+  data-category={product.category}
+  data-featured={product.featured ? 'true' : 'false'}
+>
+  <article class="product-card cursor-pointer">
+    <div class="product-card-img-container rounded-custom relative mb-4">
+      {product.featured && (
+        <span class="absolute top-4 left-4 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-orange-500 bg-white/90 px-2 py-1 rounded shadow-sm">
+          <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+          Recomendado
+        </span>
+      )}
+      <span class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" aria-hidden="true">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+      </span>
+      <img alt={product.title} class="product-img" src={product.image} loading="lazy" />
+    </div>
+    <div class="flex justify-between items-start gap-4">
+      <div>
+        <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">{product.brand} · {categoryLabel}</p>
+        <h3 class="text-sm font-bold text-gray-900">{product.title}</h3>
+      </div>
+      <span class="text-sm font-semibold text-gray-900 whitespace-nowrap">{product.priceLabel}</span>
+    </div>
+  </article>
+</a>
