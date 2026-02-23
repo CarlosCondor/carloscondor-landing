@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Volver a picks" [ref=e5] [cursor=pointer]:
+        - /url: /picks
+        - img [ref=e6]
+      - generic [ref=e8]:
+        - link "Inicio" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Picks" [ref=e10] [cursor=pointer]:
+          - /url: /picks
+        - link "Blog" [ref=e11] [cursor=pointer]:
+          - /url: https://CarlosCondor.github.io/
+      - link "Contacto" [ref=e13] [cursor=pointer]:
+        - /url: mailto:j.carloscondor@gmail.com
+        - img [ref=e14]
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: TP-Link · Espacio de trabajo
+        - heading "TP-Link RE700X Repetidor Wi-Fi 6 AX3000" [level=1] [ref=e21]
+      - generic [ref=e22]:
+        - generic [ref=e23]: 62,60 €
+        - link "Ver producto" [ref=e25] [cursor=pointer]:
+          - /url: https://amzn.to/4cIgxEE
+          - text: Ver producto
+          - img [ref=e26]
+    - img "TP-Link RE700X Repetidor Wi-Fi 6 AX3000" [ref=e30]
+    - generic [ref=e31]:
+      - heading "Por qué lo recomiendo" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Lo recomiendo para setups en casa cuando el escritorio está lejos del router y aparecen cortes o baja velocidad. Este repetidor Wi-Fi 6 de TP-Link mejora cobertura y mantiene una conexión más estable para trabajo, videollamadas y streaming.
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - heading "Más en Espacio de trabajo" [level=2] [ref=e36]
+        - link "Ver todos" [ref=e37] [cursor=pointer]:
+          - /url: /picks
+      - generic [ref=e38]:
+        - link "Raspberry Pi 5 8GB Selección personal · Espacio de trabajo Raspberry Pi 5 8GB 139 €" [ref=e39] [cursor=pointer]:
+          - /url: /picks/raspberry-pi-5-8gb/
+          - generic [ref=e40]:
+            - img [ref=e42]
+            - img "Raspberry Pi 5 8GB" [ref=e44]
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: Selección personal · Espacio de trabajo
+              - heading "Raspberry Pi 5 8GB" [level=3] [ref=e48]
+            - generic [ref=e49]: 139 €
+        - link "Soporte elevador para portátil Setup esencial · Espacio de trabajo Soporte elevador para portátil 42 €" [ref=e50] [cursor=pointer]:
+          - /url: /picks/soporte-portatil-aluminio/
+          - generic [ref=e51]:
+            - img [ref=e53]
+            - img "Soporte elevador para portátil" [ref=e55]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - paragraph [ref=e58]: Setup esencial · Espacio de trabajo
+              - heading "Soporte elevador para portátil" [level=3] [ref=e59]
+            - generic [ref=e60]: 42 €
+        - link "Teclado mecánico compacto Escritura diaria · Espacio de trabajo Teclado mecánico compacto 129 €" [ref=e61] [cursor=pointer]:
+          - /url: /picks/teclado-mecanico-compacto/
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - img "Teclado mecánico compacto" [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: Escritura diaria · Espacio de trabajo
+              - heading "Teclado mecánico compacto" [level=3] [ref=e70]
+            - generic [ref=e71]: 129 €
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - heading "Explorar categorías" [level=2] [ref=e74]
+        - link "Ir al catálogo" [ref=e75] [cursor=pointer]:
+          - /url: /picks
+      - generic [ref=e76]:
+        - link "Espacio de trabajo Espacio de trabajo 4" [ref=e77] [cursor=pointer]:
+          - /url: /picks
+          - img "Espacio de trabajo" [ref=e79]
+          - generic [ref=e80]:
+            - heading "Espacio de trabajo" [level=3] [ref=e81]
+            - generic [ref=e82]: "4"
+        - link "Movilidad Movilidad 1" [ref=e83] [cursor=pointer]:
+          - /url: /picks
+          - generic [ref=e84]:
+            - img "Movilidad"
+          - generic [ref=e85]:
+            - heading "Movilidad" [level=3] [ref=e86]
+            - generic [ref=e87]: "1"
+        - link "Vida diaria Vida diaria 1" [ref=e88] [cursor=pointer]:
+          - /url: /picks
+          - generic [ref=e89]:
+            - img "Vida diaria"
+          - generic [ref=e90]:
+            - heading "Vida diaria" [level=3] [ref=e91]
+            - generic [ref=e92]: "1"
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - link "CARLOSCONDOR" [ref=e97] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=e99]: Algunos enlaces pueden ser de afiliación. Los precios son orientativos y pueden cambiar. Solo incluyo productos que uso, he probado o considero útiles.
+      - generic [ref=e100]:
+        - heading "Navegación" [level=4] [ref=e101]
+        - list [ref=e102]:
+          - listitem [ref=e103]:
+            - link "Inicio" [ref=e104] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e105]:
+            - link "Picks" [ref=e106] [cursor=pointer]:
+              - /url: /picks
+      - generic [ref=e107]:
+        - heading "Info" [level=4] [ref=e108]
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - link "Sobre mí" [ref=e111] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e112]:
+            - link "Contacto" [ref=e113] [cursor=pointer]:
+              - /url: mailto:j.carloscondor@gmail.com
+          - listitem [ref=e114]:
+            - link "Blog" [ref=e115] [cursor=pointer]:
+              - /url: https://CarlosCondor.github.io/
+        - heading "Redes" [level=4] [ref=e116]
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - link "LinkedIn" [ref=e119] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/
+          - listitem [ref=e120]:
+            - link "GitHub" [ref=e121] [cursor=pointer]:
+              - /url: http://github.com/carloscondor
+    - generic [ref=e123]:
+      - paragraph [ref=e124]: © 2026 CarlosCondor. Todos los derechos reservados.
+      - paragraph [ref=e125]: Selección personal de productos recomendados.
+  - generic [ref=e128]:
+    - button "Menu" [ref=e129]:
+      - img [ref=e131]
+      - generic: Menu
+    - button "Inspect" [ref=e135]:
+      - img [ref=e137]
+      - generic: Inspect
+    - button "Audit" [ref=e139]:
+      - generic [ref=e140]:
+        - img [ref=e141]
+        - img [ref=e144]
+      - generic: Audit
+    - button "Settings" [ref=e147]:
+      - img [ref=e149]
+      - generic: Settings

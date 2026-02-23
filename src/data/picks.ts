@@ -84,6 +84,19 @@ export const picks: PickProduct[] = [
     description:
       'Sigo recomendando papel para pensar mejor ciertos temas. Un cuaderno A5 punteado encaja muy bien para planificación semanal, mapas mentales y notas de lectura. Esta selección prioriza papel agradable, tapa resistente y apertura cómoda.',
   },
+  {
+    slug: 'tp-link-re700x-repetidor-wifi-6',
+    title: 'TP-Link RE700X Repetidor Wi-Fi 6 AX3000',
+    brand: 'TP-Link',
+    category: 'workspace',
+    priceLabel: '62,60 €',
+    affiliateUrl: 'https://amzn.to/4cIgxEE',
+    image: '/images/picks/tp-link-re700x-repetidor-wifi-6.jpg',
+    shortDescription:
+      'Amplía la cobertura Wi-Fi en casa y mejora la estabilidad en zonas donde el router no llega bien.',
+    description:
+      'Lo recomiendo para setups en casa cuando el escritorio está lejos del router y aparecen cortes o baja velocidad. Este repetidor Wi-Fi 6 de TP-Link mejora cobertura y mantiene una conexión más estable para trabajo, videollamadas y streaming.',
+  },
 ];
 
 export function getPickBySlug(slug: string) {
