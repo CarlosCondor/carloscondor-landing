@@ -1,4 +1,4 @@
-export type PickCategoryKey = 'workspace' | 'movilidad' | 'lectura';
+export type PickCategoryKey = 'workspace' | 'movilidad' | 'lifestyle';
 
 export interface PickProduct {
   slug: string;
@@ -17,7 +17,7 @@ export interface PickProduct {
 export const categoryLabels: Record<PickCategoryKey, string> = {
   workspace: 'Espacio de trabajo',
   movilidad: 'Movilidad',
-  lectura: 'Lectura',
+  lifestyle: 'Vida diaria'
 };
 
 export const picks: PickProduct[] = [
@@ -76,7 +76,7 @@ export const picks: PickProduct[] = [
     slug: 'cuaderno-punteado-a5',
     title: 'Cuaderno punteado A5',
     brand: 'Notas y pensamiento',
-    category: 'lectura',
+    category: 'lifestyle',
     priceLabel: '18 €',
     affiliateUrl: '#',
     image: '/images/picks/cuaderno-punteado.svg',
