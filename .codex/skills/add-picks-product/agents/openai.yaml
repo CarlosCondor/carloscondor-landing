@@ -1,0 +1,4 @@
+interface:
+  display_name: "Añadir Producto a Picks"
+  short_description: "Añade productos a src/data/picks.ts"
+  default_prompt: "Usa $add-picks-product para añadir un nuevo producto a la lista de picks desde un enlace de Amazon y una nota opcional."

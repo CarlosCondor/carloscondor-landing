@@ -22,16 +22,16 @@ export const categoryLabels: Record<PickCategoryKey, string> = {
 
 export const picks: PickProduct[] = [
   {
-    slug: 'lampara-escritorio-regulable',
-    title: 'Lámpara de escritorio regulable',
+    slug: 'raspberry-pi-5-8gb',
+    title: 'Raspberry Pi 5 8GB',
     brand: 'Selección personal',
     category: 'workspace',
-    priceLabel: '79 €',
-    affiliateUrl: '#',
-    image: '/images/picks/lampara-escritorio.svg',
-    shortDescription: 'Luz cálida/fría, intensidad regulable y base compacta para mesas pequeñas.',
+    priceLabel: '139 €',
+    affiliateUrl: 'https://amzn.to/4tYgNWz',
+    image: '/images/picks/rpi5.jpg',
+    shortDescription: 'Mini-pc donde alojo Home Assistant, mi asistente de control de domótica.',
     description:
-      'Una lámpara pensada para jornadas largas frente al portátil. Prioriza una iluminación homogénea, control de intensidad y una base que no invada media mesa. La recomiendo para setups domésticos donde quieres mejorar ergonomía visual sin añadir ruido estético.',
+      'Utilizo este mini ordenador para alojar el sistema operativo Home Assistant que sirve para gestionar la domótica de mi casa, servidor Plex de contenido multimedia y un asistente IA Openclaw.',
     featured: true,
     isNew: true,
   },
