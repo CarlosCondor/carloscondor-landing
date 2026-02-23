@@ -36,55 +36,6 @@ export const picks: PickProduct[] = [
     isNew: true,
   },
   {
-    slug: 'soporte-portatil-aluminio',
-    title: 'Soporte elevador para portátil',
-    brand: 'Setup esencial',
-    category: 'workspace',
-    priceLabel: '42 €',
-    affiliateUrl: '#',
-    image: '/images/picks/soporte-portatil.svg',
-    shortDescription: 'Eleva la pantalla a la altura de los ojos y mejora la ventilación del equipo.',
-    description:
-      'Es uno de los cambios con más impacto por coste. Elevar el portátil reduce tensión en cuello y hombros y deja hueco libre debajo para teclado o libreta. Busco modelos estables, sin flexión y con goma suficiente para no deslizar.',
-  },
-  {
-    slug: 'teclado-mecanico-compacto',
-    title: 'Teclado mecánico compacto',
-    brand: 'Escritura diaria',
-    category: 'workspace',
-    priceLabel: '129 €',
-    affiliateUrl: '#',
-    image: '/images/picks/teclado-compacto.svg',
-    shortDescription: 'Formato contenido, buena sensación al teclear y cable desmontable.',
-    description:
-      'Para trabajar muchas horas escribiendo, un teclado consistente marca diferencia. Prefiero formatos compactos porque liberan espacio para el ratón y permiten una postura más centrada. Esta recomendación está pensada para productividad, no para estética extrema.',
-    featured: true,
-  },
-  {
-    slug: 'mochila-urbana-20l',
-    title: 'Mochila urbana 20L',
-    brand: 'Movilidad diaria',
-    category: 'movilidad',
-    priceLabel: '95 €',
-    affiliateUrl: '#',
-    image: '/images/picks/mochila-urbana.svg',
-    shortDescription: 'Capacidad equilibrada para portátil, accesorios y un cambio ligero.',
-    description:
-      'La recomiendo como opción diaria para ciudad: tamaño suficiente para portátil y cargadores, pero sin irse a volúmenes grandes que resultan incómodos en transporte público. Busco compartimentos simples, cremalleras fiables y un diseño sobrio.',
-  },
-  {
-    slug: 'cuaderno-punteado-a5',
-    title: 'Cuaderno punteado A5',
-    brand: 'Notas y pensamiento',
-    category: 'lifestyle',
-    priceLabel: '18 €',
-    affiliateUrl: '#',
-    image: '/images/picks/cuaderno-punteado.svg',
-    shortDescription: 'Buen papel, tamaño portátil y formato versátil para notas o planificación.',
-    description:
-      'Sigo recomendando papel para pensar mejor ciertos temas. Un cuaderno A5 punteado encaja muy bien para planificación semanal, mapas mentales y notas de lectura. Esta selección prioriza papel agradable, tapa resistente y apertura cómoda.',
-  },
-  {
     slug: 'tp-link-re700x-repetidor-wifi-6',
     title: 'TP-Link RE700X Repetidor Wi-Fi 6 AX3000',
     brand: 'TP-Link',
@@ -96,6 +47,19 @@ export const picks: PickProduct[] = [
       'Amplía la cobertura Wi-Fi en casa y mejora la estabilidad en zonas donde el router no llega bien.',
     description:
       'Lo recomiendo para setups en casa cuando el escritorio está lejos del router y aparecen cortes o baja velocidad. Este repetidor Wi-Fi 6 de TP-Link mejora cobertura y mantiene una conexión más estable para trabajo, videollamadas y streaming.',
+  },
+  {
+    slug: 'ergosolid-brazo-monitor-ergonomico',
+    title: 'Ergosolid Brazo ergonómico para monitor (17–30")',
+    brand: 'Ergosolid',
+    category: 'workspace',
+    priceLabel: '29,99 €',
+    affiliateUrl: 'https://amzn.to/3ZS66ae',
+    image: '/images/picks/ergosolid-brazo-monitor-ergonomico.jpg',
+    shortDescription:
+      'Brazo soporte de monitor con resorte de gas ajustable en altura y profundidad.',
+    description:
+      'Lo uso para elevar y ajustar las dos pantallas de mi escritorio. Ganas espacio en la mesa y puedes mover las pantallas individualmente en cualquier dirección. Es el mejor soporte que he usado nunca para monitores.',
   },
 ];
 
