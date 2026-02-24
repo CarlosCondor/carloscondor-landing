@@ -33,111 +33,117 @@ const pageDescription = pick.shortDescription;
 ---
 
 <PicksLayout title={pageTitle} description={pageDescription}>
-  <header class="w-full border-b border-gray-50 bg-white sticky top-0 z-50">
-    <nav class="max-w-[1440px] mx-auto px-6 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-4">
-        <a
-          class="p-2 hover:bg-gray-100 rounded-full transition-colors"
-          data-purpose="back-button"
-          href="/picks"
-          aria-label="Volver a picks"
-        >
-          <svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
-        </a>
+  <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100" data-purpose="main-nav">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-8">
+        <a class="text-xl font-bold tracking-tighter text-primary" href="/">CARLOSCONDOR</a>
+        <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-500">
+          <a class="hover:text-black transition-colors" href="/">Inicio</a>
+          <a class="hover:text-black transition-colors text-black" href="/picks">Picks</a>
+          <a class="hover:text-black transition-colors" href="https://CarlosCondor.github.io/">Blog</a>
+        </div>
       </div>
-      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-500">
-        <a class="hover:text-black transition-colors" href="/">Inicio</a>
-        <a class="hover:text-black transition-colors text-black" href="/picks">Picks</a>
-        <a class="hover:text-black transition-colors" href="https://CarlosCondor.github.io/">Blog</a>
-      </div>
-      <div class="flex items-center">
-        <a
-          class="p-2 hover:bg-gray-100 rounded-full transition-colors"
-          href="mailto:j.carloscondor@gmail.com"
-          aria-label="Contacto"
-        >
-          <svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20"><path d="M4 6h16v12H4z"></path><path d="M22 7l-10 7L2 7"></path></svg>
-        </a>
-      </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
-  <main class="max-w-[1440px] mx-auto px-6 py-8">
-    <div class="flex flex-col md:flex-row justify-between items-baseline mb-8 gap-4">
-      <div>
-        <span class="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2 block">
-          {pick.brand} · {categoryLabel}
-        </span>
-        <h1 class="text-4xl md:text-5xl font-bold">{pick.title}</h1>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-6 md:py-10">
+
+    <!-- Breadcrumb / Back -->
+    <div class="mb-6 md:mb-8">
+      <a
+        class="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-black transition-colors"
+        href="/picks"
+        data-purpose="back-button"
+      >
+        <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="14"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+        Volver a Picks
+      </a>
+    </div>
+
+    <!-- Hero -->
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-6 mb-6 md:mb-8">
+      <div class="min-w-0">
+        <p class="text-[11px] text-gray-400 mb-1.5">{pick.brand} · {categoryLabel}</p>
+        <h1 class="text-2xl md:text-4xl font-semibold tracking-tight text-gray-900 leading-snug">{pick.title}</h1>
       </div>
-      <div class="flex flex-wrap items-center gap-4 sm:gap-6 mt-4 md:mt-0">
-        <span class="text-3xl font-medium">{pick.priceLabel}</span>
-        <span class="hidden sm:block h-8 w-[1px] bg-gray-200"></span>
+      <div class="flex items-center justify-between md:justify-end gap-4 shrink-0">
+        <span class="text-xl md:text-2xl font-medium text-gray-900">{pick.priceLabel}</span>
         <a
-          class="bg-[#111111] text-white px-6 py-3 rounded-full text-sm font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity"
+          class="bg-gray-900 text-white px-4 py-2 md:px-5 md:py-2.5 rounded-full text-sm font-medium flex items-center gap-1.5 hover:bg-black transition-colors whitespace-nowrap"
           href={pick.affiliateUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
           Ver producto
-          <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="14"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
+          <svg fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="13"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
         </a>
       </div>
     </div>
 
-    <section class="mb-16">
-      <div class="product-media-frame rounded-3xl overflow-hidden aspect-square sm:aspect-[4/3] md:aspect-[16/9] flex items-center justify-center p-4 sm:p-6 md:p-12">
-        <img alt={pick.title} class="product-image w-full h-full object-contain object-center" data-purpose="hero-image" src={pick.image} />
+    <!-- Imagen hero -->
+    <section class="mb-10 md:mb-14">
+      <div class="bg-white border border-gray-100 rounded-2xl overflow-hidden aspect-[4/3] md:aspect-[16/9] flex items-center justify-center p-6 md:p-16">
+        <img
+          alt={pick.title}
+          class="w-full h-full object-contain object-center"
+          data-purpose="hero-image"
+          src={pick.image}
+        />
       </div>
     </section>
 
-    <section class="max-w-2xl mb-24">
-      <h2 class="text-2xl font-bold mb-6">Por qué lo recomiendo</h2>
-      <p class="text-gray-500 leading-relaxed text-lg">{pick.description}</p>
+    <!-- Descripción -->
+    <section class="max-w-2xl mb-12 md:mb-20">
+      <h2 class="text-base font-semibold text-gray-900 mb-3">Por qué lo recomiendo</h2>
+      <p class="text-gray-500 leading-relaxed text-sm md:text-base">{pick.description}</p>
     </section>
 
-    <section class="mb-24">
-      <div class="flex items-center justify-between mb-8">
-        <h2 class="text-2xl font-bold">Más en {categoryLabel}</h2>
-        <a class="text-sm font-medium text-gray-400 hover:text-black transition-colors" href="/picks">Ver todos</a>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {related.map((relatedPick) => (
-          <a class="group cursor-pointer product-card-hover" href={`/picks/${relatedPick.slug}/`}>
-            <div class="product-media-frame product-media-frame-hover rounded-2xl p-8 mb-4 relative aspect-square flex items-center justify-center overflow-hidden">
-              <div class="absolute top-4 right-4 bg-white/80 backdrop-blur rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                <svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="16"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
-              </div>
-              <img alt={relatedPick.title} class="product-image max-w-full h-auto object-contain" src={relatedPick.image} loading="lazy" />
-            </div>
-            <div class="flex justify-between items-start gap-4">
-              <div>
-                <p class="text-xs text-gray-400 uppercase font-semibold">{relatedPick.brand} · {categoryLabels[relatedPick.category]}</p>
-                <h3 class="font-bold text-sm">{relatedPick.title}</h3>
-              </div>
-              <span class="font-bold text-sm whitespace-nowrap">{relatedPick.priceLabel}</span>
-            </div>
-          </a>
-        ))}
-      </div>
-    </section>
+    <!-- Relacionados -->
+    {related.length > 0 && (
+      <section class="mb-12 md:mb-20">
+        <div class="flex items-center justify-between mb-5">
+          <h2 class="text-base font-semibold text-gray-900">Más en {categoryLabel}</h2>
+          <a class="text-xs text-gray-400 hover:text-black transition-colors" href="/picks">Ver todos</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5">
+          {related.map((relatedPick) => (
+            <a class="group block" href={`/picks/${relatedPick.slug}/`}>
+              <article class="product-card cursor-pointer">
+                <div class="product-card-img-container relative">
+                  <span class="absolute top-3 right-3 p-1.5 bg-white/90 rounded-full border border-gray-200/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200" aria-hidden="true">
+                    <svg class="w-3.5 h-3.5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                  </span>
+                  <img alt={relatedPick.title} class="product-img" src={relatedPick.image} loading="lazy" />
+                </div>
+                <div class="flex justify-between items-end gap-4 px-4 py-3.5">
+                  <div>
+                    <p class="text-[11px] text-gray-400 mb-0.5">{relatedPick.brand} · {categoryLabels[relatedPick.category]}</p>
+                    <h3 class="text-sm font-medium text-gray-900 leading-snug">{relatedPick.title}</h3>
+                  </div>
+                  <span class="text-sm text-gray-900 whitespace-nowrap shrink-0">{relatedPick.priceLabel}</span>
+                </div>
+              </article>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
-    <section class="mb-32">
-      <div class="flex items-center justify-between mb-8">
-        <h2 class="text-2xl font-bold">Explorar categorías</h2>
-        <a class="text-sm font-medium text-gray-400 hover:text-black transition-colors" href="/picks">Ir al catálogo</a>
+    <!-- Explorar categorías -->
+    <section class="mb-16 md:mb-24">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-base font-semibold text-gray-900">Explorar categorías</h2>
+        <a class="text-xs text-gray-400 hover:text-black transition-colors" href="/picks">Ir al catálogo</a>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5">
         {categoryCards.map((item) => (
-          <a class="group cursor-pointer" href="/picks">
-            <div class="bg-white border border-gray-100 rounded-2xl p-8 mb-4 aspect-square flex items-center justify-center">
-              <img alt={categoryLabels[item.category]} class="max-w-full h-auto object-contain" src={item.image} loading="lazy" />
+          <a class="group block" href="/picks">
+            <div class="bg-white border border-gray-100 rounded-2xl overflow-hidden aspect-square flex items-center justify-center p-8 transition-colors duration-200 group-hover:border-gray-200">
+              <img alt={categoryLabels[item.category]} class="max-w-[70%] max-h-[70%] object-contain" src={item.image} loading="lazy" />
             </div>
-            <div class="flex justify-between items-center px-1">
-              <h3 class="font-bold text-sm">{categoryLabels[item.category]}</h3>
-              <span class="text-gray-400 text-sm font-medium">
-                {categoryCounts[item.category]}
-              </span>
+            <div class="flex justify-between items-center px-1 mt-3">
+              <h3 class="text-sm font-medium text-gray-900">{categoryLabels[item.category]}</h3>
+              <span class="text-xs text-gray-400">{categoryCounts[item.category]} productos</span>
             </div>
           </a>
         ))}
