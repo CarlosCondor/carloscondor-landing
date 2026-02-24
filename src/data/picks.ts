@@ -131,6 +131,19 @@ export const picks: PickProduct[] = [
     description:
       'Cafetera eléctrica portátil con carga USB-C pensada para viajes, coche, camping u oficina. Acepta café molido y cápsulas compatibles, así que es una opción muy práctica si quieres espresso en movilidad con un formato compacto.',
   },
+  {
+    slug: 'songmics-escritorio-electrico-180x80',
+    title: 'SONGMICS Escritorio Eléctrico Regulable 180 x 80 cm',
+    brand: 'SONGMICS',
+    category: 'workspace',
+    priceLabel: '127,49 €',
+    affiliateUrl: 'https://amzn.to/3OYG16S',
+    image: '/images/picks/songmics-escritorio-electrico-180x80.jpg',
+    shortDescription:
+      'Escritorio elevable eléctrico amplio con memoria de alturas para alternar entre trabajo sentado y de pie.',
+    description:
+      'Mesa regulable en altura de 180 x 80 cm con ajuste continuo y memorias de posición. La propongo para setup de trabajo porque ofrece una superficie amplia y facilita cambiar de postura durante la jornada.',
+  },
 ];
 
 export function getPickBySlug(slug: string) {
