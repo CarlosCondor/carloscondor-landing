@@ -66,6 +66,58 @@ export const picks: PickProduct[] = [
     description:
       'Lo uso para elevar y ajustar las dos pantallas de mi escritorio. Ganas espacio en la mesa y puedes mover las pantallas individualmente en cualquier dirección. Es el mejor soporte que he usado nunca para monitores.',
   },
+  {
+    slug: 'nutralie-magnesio-citrato-bisglicinato',
+    title: 'Nutralie Magnesio (Citrato + Bisglicinato) 120 cápsulas',
+    brand: 'Nutralie',
+    category: 'suplementos',
+    priceLabel: '19,90 €',
+    affiliateUrl: 'https://amzn.to/4tUUa55',
+    image: '/images/picks/nutralie-magnesio-citrato-bisglicinato.jpg',
+    shortDescription:
+      'Complejo de magnesio en cápsulas con citrato y bisglicinato para una toma diaria sencilla.',
+    description:
+      'Suplemento de magnesio con dos formas habituales (citrato y bisglicinato) en formato cápsulas. Lo propongo como opción práctica si buscas algo fácil de integrar en la rutina sin mezclar polvos.',
+  },
+  {
+    slug: 'hsn-creatina-creapure-monohidrato-500g',
+    title: 'HSN Creatina Monohidrato Creapure 500 g',
+    brand: 'HSN',
+    category: 'suplementos',
+    priceLabel: '26,90 €',
+    affiliateUrl: 'https://amzn.to/4qUKxAU',
+    image: '/images/picks/hsn-creatina-creapure-monohidrato-500g.jpg',
+    shortDescription:
+      'Creatina monohidrato micronizada Creapure en polvo, fácil de dosificar y mezclar.',
+    description:
+      'Formato de 500 g de creatina monohidrato con materia prima Creapure. Buena opción si prefieres comprar formato polvo para ajustar la dosis y que rinda más tiempo.',
+  },
+  {
+    slug: 'nutravita-omega-3-2000mg-240-capsulas',
+    title: 'Nutravita Omega 3 2000 mg (240 cápsulas)',
+    brand: 'Nutravita',
+    category: 'suplementos',
+    priceLabel: '20,69 €',
+    affiliateUrl: 'https://amzn.to/3MvXUtb',
+    image: '/images/picks/nutravita-omega-3-2000mg-240-capsulas.jpg',
+    shortDescription:
+      'Omega 3 en cápsulas blandas con formato grande para varios meses.',
+    description:
+      'Bote de 240 cápsulas pensado para uso continuado. Lo propongo por su formato largo (4 meses según fabricante), útil si quieres evitar recompras frecuentes.',
+  },
+  {
+    slug: 'gloryfeel-melatonina-400-tabletas',
+    title: 'Gloryfeel Melatonina (400 tabletas)',
+    brand: 'Gloryfeel',
+    category: 'suplementos',
+    priceLabel: '19,99 €',
+    affiliateUrl: 'https://amzn.to/4aONnBs',
+    image: '/images/picks/gloryfeel-melatonina-400-tabletas.jpg',
+    shortDescription:
+      'Melatonina en tabletas con formato muy duradero para uso ocasional o continuado.',
+    description:
+      'Formato de 400 tabletas con enfoque de larga duración. Puede ser práctico si prefieres tabletas frente a gotas o gummies y quieres un producto que cunda bastante.',
+  },
 ];
 
 export function getPickBySlug(slug: string) {
