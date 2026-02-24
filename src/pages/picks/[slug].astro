@@ -79,8 +79,8 @@ const pageDescription = pick.shortDescription;
     </div>
 
     <section class="mb-16">
-      <div class="bg-[#F6F6F6] rounded-3xl overflow-hidden aspect-square sm:aspect-[4/3] md:aspect-[16/9] flex items-center justify-center p-4 sm:p-6 md:p-12">
-        <img alt={pick.title} class="w-full h-full object-contain object-center" data-purpose="hero-image" src={pick.image} />
+      <div class="bg-white border border-[#EAEAEA] shadow-[0_4px_18px_rgba(0,0,0,0.04)] rounded-3xl overflow-hidden aspect-square sm:aspect-[4/3] md:aspect-[16/9] flex items-center justify-center p-4 sm:p-6 md:p-12">
+        <img alt={pick.title} class="w-full h-full object-contain object-center" data-purpose="hero-image" src={pick.image} style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.06));" />
       </div>
     </section>
 
@@ -97,11 +97,11 @@ const pageDescription = pick.shortDescription;
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         {related.map((relatedPick) => (
           <a class="group cursor-pointer product-card-hover" href={`/picks/${relatedPick.slug}/`}>
-            <div class="bg-[#F6F6F6] rounded-2xl p-8 mb-4 relative aspect-square flex items-center justify-center overflow-hidden">
+            <div class="bg-white border border-[#EAEAEA] shadow-[0_4px_18px_rgba(0,0,0,0.04)] rounded-2xl p-8 mb-4 relative aspect-square flex items-center justify-center overflow-hidden transition-shadow duration-300 group-hover:shadow-[0_10px_24px_rgba(0,0,0,0.06)]">
               <div class="absolute top-4 right-4 bg-white/80 backdrop-blur rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">
                 <svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="16"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
               </div>
-              <img alt={relatedPick.title} class="product-image max-w-full h-auto object-contain" src={relatedPick.image} loading="lazy" />
+              <img alt={relatedPick.title} class="product-image max-w-full h-auto object-contain" src={relatedPick.image} loading="lazy" style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.06));" />
             </div>
             <div class="flex justify-between items-start gap-4">
               <div>
