@@ -23,42 +23,36 @@ const featuredCount = picks.filter((pick) => pick.featured).length;
           <a class="hover:text-black transition-colors" href="https://CarlosCondor.github.io/">Blog</a>
         </div>
       </div>
-      <div class="flex items-center gap-4">
-        <a class="p-2 text-gray-500 hover:text-black" href="mailto:j.carloscondor@gmail.com" aria-label="Contacto">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16v12H4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M22 7l-10 7L2 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-        </a>
-      </div>
     </div>
   </nav>
 
   <main>
-    <section class="max-w-4xl mx-auto px-6 pt-20 pb-12 text-center" data-purpose="hero-section">
-      <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6 leading-tight">
+    <section class="max-w-4xl mx-auto px-6 pt-10 pb-8 md:pt-20 md:pb-12 text-center" data-purpose="hero-section">
+      <h1 class="text-3xl md:text-5xl font-bold tracking-tight text-gray-900 mb-4 md:mb-6 leading-tight">
         Productos que recomiendo
       </h1>
-      <p class="text-lg text-gray-500 mb-2 max-w-2xl mx-auto">
+      <p class="text-base md:text-lg text-gray-500 mb-2 max-w-2xl mx-auto">
         Un catálogo de herramientas, objetos y accesorios que considero útiles en mi trabajo y vida diaria.
       </p>
     </section>
 
-    <section class="border-y border-gray-100 mb-12" data-purpose="filter-bar">
-      <div class="max-w-7xl mx-auto px-6 py-4 sm:flex sm:items-center sm:justify-between sm:gap-4">
+    <section class="bg-[#f7f7f5]/90 backdrop-blur-md mb-10 sticky top-16 z-40" data-purpose="filter-bar">
+      <div class="max-w-7xl mx-auto px-6 py-3 sm:flex sm:items-center sm:justify-between sm:gap-4">
         <div class="overflow-x-auto no-scrollbar">
-          <div class="flex items-center gap-2 md:gap-6 min-w-max">
+          <div class="flex items-center gap-2 min-w-max py-1">
             <button
               type="button"
-              class="js-filter-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gray-100 text-black text-sm font-medium transition-colors"
+              class="js-filter-btn filter-chip"
               data-filter-btn
               data-filter="all"
               aria-pressed="true"
             >
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" fill-rule="evenodd"></path></svg>
               Todos
             </button>
             {categories.map(([key, label]) => (
               <button
                 type="button"
-                class="js-filter-btn px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap rounded-full"
+                class="js-filter-btn filter-chip"
                 data-filter-btn
                 data-filter={key}
                 aria-pressed="false"
@@ -68,14 +62,14 @@ const featuredCount = picks.filter((pick) => pick.featured).length;
             ))}
           </div>
         </div>
-        <span class="block mt-3 sm:mt-0 text-sm font-medium text-gray-900 whitespace-nowrap" data-filter-stats>
+        <span class="filter-stats-chip hidden sm:block text-xs font-medium text-gray-400 whitespace-nowrap" data-filter-stats>
           {picks.length} productos · {featuredCount} destacados
         </span>
       </div>
     </section>
 
     <section class="max-w-7xl mx-auto px-6 pb-20" data-purpose="catalog-grid">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12" data-picks-grid>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-picks-grid>
         {picks.map((product) => (
           <PickCard product={product} />
         ))}
@@ -102,11 +96,14 @@ const featuredCount = picks.filter((pick) => pick.featured).length;
     const cards = Array.from(
       document.querySelectorAll('[data-pick-card]'),
     );
+    const grid = document.querySelector('[data-picks-grid]');
     const VALID_FILTERS = new Set(
       buttons.map((button) => button.dataset.filter).filter(Boolean),
     );
     const stats = document.querySelector('[data-filter-stats]');
     const emptyState = document.querySelector('[data-empty-state]');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let currentFilter = 'all';
 
     const updateStats = (visibleCards) => {
       if (!stats) return;
@@ -120,9 +117,32 @@ const featuredCount = picks.filter((pick) => pick.featured).length;
       buttons.forEach((button) => {
         const isActive = button.dataset.filter === activeFilter;
         button.setAttribute('aria-pressed', String(isActive));
-        button.classList.toggle('bg-gray-100', isActive);
-        button.classList.toggle('text-black', isActive);
-        button.classList.toggle('text-gray-500', !isActive);
+      });
+    };
+
+    const animateVisibleCards = (visibleCards) => {
+      if (prefersReducedMotion) return;
+
+      if (grid) {
+        grid.classList.remove('grid-filter-refresh');
+        void grid.offsetWidth;
+        grid.classList.add('grid-filter-refresh');
+      }
+
+      visibleCards.forEach((card, index) => {
+        card.classList.remove('pick-card-filter-enter');
+        card.style.removeProperty('--filter-stagger-delay');
+        void card.offsetWidth;
+        card.style.setProperty('--filter-stagger-delay', `${Math.min(index, 8) * 35}ms`);
+        card.classList.add('pick-card-filter-enter');
+        card.addEventListener(
+          'animationend',
+          () => {
+            card.classList.remove('pick-card-filter-enter');
+            card.style.removeProperty('--filter-stagger-delay');
+          },
+          { once: true },
+        );
       });
     };
 
@@ -139,6 +159,7 @@ const featuredCount = picks.filter((pick) => pick.featured).length;
     const applyFilter = (filter, shouldSyncUrl = true) => {
       const activeFilter = VALID_FILTERS.has(filter) ? filter : 'all';
       const visibleCards = [];
+      const changedFilter = activeFilter !== currentFilter;
 
       cards.forEach((card) => {
         const matches =
@@ -153,7 +174,11 @@ const featuredCount = picks.filter((pick) => pick.featured).length;
 
       setButtonState(activeFilter);
       updateStats(visibleCards);
+      if (changedFilter) {
+        animateVisibleCards(visibleCards);
+      }
       if (shouldSyncUrl) syncUrl(activeFilter);
+      currentFilter = activeFilter;
     };
 
     buttons.forEach((button) => {
@@ -165,4 +190,82 @@ const featuredCount = picks.filter((pick) => pick.featured).length;
     const initialFilter = new URLSearchParams(window.location.search).get('category') ?? 'all';
     applyFilter(initialFilter, false);
   </script>
+
+  <style is:global>
+    .filter-chip {
+      border-radius: 9999px;
+      padding: 0.45rem 1rem;
+      font-size: 0.82rem;
+      line-height: 1;
+      font-weight: 500;
+      color: #6b7280;
+      white-space: nowrap;
+      border: 1px solid rgba(17, 24, 39, 0.1);
+      background: rgba(243, 244, 246, 0.7);
+      transition:
+        background-color 0.15s ease,
+        color 0.15s ease,
+        border-color 0.15s ease,
+        box-shadow 0.15s ease;
+    }
+
+    .filter-chip:hover {
+      color: #111827;
+      background-color: rgba(229, 231, 235, 0.9);
+      border-color: rgba(17, 24, 39, 0.15);
+    }
+
+    .filter-chip[aria-pressed='true'] {
+      color: #111827;
+      background-color: #fff;
+      border-color: rgba(17, 24, 39, 0.22);
+      font-weight: 600;
+      box-shadow: 0 1px 4px rgba(17, 24, 39, 0.08);
+    }
+
+    .filter-chip:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.1);
+    }
+
+    .filter-stats-chip {
+      letter-spacing: 0.01em;
+    }
+
+    .pick-card-filter-enter {
+      animation: pick-card-filter-enter 0.38s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+      animation-delay: var(--filter-stagger-delay, 0ms);
+    }
+
+    .grid-filter-refresh {
+      animation: grid-filter-refresh 0.2s ease;
+    }
+
+    @keyframes pick-card-filter-enter {
+      from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.99);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes grid-filter-refresh {
+      from {
+        opacity: 0.72;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .pick-card-filter-enter,
+      .grid-filter-refresh {
+        animation: none !important;
+      }
+    }
+  </style>
 </PicksLayout>
