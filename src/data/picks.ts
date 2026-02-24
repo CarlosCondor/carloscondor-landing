@@ -118,6 +118,19 @@ export const picks: PickProduct[] = [
     description:
       'Formato de 400 tabletas con enfoque de larga duración. Puede ser práctico si prefieres tabletas frente a gotas o gummies y quieres un producto que cunda bastante.',
   },
+  {
+    slug: 'outin-nano-cafetera-espresso-portatil',
+    title: 'OutIn Nano Cafetera Espresso Portátil',
+    brand: 'OutIn',
+    category: 'cafe',
+    priceLabel: '149,99 €',
+    affiliateUrl: 'https://amzn.to/3ZQvYmO',
+    image: '/images/picks/outin-nano-cafetera-espresso-portatil.jpg',
+    shortDescription:
+      'Cafetera espresso portátil y autocalentable para preparar café fuera de casa sin depender de una máquina fija.',
+    description:
+      'Cafetera eléctrica portátil con carga USB-C pensada para viajes, coche, camping u oficina. Acepta café molido y cápsulas compatibles, así que es una opción muy práctica si quieres espresso en movilidad con un formato compacto.',
+  },
 ];
 
 export function getPickBySlug(slug: string) {
