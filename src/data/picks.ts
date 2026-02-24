@@ -1,4 +1,8 @@
-export type PickCategoryKey = 'workspace' | 'movilidad' | 'lifestyle';
+export type PickCategoryKey =
+  | 'workspace'
+  | 'lifestyle'
+  | 'suplementos'
+  | 'cafe';
 
 export interface PickProduct {
   slug: string;
@@ -16,8 +20,9 @@ export interface PickProduct {
 
 export const categoryLabels: Record<PickCategoryKey, string> = {
   workspace: 'Espacio de trabajo',
-  movilidad: 'Movilidad',
-  lifestyle: 'Vida diaria'
+  lifestyle: 'Vida diaria',
+  suplementos: 'Suplementos',
+  cafe: 'Café',
 };
 
 export const picks: PickProduct[] = [
