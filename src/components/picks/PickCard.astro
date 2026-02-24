@@ -18,24 +18,23 @@ const categoryLabel = categoryLabels[product.category];
   data-featured={product.featured ? 'true' : 'false'}
 >
   <article class="product-card cursor-pointer">
-    <div class="product-card-img-container rounded-custom relative mb-4">
+    <div class="product-card-img-container relative">
       {product.featured && (
-        <span class="absolute top-4 left-4 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-orange-500 bg-white/90 px-2 py-1 rounded shadow-sm">
-          <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-          Recomendado
+        <span class="absolute top-3 left-3 text-[10px] font-medium text-gray-500 bg-white/90 px-2 py-0.5 rounded-full border border-gray-200/80">
+          Destacado
         </span>
       )}
-      <span class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" aria-hidden="true">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+      <span class="absolute top-3 right-3 p-1.5 bg-white/90 rounded-full border border-gray-200/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200" aria-hidden="true">
+        <svg class="w-3.5 h-3.5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 17L17 7M17 7H7M17 7v10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
       </span>
       <img alt={product.title} class="product-img" src={product.image} loading="lazy" />
     </div>
-    <div class="flex justify-between items-start gap-4">
+    <div class="flex justify-between items-end gap-4 px-4 py-3.5">
       <div>
-        <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">{product.brand} · {categoryLabel}</p>
-        <h3 class="text-sm font-bold text-gray-900">{product.title}</h3>
+        <p class="text-[11px] text-gray-400 mb-0.5">{product.brand} · {categoryLabel}</p>
+        <h3 class="text-sm font-medium text-gray-900 leading-snug">{product.title}</h3>
       </div>
-      <span class="text-sm font-semibold text-gray-900 whitespace-nowrap">{product.priceLabel}</span>
+      <span class="text-sm text-gray-900 whitespace-nowrap shrink-0">{product.priceLabel}</span>
     </div>
   </article>
 </a>
