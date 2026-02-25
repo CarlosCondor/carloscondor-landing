@@ -1,0 +1,168 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "CARLOSCONDOR" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - link "Contacto" [ref=e7] [cursor=pointer]:
+        - /url: mailto:j.carloscondor@gmail.com
+        - img [ref=e8]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: Selección actualizada manualmente
+      - heading "Productos que recomiendo y uso como referencia" [level=1] [ref=e15]:
+        - text: Productos que recomiendo
+        - text: y uso como referencia
+      - paragraph [ref=e16]: "Un catálogo curado con herramientas, objetos y accesorios que considero útiles en trabajo, café y vida diaria. Sin base de datos: todo se publica de forma estática desde el repositorio."
+      - generic [ref=e17]:
+        - textbox "tu@email.com" [ref=e18]
+        - button "Avisadme" [ref=e19] [cursor=pointer]
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - img [ref=e25]
+          - text: Todos
+        - generic [ref=e27]: Espacio de trabajo
+        - generic [ref=e28]: Café
+        - generic [ref=e29]: Movilidad
+        - generic [ref=e30]: Lectura
+      - generic [ref=e31]: 7 productos · 2 destacados
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link [ref=e34] [cursor=pointer]:
+          - /url: /picks/lampara-escritorio-regulable/
+          - article [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]: Recomendado
+              - img [ref=e40]
+              - img "Lámpara de escritorio regulable" [ref=e42]
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - paragraph [ref=e45]: Selección personal · Espacio de trabajo
+                - heading "Lámpara de escritorio regulable" [level=3] [ref=e46]
+              - generic [ref=e47]: 79 €
+        - link [ref=e48] [cursor=pointer]:
+          - /url: /picks/soporte-portatil-aluminio/
+          - article [ref=e49]:
+            - generic [ref=e50]:
+              - img [ref=e52]
+              - img "Soporte elevador para portátil" [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - paragraph [ref=e57]: Setup esencial · Espacio de trabajo
+                - heading "Soporte elevador para portátil" [level=3] [ref=e58]
+              - generic [ref=e59]: 42 €
+        - link [ref=e60] [cursor=pointer]:
+          - /url: /picks/teclado-mecanico-compacto/
+          - article [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e63]: Recomendado
+              - img [ref=e66]
+              - img "Teclado mecánico compacto" [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - paragraph [ref=e71]: Escritura diaria · Espacio de trabajo
+                - heading "Teclado mecánico compacto" [level=3] [ref=e72]
+              - generic [ref=e73]: 129 €
+        - link [ref=e74] [cursor=pointer]:
+          - /url: /picks/tetera-cuello-cisne-electrica/
+          - article [ref=e75]:
+            - generic [ref=e76]:
+              - img [ref=e78]
+              - img "Tetera de cuello de cisne eléctrica"
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - paragraph [ref=e82]: Ritual de mañana · Café
+                - heading "Tetera de cuello de cisne eléctrica" [level=3] [ref=e83]
+              - generic [ref=e84]: 109 €
+        - link [ref=e85] [cursor=pointer]:
+          - /url: /picks/molinillo-manual-acero/
+          - article [ref=e86]:
+            - generic [ref=e87]:
+              - img [ref=e89]
+              - img "Molinillo manual de acero"
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - paragraph [ref=e93]: Café en casa · Café
+                - heading "Molinillo manual de acero" [level=3] [ref=e94]
+              - generic [ref=e95]: 68 €
+        - link [ref=e96] [cursor=pointer]:
+          - /url: /picks/mochila-urbana-20l/
+          - article [ref=e97]:
+            - generic [ref=e98]:
+              - img [ref=e100]
+              - img "Mochila urbana 20L"
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - paragraph [ref=e104]: Movilidad diaria · Movilidad
+                - heading "Mochila urbana 20L" [level=3] [ref=e105]
+              - generic [ref=e106]: 95 €
+        - link [ref=e107] [cursor=pointer]:
+          - /url: /picks/cuaderno-punteado-a5/
+          - article [ref=e108]:
+            - generic [ref=e109]:
+              - img [ref=e111]
+              - img "Cuaderno punteado A5"
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - paragraph [ref=e115]: Notas y pensamiento · Lectura
+                - heading "Cuaderno punteado A5" [level=3] [ref=e116]
+              - generic [ref=e117]: 18 €
+      - link "Volver arriba" [ref=e119] [cursor=pointer]:
+        - /url: "#top"
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - link "CARLOSCONDOR" [ref=e124] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - textbox "tu@email.com" [ref=e127]
+            - button "Suscribirme" [ref=e128] [cursor=pointer]
+          - paragraph [ref=e129]: Algunos enlaces pueden ser de afiliación. Los precios son orientativos y pueden cambiar. Solo incluyo productos que uso, he probado o considero útiles.
+      - generic [ref=e130]:
+        - heading "Navegación" [level=4] [ref=e131]
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link "Inicio" [ref=e134] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e135]:
+            - link "Picks" [ref=e136] [cursor=pointer]:
+              - /url: /picks
+          - listitem [ref=e137]:
+            - link "Café" [ref=e138] [cursor=pointer]:
+              - /url: /coffee
+      - generic [ref=e139]:
+        - heading "Info" [level=4] [ref=e140]
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - link "Sobre mí" [ref=e143] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e144]:
+            - link "Contacto" [ref=e145] [cursor=pointer]:
+              - /url: mailto:j.carloscondor@gmail.com
+          - listitem [ref=e146]:
+            - link "Blog" [ref=e147] [cursor=pointer]:
+              - /url: https://CarlosCondor.github.io/
+        - heading "Redes" [level=4] [ref=e148]
+        - list [ref=e149]:
+          - listitem [ref=e150]:
+            - link "LinkedIn" [ref=e151] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/
+          - listitem [ref=e152]:
+            - link "GitHub" [ref=e153] [cursor=pointer]:
+              - /url: http://github.com/carloscondor
+    - generic [ref=e155]:
+      - paragraph [ref=e156]: © 2026 CarlosCondor. Todos los derechos reservados.
+      - paragraph [ref=e157]: Selección personal de productos recomendados.
+  - generic [ref=e160]:
+    - button "Menu" [ref=e161]:
+      - img [ref=e163]
+      - generic: Menu
+    - button "Inspect" [ref=e167]:
+      - img [ref=e169]
+      - generic: Inspect
+    - button "Audit" [ref=e171]:
+      - img [ref=e173]
+      - generic: Audit
+    - button "Settings" [ref=e176]:
+      - img [ref=e178]
+      - generic: Settings

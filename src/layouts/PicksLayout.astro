@@ -1,0 +1,140 @@
+---
+import '../styles/tailwind.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TX2HLB9NG3"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-TX2HLB9NG3');
+    </script>
+    <title>{title}</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style is:global>
+      :root {
+        --pick-surface: #ffffff;
+        --pick-border: #eaeaea;
+        --pick-border-soft: #f0f0f0;
+        --pick-shadow-sm: 0 4px 18px rgba(0, 0, 0, 0.04);
+        --pick-shadow-md: 0 10px 24px rgba(0, 0, 0, 0.06);
+        --pick-image-shadow: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.06));
+      }
+
+      body {
+        background-color: #f7f7f5;
+        color: #1a1a1a;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .product-card {
+        background-color: var(--pick-surface);
+        border: 1px solid var(--pick-border);
+        border-radius: 1.25rem;
+        padding: 0;
+        overflow: hidden;
+        transition:
+          transform 0.2s ease,
+          border-color 0.2s ease;
+      }
+
+      .product-card:hover {
+        transform: translateY(-2px);
+        border-color: #d8d8d8;
+      }
+
+      .product-media-frame {
+        background-color: var(--pick-surface);
+        border: 1px solid var(--pick-border);
+        box-shadow: var(--pick-shadow-sm);
+      }
+
+      .product-media-frame-hover {
+        transition:
+          box-shadow 0.3s ease,
+          border-color 0.3s ease;
+      }
+
+      .group:hover .product-media-frame-hover {
+        border-color: #e2e2e2;
+        box-shadow: var(--pick-shadow-md);
+      }
+
+      .product-card-img-container {
+        aspect-ratio: 1 / 1;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      .product-card:hover .product-img {
+        transform: scale(1.04);
+      }
+
+      .product-img {
+        max-width: 75%;
+        max-height: 75%;
+        object-fit: contain;
+        transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+
+      .no-scrollbar::-webkit-scrollbar,
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+      .no-scrollbar,
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      .product-card-hover:hover .product-image {
+        transform: scale(1.02);
+      }
+
+      .product-image {
+        filter: var(--pick-image-shadow);
+        transition: transform 0.3s ease;
+      }
+    </style>
+  </head>
+  <body class="font-sans">
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#f6f6f6"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 580V350c0-65 45-110 100-110s100 45 100 110v230H300z" fill="#ececec"/>
+    <path d="M355 300c0-25 20-45 45-45s45 20 45 45"/>
+    <rect x="340" y="390" width="120" height="90" rx="14"/>
+    <path d="M300 445h-30"/>
+    <path d="M530 445h-30"/>
+  </g>
+  <text x="400" y="700" text-anchor="middle" font-family="Inter, sans-serif" font-size="30" fill="#6b7280">Mochila 20L</text>
+</svg>

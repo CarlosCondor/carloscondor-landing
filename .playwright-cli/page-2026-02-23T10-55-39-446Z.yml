@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Volver a picks" [ref=e5] [cursor=pointer]:
+        - /url: /picks
+        - img [ref=e6]
+      - generic [ref=e8]:
+        - link "Inicio" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Picks" [ref=e10] [cursor=pointer]:
+          - /url: /picks
+        - link "Café" [ref=e11] [cursor=pointer]:
+          - /url: /coffee
+        - link "Blog" [ref=e12] [cursor=pointer]:
+          - /url: https://CarlosCondor.github.io/
+      - link "Contacto" [ref=e14] [cursor=pointer]:
+        - /url: mailto:j.carloscondor@gmail.com
+        - img [ref=e15]
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Selección personal · Espacio de trabajo
+        - heading "Lámpara de escritorio regulable" [level=1] [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]: 79 €
+        - link "Ver producto" [ref=e26] [cursor=pointer]:
+          - /url: "#"
+          - text: Ver producto
+          - img [ref=e27]
+    - img "Lámpara de escritorio regulable" [ref=e31]
+    - generic [ref=e32]:
+      - heading "Por qué lo recomiendo" [level=2] [ref=e33]
+      - paragraph [ref=e34]: Una lámpara pensada para jornadas largas frente al portátil. Prioriza una iluminación homogénea, control de intensidad y una base que no invada media mesa. La recomiendo para setups domésticos donde quieres mejorar ergonomía visual sin añadir ruido estético.
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Más en Espacio de trabajo" [level=2] [ref=e37]
+        - link "Ver todos" [ref=e38] [cursor=pointer]:
+          - /url: /picks
+      - generic [ref=e39]:
+        - link "Soporte elevador para portátil Setup esencial · Espacio de trabajo Soporte elevador para portátil 42 €" [ref=e40] [cursor=pointer]:
+          - /url: /picks/soporte-portatil-aluminio/
+          - generic [ref=e41]:
+            - img [ref=e43]
+            - img "Soporte elevador para portátil" [ref=e45]
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - paragraph [ref=e48]: Setup esencial · Espacio de trabajo
+              - heading "Soporte elevador para portátil" [level=3] [ref=e49]
+            - generic [ref=e50]: 42 €
+        - link "Teclado mecánico compacto Escritura diaria · Espacio de trabajo Teclado mecánico compacto 129 €" [ref=e51] [cursor=pointer]:
+          - /url: /picks/teclado-mecanico-compacto/
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - img "Teclado mecánico compacto" [ref=e56]
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: Escritura diaria · Espacio de trabajo
+              - heading "Teclado mecánico compacto" [level=3] [ref=e60]
+            - generic [ref=e61]: 129 €
+        - link "Tetera de cuello de cisne eléctrica Ritual de mañana · Café Tetera de cuello de cisne eléctrica 109 €" [ref=e62] [cursor=pointer]:
+          - /url: /picks/tetera-cuello-cisne-electrica/
+          - generic [ref=e63]:
+            - img [ref=e65]
+            - img "Tetera de cuello de cisne eléctrica" [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: Ritual de mañana · Café
+              - heading "Tetera de cuello de cisne eléctrica" [level=3] [ref=e71]
+            - generic [ref=e72]: 109 €
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - heading "Explorar categorías" [level=2] [ref=e75]
+        - link "Ir al catálogo" [ref=e76] [cursor=pointer]:
+          - /url: /picks
+      - generic [ref=e77]:
+        - link "Espacio de trabajo Espacio de trabajo 3" [ref=e78] [cursor=pointer]:
+          - /url: /picks
+          - img "Espacio de trabajo" [ref=e80]
+          - generic [ref=e81]:
+            - heading "Espacio de trabajo" [level=3] [ref=e82]
+            - generic [ref=e83]: "3"
+        - link "Café Café 2" [ref=e84] [cursor=pointer]:
+          - /url: /picks
+          - img "Café" [ref=e86]
+          - generic [ref=e87]:
+            - heading "Café" [level=3] [ref=e88]
+            - generic [ref=e89]: "2"
+        - link "Movilidad Movilidad 1" [ref=e90] [cursor=pointer]:
+          - /url: /picks
+          - generic [ref=e91]:
+            - img "Movilidad"
+          - generic [ref=e92]:
+            - heading "Movilidad" [level=3] [ref=e93]
+            - generic [ref=e94]: "1"
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - link "CARLOSCONDOR" [ref=e99] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - textbox "tu@email.com" [ref=e102]
+            - button "Suscribirme" [ref=e103] [cursor=pointer]
+          - paragraph [ref=e104]: Algunos enlaces pueden ser de afiliación. Los precios son orientativos y pueden cambiar. Solo incluyo productos que uso, he probado o considero útiles.
+      - generic [ref=e105]:
+        - heading "Navegación" [level=4] [ref=e106]
+        - list [ref=e107]:
+          - listitem [ref=e108]:
+            - link "Inicio" [ref=e109] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e110]:
+            - link "Picks" [ref=e111] [cursor=pointer]:
+              - /url: /picks
+          - listitem [ref=e112]:
+            - link "Café" [ref=e113] [cursor=pointer]:
+              - /url: /coffee
+      - generic [ref=e114]:
+        - heading "Info" [level=4] [ref=e115]
+        - list [ref=e116]:
+          - listitem [ref=e117]:
+            - link "Sobre mí" [ref=e118] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e119]:
+            - link "Contacto" [ref=e120] [cursor=pointer]:
+              - /url: mailto:j.carloscondor@gmail.com
+          - listitem [ref=e121]:
+            - link "Blog" [ref=e122] [cursor=pointer]:
+              - /url: https://CarlosCondor.github.io/
+        - heading "Redes" [level=4] [ref=e123]
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - link "LinkedIn" [ref=e126] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/
+          - listitem [ref=e127]:
+            - link "GitHub" [ref=e128] [cursor=pointer]:
+              - /url: http://github.com/carloscondor
+    - generic [ref=e130]:
+      - paragraph [ref=e131]: © 2026 CarlosCondor. Todos los derechos reservados.
+      - paragraph [ref=e132]: Selección personal de productos recomendados.
+  - generic [ref=e135]:
+    - button "Menu" [ref=e136]:
+      - img [ref=e138]
+      - generic: Menu
+    - button "Inspect" [ref=e142]:
+      - img [ref=e144]
+      - generic: Inspect
+    - button "Audit" [ref=e146]:
+      - generic [ref=e147]:
+        - img [ref=e148]
+        - img [ref=e151]
+      - generic: Audit
+    - button "Settings" [ref=e154]:
+      - img [ref=e156]
+      - generic: Settings

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Taste Frontend"
+  short_description: "Criterio UI/UX senior anti-slop para frontend"
+  default_prompt: "Usa $design-taste-frontend para diseñar o implementar interfaces frontend con criterio visual alto, arquitectura estricta y guardrails de performance."

@@ -1,0 +1,155 @@
+---
+import PicksLayout from '../../layouts/PicksLayout.astro';
+import PicksFooter from '../../components/picks/PicksFooter.astro';
+import {
+  categoryLabels,
+  getRelatedPicks,
+  getRepresentativeByCategory,
+  picks,
+} from '../../data/picks';
+import type { PickProduct } from '../../data/picks';
+
+export function getStaticPaths() {
+  return picks.map((pick) => ({
+    params: { slug: pick.slug },
+    props: { pick },
+  }));
+}
+
+const { pick } = Astro.props as { pick: PickProduct };
+
+const related = getRelatedPicks(pick, 3);
+const categoryLabel = categoryLabels[pick.category];
+const categoryCards = getRepresentativeByCategory().slice(0, 3);
+const categoryCounts = picks.reduce(
+  (counts, currentPick) => {
+    counts[currentPick.category] = (counts[currentPick.category] ?? 0) + 1;
+    return counts;
+  },
+  {} as Record<PickProduct['category'], number>,
+);
+const pageTitle = `${pick.title} | Picks de CarlosCondor`;
+const pageDescription = pick.shortDescription;
+---
+
+<PicksLayout title={pageTitle} description={pageDescription}>
+  <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100" data-purpose="main-nav">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-8">
+        <a class="text-xl font-bold tracking-tighter text-primary" href="/">CARLOSCONDOR</a>
+        <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-500">
+          <a class="hover:text-black transition-colors" href="/">Inicio</a>
+          <a class="hover:text-black transition-colors text-black" href="/picks">Picks</a>
+          <a class="hover:text-black transition-colors" href="https://CarlosCondor.github.io/">Blog</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-6 md:py-10">
+
+    <!-- Breadcrumb / Back -->
+    <div class="mb-6 md:mb-8">
+      <a
+        class="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-black transition-colors"
+        href="/picks"
+        data-purpose="back-button"
+      >
+        <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="14"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+        Volver a Picks
+      </a>
+    </div>
+
+    <!-- Hero -->
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-6 mb-6 md:mb-8">
+      <div class="min-w-0">
+        <p class="text-[11px] text-gray-400 mb-1.5">{pick.brand} · {categoryLabel}</p>
+        <h1 class="text-2xl md:text-4xl font-semibold tracking-tight text-gray-900 leading-snug">{pick.title}</h1>
+      </div>
+      <div class="flex items-center justify-between md:justify-end gap-4 shrink-0">
+        <span class="text-xl md:text-2xl font-medium text-gray-900">{pick.priceLabel}</span>
+        <a
+          class="bg-gray-900 text-white px-4 py-2 md:px-5 md:py-2.5 rounded-full text-sm font-medium flex items-center gap-1.5 hover:bg-black transition-colors whitespace-nowrap"
+          href={pick.affiliateUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver producto
+          <svg fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="13"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Imagen hero -->
+    <section class="mb-10 md:mb-14">
+      <div class="bg-white border border-gray-100 rounded-2xl overflow-hidden aspect-[4/3] md:aspect-[16/9] flex items-center justify-center p-6 md:p-16">
+        <img
+          alt={pick.title}
+          class="w-full h-full object-contain object-center"
+          data-purpose="hero-image"
+          src={pick.image}
+        />
+      </div>
+    </section>
+
+    <!-- Descripción -->
+    <section class="max-w-2xl mb-12 md:mb-20">
+      <h2 class="text-base font-semibold text-gray-900 mb-3">Por qué lo recomiendo</h2>
+      <p class="text-gray-500 leading-relaxed text-sm md:text-base">{pick.description}</p>
+    </section>
+
+    <!-- Relacionados -->
+    {related.length > 0 && (
+      <section class="mb-12 md:mb-20">
+        <div class="flex items-center justify-between mb-5">
+          <h2 class="text-base font-semibold text-gray-900">Más en {categoryLabel}</h2>
+          <a class="text-xs text-gray-400 hover:text-black transition-colors" href="/picks">Ver todos</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5">
+          {related.map((relatedPick) => (
+            <a class="group block" href={`/picks/${relatedPick.slug}/`}>
+              <article class="product-card cursor-pointer">
+                <div class="product-card-img-container relative">
+                  <span class="absolute top-3 right-3 p-1.5 bg-white/90 rounded-full border border-gray-200/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200" aria-hidden="true">
+                    <svg class="w-3.5 h-3.5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                  </span>
+                  <img alt={relatedPick.title} class="product-img" src={relatedPick.image} loading="lazy" />
+                </div>
+                <div class="flex justify-between items-end gap-4 px-4 py-3.5">
+                  <div>
+                    <p class="text-[11px] text-gray-400 mb-0.5">{relatedPick.brand} · {categoryLabels[relatedPick.category]}</p>
+                    <h3 class="text-sm font-medium text-gray-900 leading-snug">{relatedPick.title}</h3>
+                  </div>
+                  <span class="text-sm text-gray-900 whitespace-nowrap shrink-0">{relatedPick.priceLabel}</span>
+                </div>
+              </article>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Explorar categorías -->
+    <section class="mb-16 md:mb-24">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-base font-semibold text-gray-900">Explorar categorías</h2>
+        <a class="text-xs text-gray-400 hover:text-black transition-colors" href="/picks">Ir al catálogo</a>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5">
+        {categoryCards.map((item) => (
+          <a class="group block" href="/picks">
+            <div class="bg-white border border-gray-100 rounded-2xl overflow-hidden aspect-square flex items-center justify-center p-8 transition-colors duration-200 group-hover:border-gray-200">
+              <img alt={categoryLabels[item.category]} class="max-w-[70%] max-h-[70%] object-contain" src={item.image} loading="lazy" />
+            </div>
+            <div class="flex justify-between items-center px-1 mt-3">
+              <h3 class="text-sm font-medium text-gray-900">{categoryLabels[item.category]}</h3>
+              <span class="text-xs text-gray-400">{categoryCounts[item.category]} productos</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <PicksFooter />
+  </main>
+</PicksLayout>

@@ -1,0 +1,1885 @@
+- generic [ref=e2]:
+  - dialog "Cookies y opciones de publicidad" [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Cookies y opciones de publicidad" [level=4] [ref=e5]
+      - paragraph [ref=e6]:
+        - text: Si estás de acuerdo, podremos utilizar tu información personal de cualquiera de estos
+        - link "Servicios de Amazon" [ref=e7] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html?nodeId=T1fdzp9ecINEaVWTyY
+        - text: para personalizar los anuncios que te mostramos en otros servicios. Por ejemplo, podremos usar tu historial de reproducciones de Prime Video para personalizar los anuncios que te mostramos en nuestras Tiendas o en Fire TV. También podremos utilizar información personal que recibimos de terceros (como información demográfica).
+      - paragraph [ref=e8]:
+        - text: Además, si estás de acuerdo, también utilizaremos cookies para complementar tu experiencia de compra en las tiendas de Amazon, tal y como se describe en nuestro
+        - link "Aviso de cookies" [ref=e9] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html?nodeId=201890250
+        - text: . Tu elección se aplica al uso de cookies de publicidad propias y de terceros en este servicio. Las cookies almacenan o acceden a información estándar del dispositivo, como un identificador único. Los
+        - link "103 terceros" [ref=e10] [cursor=pointer]:
+          - /url: /privacyprefs/retail/partners
+        - text: que utilizan cookies en este servicio lo hacen con el fin de mostrar y medir anuncios personalizados, generar información sobre la audiencia, y desarrollar y mejorar productos.
+      - paragraph [ref=e11]:
+        - text: Utilizamos cookies y herramientas similares necesarias que te permiten comprar y mejorar tus experiencias de compra, y nos permiten proporcionarte nuestros servicios, como se detalla en nuestro
+        - link "Aviso de cookies" [ref=e12] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html?nodeId=201890250
+        - text: . También utilizamos estas cookies para comprender cómo utilizan los clientes nuestros servicios (por ejemplo, midiendo las visitas al sitio web) con el fin de poder realizar mejoras. Haz clic en Rechazar para rechazar o en Personalizar para elegir opciones más detalladas o para obtener más información. Puedes cambiar de opinión en cualquier momento. Para ello, visita
+        - link "Cookies y opciones de publicidad" [ref=e13] [cursor=pointer]:
+          - /url: /privacyprefs/retail?oCT=ads&ref_=portal_banner_cpp
+        - text: . Para obtener más información sobre cómo y con qué fines utiliza Amazon la información personal (como el historial de pedidos de la tienda o el historial de reproducciones de Prime Video) y las cookies, visita nuestro
+        - link "Aviso de privacidad" [ref=e14] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html?nodeId=201909010
+        - text: y nuestro
+        - link "Aviso de cookies" [ref=e15] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html?nodeId=201890250
+        - text: .
+    - generic [ref=e17]:
+      - generic [ref=e20] [cursor=pointer]:
+        - button "Aceptar" [ref=e21]
+        - generic [ref=e22]: Aceptar
+      - generic [ref=e25] [cursor=pointer]:
+        - button "Rechazar" [ref=e26]
+        - generic [ref=e27]: Rechazar
+      - link "Personalizar" [ref=e29] [cursor=pointer]:
+        - /url: /privacyprefs/retail?oCT=ads&ref_=portal_banner_cpp
+  - navigation "Menú de métodos abreviados" [ref=e30]:
+    - heading "Saltar a" [level=2] [ref=e31]
+    - list "Saltar a" [ref=e32]:
+      - listitem [ref=e33]:
+        - link "Contenido principal" [ref=e34] [cursor=pointer]:
+          - /url: "#skippedLink"
+      - listitem [ref=e35]:
+        - link "Acerca de este producto" [ref=e36] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=e37]:
+        - link "Saltar a las opciones de compra" [ref=e38] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Opciones de compra
+      - listitem [ref=e39]:
+        - link "Opiniones" [ref=e40] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=e41]
+    - heading "Métodos abreviados de teclado" [level=2] [ref=e42]
+    - list "Métodos abreviados de teclado" [ref=e43]:
+      - listitem [ref=e44]:
+        - link "Buscar, opción, barra diagonal" [ref=e45] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e46]:
+            - generic [ref=e47]: Buscar
+            - generic [ref=e48]:
+              - generic [ref=e49]: opt
+              - generic [ref=e50]: +
+              - generic [ref=e51]: /
+      - listitem [ref=e52]:
+        - link "Cesta, Mayús, opción, c" [ref=e53] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e54]:
+            - generic [ref=e55]: Cesta
+            - generic [ref=e56]:
+              - generic [ref=e57]: mayús
+              - generic [ref=e58]: +
+              - generic [ref=e59]: opt
+              - generic [ref=e60]: +
+              - generic [ref=e61]: C
+      - listitem [ref=e62]:
+        - link "Inicio, Mayús, opción, h" [ref=e63] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e64]:
+            - generic [ref=e65]: Inicio
+            - generic [ref=e66]:
+              - generic [ref=e67]: mayús
+              - generic [ref=e68]: +
+              - generic [ref=e69]: opt
+              - generic [ref=e70]: +
+              - generic [ref=e71]: H
+      - listitem [ref=e72]:
+        - link "Tus pedidos, Mayús, opción, o" [ref=e73] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e74]:
+            - generic [ref=e75]: Pedidos
+            - generic [ref=e76]:
+              - generic [ref=e77]: mayús
+              - generic [ref=e78]: +
+              - generic [ref=e79]: opt
+              - generic [ref=e80]: +
+              - generic [ref=e81]: O
+      - listitem [ref=e82]:
+        - button "Añadir a la cesta, mayús, opción, K" [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Añadir a la cesta
+            - generic [ref=e86]:
+              - generic [ref=e87]: mayús
+              - generic [ref=e88]: +
+              - generic [ref=e89]: opt
+              - generic [ref=e90]: +
+              - generic [ref=e91]: K
+      - listitem [ref=e92]:
+        - button "Mostrar/ocultar los atajos, Mayús, opción, z" [ref=e93] [cursor=pointer]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: Mostrar/ocultar métodos abreviados
+            - generic [ref=e96]:
+              - generic [ref=e97]: mayús
+              - generic [ref=e98]: +
+              - generic [ref=e99]: opt
+              - generic [ref=e100]: +
+              - generic [ref=e101]: Z
+    - generic [ref=e107]: Para moverte entre los productos, usa las flechas arriba o abajo del teclado.
+  - banner [ref=e108]:
+    - navigation "Principal" [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - link "Amazon.es" [ref=e113] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .es
+          - button "Entrega en Zafra 06300 Actualizar ubicación" [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: Entrega en Zafra 06300
+              - generic [ref=e120]: Actualizar ubicación
+        - search [ref=e123]:
+          - generic [ref=e126]:
+            - generic [ref=e128]: Informática
+            - combobox "Selecciona el departamento que quieras buscar" [ref=e130] [cursor=pointer]:
+              - option "Informática" [selected]
+              - option "Todos los departamentos"
+              - option "Alexa Skills"
+              - option "Alimentación y bebidas"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon Segunda mano"
+              - option "Aplicaciones y juegos"
+              - option "Audible audiolibros y podcasts exclusivos"
+              - option "Bebé"
+              - option "Belleza"
+              - option "Bricolaje y herramientas"
+              - option "Cheques regalo"
+              - option "Coche y Moto - Piezas y accesorios"
+              - option "Deportes y aire libre"
+              - option "Dispositivos de Amazon"
+              - option "Electrónica"
+              - option "Equipaje y accesorios de viaje"
+              - option "Grandes electrodomésticos"
+              - option "Handmade"
+              - option "Hogar y cocina"
+              - option "Iluminación"
+              - option "Industria y ciencia"
+              - option "Instrumentos musicales"
+              - option "Jardín"
+              - option "Juguetes y juegos"
+              - option "Libros"
+              - option "Luxury Stores"
+              - option "Menos de 10€"
+              - option "Moda"
+              - option "Ropa, zapatos y joyería para mujer"
+              - option "Ropa, zapatos y joyería para hombre"
+              - option "Ropa, zapatos y joyería para chicas"
+              - option "Ropa, zapatos y joyería para chicos"
+              - option "Ropa, zapatos y joyería de bebé"
+              - option "Música Digital"
+              - 'option "Música: CDs y vinilos"'
+              - option "Oficina y papelería"
+              - option "Películas y TV"
+              - option "Prime Video"
+              - option "Productos para mascotas"
+              - option "Salud y cuidado personal"
+              - option "Software"
+              - option "Suscríbete y Ahorra"
+              - option "Tienda Kindle"
+              - option "Videojuegos"
+          - searchbox "Buscar en Amazon.es" [ref=e133]
+          - generic "Ir" [ref=e136] [cursor=pointer]:
+            - button "Ir" [ref=e137]
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - link "Elige un idioma para comprar en Amazon España. La selección actual es Castellano (ES)." [ref=e141] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e144]:
+                - img "España" [ref=e145]
+                - generic [ref=e146]: ES
+            - button "Expandir para cambiar idioma o país" [ref=e147] [cursor=pointer]
+          - generic [ref=e148]:
+            - link "Hola, identifícate Cuenta y listas" [ref=e149] [cursor=pointer]:
+              - /url: https://www.amazon.es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.es%2FTP-Link-RE700X-Repetidor-Amplificador-Ethernet%2Fdp%2FB09PRG6MJX%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e151]: Hola, identifícate
+              - generic [ref=e152]: Cuenta y listas
+            - button "Amplía la cuenta y las listas" [ref=e153] [cursor=pointer]
+          - link "Devoluciones y Pedidos" [ref=e154] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e155]: Devoluciones
+            - generic [ref=e156]: y Pedidos
+          - link "0 artículos en la cesta" [ref=e157] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e159]: "0"
+            - generic [ref=e162]: Cesta
+      - generic [ref=e163]:
+        - button "Abrir el menú de todas las categorías" [ref=e165] [cursor=pointer]:
+          - generic [ref=e167]: Todo
+        - list [ref=e171]:
+          - listitem [ref=e172]:
+            - link "Amazon Haul" [ref=e174] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e175]:
+            - link "Últimas Novedades" [ref=e177] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e178]:
+            - link "Los más vendidos" [ref=e180] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e181]:
+            - link "Amazon Basics" [ref=e183] [cursor=pointer]:
+              - /url: /amazonbasics/?field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e184]:
+            - link "Ofertas" [ref=e186] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e187]:
+            - link "Hogar y cocina" [ref=e189] [cursor=pointer]:
+              - /url: /Hogar-y-cocina/b/?ie=UTF8&node=599391031&ref_=nav_cs_home
+          - listitem [ref=e190]:
+            - link "Informática" [ref=e192] [cursor=pointer]:
+              - /url: /informatica/b/?ie=UTF8&node=667049031&ref_=nav_cs_pc
+          - listitem [ref=e193]:
+            - link "Libros" [ref=e195] [cursor=pointer]:
+              - /url: /comprar-libros-espa%C3%B1ol/b/?ie=UTF8&node=599364031&ref_=nav_cs_books
+          - listitem [ref=e196]:
+            - link "Deportes y Aire libre" [ref=e198] [cursor=pointer]:
+              - /url: /deportes-aire-libre/b/?ie=UTF8&node=2454136031&ref_=nav_cs_sports
+          - listitem [ref=e199]:
+            - link "Electrónica y Fotografía" [ref=e201] [cursor=pointer]:
+              - /url: /electronica/b/?ie=UTF8&node=599370031&ref_=nav_cs_electronics
+          - listitem [ref=e202]:
+            - generic [ref=e203]:
+              - link "Tarjetas regalo" [ref=e204] [cursor=pointer]:
+                - /url: /cheques-regalo/b/?ie=UTF8&node=3564279031&ref_=nav_cs_gc
+              - button "Datos de Tarjetas regalo" [ref=e205] [cursor=pointer]
+          - listitem [ref=e206]:
+            - link "Bricolaje y herramientas" [ref=e208] [cursor=pointer]:
+              - /url: /Bricolaje-Herramientas-Fontaneria-Ferreteria-Jardineria/b/?ie=UTF8&node=2454133031&ref_=nav_cs_hi
+          - listitem [ref=e209]:
+            - link "Juguetes y juegos" [ref=e211] [cursor=pointer]:
+              - /url: /Juguetes-y-juegos/b/?ie=UTF8&node=599385031&ref_=nav_cs_toys
+          - listitem [ref=e212]:
+            - link "Videojuegos" [ref=e214] [cursor=pointer]:
+              - /url: /videojuegos-accesorios-consolas/b/?ie=UTF8&node=599382031&ref_=nav_cs_video_games
+          - listitem [ref=e215]:
+            - link "Salud y cuidado personal" [ref=e217] [cursor=pointer]:
+              - /url: /Salud-y-cuidado-personal/b/?ie=UTF8&node=3677430031&ref_=nav_cs_hpc
+          - listitem [ref=e218]:
+            - link "Bebé" [ref=e220] [cursor=pointer]:
+              - /url: /bebe/b/?ie=UTF8&node=1703495031&ref_=nav_cs_baby
+          - listitem [ref=e221]:
+            - link "Coche y moto" [ref=e223] [cursor=pointer]:
+              - /url: /Coche-y-moto/b/?ie=UTF8&node=1951051031&ref_=nav_cs_automotive
+          - listitem [ref=e224]:
+            - link "Moda" [ref=e226] [cursor=pointer]:
+              - /url: /moda/b/?ie=UTF8&node=5512276031&ref_=nav_cs_fashion
+          - listitem [ref=e227]:
+            - generic [ref=e228]:
+              - link "Prime" [ref=e229] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Datos de Prime" [ref=e230] [cursor=pointer]
+          - listitem [ref=e231]:
+            - link "eBooks Kindle" [ref=e233] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=827231031&ref_=nav_cs_kindle_books
+          - listitem [ref=e234]:
+            - link "Básicos del día a día" [ref=e236] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials?ref_=nav_cs_ee
+          - listitem [ref=e237]:
+            - link "Productos personalizados" [ref=e239] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=14578063031&ref_=nav_cs_custom
+          - listitem [ref=e240]:
+            - link "Envío Gratis" [ref=e242] [cursor=pointer]:
+              - /url: /b/?node=27173191031&ref_=nav_cs_freeshipping
+          - listitem [ref=e243]:
+            - link "Vender en Amazon" [ref=e245] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZESGNOSellC&node=2383605031&ref_=nav_cs_sell
+          - listitem [ref=e246]:
+            - link "Belleza" [ref=e248] [cursor=pointer]:
+              - /url: /Belleza/b/?ie=UTF8&node=6198054031&ref_=nav_cs_beauty
+          - listitem [ref=e249]:
+            - link "Kit de Compras" [ref=e251] [cursor=pointer]:
+              - /url: /b/?node=15419504031&ref_=nav_cs_shoppertoolkit
+          - listitem [ref=e252]:
+            - link "Suscríbete y ahorra" [ref=e254] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e255]:
+            - link "Atención al Cliente" [ref=e257] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Prime" [ref=e261] [cursor=pointer]:
+          - /url: /gp/video/ssoredirect/?ie=UTF8&pvp=%2Fdetail%2Famzn1.dv.gti.c79c3e71-45fc-49bb-9cad-cdc28af428c3%2Fref%3Ddvm_crs_nav_es_s_dt_swm_l_al_enud1_tp&ref_=nav_swm_dvm_crs_nav_es_s_dt_swm_l_al_enud1_tp&pf_rd_p=fc17c22c-7583-4a6d-8885-d0847606c078&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A1RKKUPIHCS9HS&pf_rd_r=HJ4950ZGNX3YNDFKHG58
+          - img "Prime" [ref=e262]
+      - list [ref=e265]:
+        - listitem [ref=e266]:
+          - link "Informática" [ref=e268] [cursor=pointer]:
+            - /url: /informatica/b/?ie=UTF8&node=667049031&ref_=topnav_storetab_mega_sv_pc
+        - listitem [ref=e269]:
+          - generic [ref=e270]:
+            - link "Portátiles Portátiles" [ref=e271] [cursor=pointer]:
+              - /url: /portatiles/b/?ie=UTF8&node=938008031&ref_=sv_mega_sv_pc_1
+              - generic [ref=e272]:
+                - text: Portátiles
+                - img "Portátiles" [ref=e273]
+            - button "Portátiles, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e274] [cursor=pointer]
+        - listitem [ref=e275]:
+          - generic [ref=e276]:
+            - link "Tablets Tablets" [ref=e277] [cursor=pointer]:
+              - /url: /tablets/b/?ie=UTF8&node=938010031&ref_=sv_mega_sv_pc_2
+              - generic [ref=e278]:
+                - text: Tablets
+                - img "Tablets" [ref=e279]
+            - button "Tablets, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e280] [cursor=pointer]
+        - listitem [ref=e281]:
+          - generic [ref=e282]:
+            - link "Oficina Oficina" [ref=e283] [cursor=pointer]:
+              - /url: /ordenadores-sobremesa/b/?ie=UTF8&node=937994031&ref_=sv_mega_sv_pc_3
+              - generic [ref=e284]:
+                - text: Oficina
+                - img "Oficina" [ref=e285]
+            - button "Oficina, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e286] [cursor=pointer]
+        - listitem [ref=e287]:
+          - generic [ref=e288]:
+            - link "Monitores Monitores" [ref=e289] [cursor=pointer]:
+              - /url: /monitores/b/?ie=UTF8&node=937992031&ref_=sv_mega_sv_pc_4
+              - generic [ref=e290]:
+                - text: Monitores
+                - img "Monitores" [ref=e291]
+            - button "Monitores, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e292] [cursor=pointer]
+        - listitem [ref=e293]:
+          - generic [ref=e294]:
+            - link "Componentes Componentes" [ref=e295] [cursor=pointer]:
+              - /url: /componentes/b/?ie=UTF8&node=937912031&ref_=sv_mega_sv_pc_5
+              - generic [ref=e296]:
+                - text: Componentes
+                - img "Componentes" [ref=e297]
+            - button "Componentes, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e298] [cursor=pointer]
+        - listitem [ref=e299]:
+          - generic [ref=e300]:
+            - link "Gaming Gaming" [ref=e301] [cursor=pointer]:
+              - /url: /b/?ie=UTF8&node=11417765031&ref_=sv_mega_sv_pc_6
+              - generic [ref=e302]:
+                - text: Gaming
+                - img "Gaming" [ref=e303]
+            - button "Gaming, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e304] [cursor=pointer]
+        - listitem [ref=e305]:
+          - generic [ref=e306]:
+            - link "Almacenamiento Almacenamiento" [ref=e307] [cursor=pointer]:
+              - /url: /almacenamiento-datos-externo/b/?ie=UTF8&node=937901031&ref_=sv_mega_sv_pc_7
+              - generic [ref=e308]:
+                - text: Almacenamiento
+                - img "Almacenamiento" [ref=e309]
+            - button "Almacenamiento, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e310] [cursor=pointer]
+        - listitem [ref=e311]:
+          - generic [ref=e312]:
+            - link "Accesorios Accesorios" [ref=e313] [cursor=pointer]:
+              - /url: /Accesorios-Informatica/b/?ie=UTF8&node=2457643031&ref_=sv_mega_sv_pc_8
+              - generic [ref=e314]:
+                - text: Accesorios
+                - img "Accesorios" [ref=e315]
+            - button "Accesorios, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e316] [cursor=pointer]
+        - listitem [ref=e317]:
+          - generic [ref=e318]:
+            - link "Dispositivos de red Dispositivos de red" [ref=e319] [cursor=pointer]:
+              - /url: /dispositivos-red/b/?ie=UTF8&node=937958031&ref_=sv_mega_sv_pc_9
+              - generic [ref=e320]:
+                - text: Dispositivos de red
+                - img "Dispositivos de red" [ref=e321]
+            - button "Dispositivos de red, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e322] [cursor=pointer]
+        - listitem [ref=e323]:
+          - generic [ref=e324]:
+            - link "Impresora y tinta Impresora y tinta" [ref=e325] [cursor=pointer]:
+              - /url: /Impresoras-Tinta/b/?ie=UTF8&node=2457641031&ref_=sv_mega_sv_pc_10
+              - generic [ref=e326]:
+                - text: Impresora y tinta
+                - img "Impresora y tinta" [ref=e327]
+            - button "Impresora y tinta, En este momento te encuentras en un menú desplegable. Para abrir este menú desplegable, presiona Intro." [ref=e328] [cursor=pointer]
+        - listitem [ref=e329]:
+          - link "Amazon Business" [ref=e331] [cursor=pointer]:
+            - /url: /business/register/org/landing/?_encoding=UTF8&ref=ab_reg_es_subnav_pc_d_0623_T1&ref_=sv_mega_sv_pc_11
+      - dialog [ref=e332]
+  - main [ref=e335]:
+    - generic [ref=e336]:
+      - link "Activa Prime Video sin coste adicional" [ref=e340] [cursor=pointer]:
+        - /url: /amazonprime/?_encoding=UTF8&pd_rd_w=L6SQa&content-id=amzn1.sym.ac380f42-ddf0-4693-b5bc-804f5893240e&pf_rd_p=ac380f42-ddf0-4693-b5bc-804f5893240e&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=GyuxI&pd_rd_r=867ca0e0-ff14-4a0c-8ac7-a52100db087d
+        - img "Activa Prime Video sin coste adicional" [ref=e341]
+      - list [ref=e346]:
+        - listitem [ref=e347]:
+          - link "Informática" [ref=e349] [cursor=pointer]:
+            - /url: /informatica/b/ref=dp_bc_1?ie=UTF8&node=667049031
+        - listitem [ref=e350]: ›
+        - listitem [ref=e351]:
+          - link "Dispositivos de red" [ref=e353] [cursor=pointer]:
+            - /url: /dispositivos-red/b/ref=dp_bc_2?ie=UTF8&node=937958031
+        - listitem [ref=e354]: ›
+        - listitem [ref=e355]:
+          - link "Repetidores" [ref=e357] [cursor=pointer]:
+            - /url: /repetidores-red/b/ref=dp_bc_3?ie=UTF8&node=937973031
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - generic [ref=e363]:
+          - img "Logo de Amazon Prime" [ref=e365]
+          - generic [ref=e366]: Disfruta de entregas rápidas y gratis, ofertas exclusivas y películas y series de televisión galardonadas.
+          - button "Únete a Prime" [ref=e368] [cursor=pointer]
+        - generic [ref=e372]:
+          - group [ref=e375]:
+            - generic [ref=e377]:
+              - 'button "Nuevo: 62,60€" [expanded] [ref=e378]':
+                - 'heading "Nuevo: 62,60€" [level=5] [ref=e380]':
+                  - generic [ref=e381]: "Nuevo:"
+                  - generic [ref=e389]:
+                    - generic [ref=e390]: 62,60€
+                    - generic [ref=e391]:
+                      - generic [ref=e392]:
+                        - text: "62"
+                        - generic [ref=e393]: ","
+                      - text: 60€
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - generic "Devoluciones GRATIS" [ref=e405]:
+                    - button "Devoluciones GRATIS" [ref=e406] [cursor=pointer]: Devoluciones GRATIS
+                  - generic [ref=e408]:
+                    - generic [ref=e411]:
+                      - generic [ref=e413]:
+                        - text: Entrega GRATIS el jueves, 26 de febrero.
+                        - link "Detalles sobre los gastos de entrega y los métodos de envío" [ref=e414] [cursor=pointer]:
+                          - /url: /gp/help/customer/display.html/?nodeId=202093880
+                          - text: Ver detalles
+                      - generic [ref=e416]:
+                        - text: entrega más rápida mañana, 24 de febrero. Haz el pedido en 6 horas 41 mins.
+                        - link "Detalles sobre los gastos de entrega y los métodos de envío" [ref=e417] [cursor=pointer]:
+                          - /url: /gp/help/customer/display.html/?nodeId=202093880
+                          - text: Ver detalles
+                    - button "Entrega en Zafra 06300 - Actualizar ubicación" [ref=e420] [cursor=pointer]:
+                      - generic [ref=e426]: Entrega en Zafra 06300 - Actualizar ubicación
+                - generic [ref=e429]: En stock
+                - generic [ref=e437]:
+                  - generic [ref=e438]: "Cantidad:"
+                  - 'combobox "Cantidad: Cantidad:" [ref=e439]':
+                    - option "1" [selected]
+                    - option "2"
+                    - option "3"
+                    - option "4"
+                    - option "5"
+                    - option "6"
+                    - option "7"
+                    - option "8"
+                    - option "9"
+                    - option "10"
+                    - option "11"
+                    - option "12"
+                    - option "13"
+                    - option "14"
+                    - option "15"
+                    - option "16"
+                    - option "17"
+                    - option "18"
+                    - option "19"
+                    - option "20"
+                    - option "21"
+                    - option "22"
+                    - option "23"
+                    - option "24"
+                    - option "25"
+                    - option "26"
+                    - option "27"
+                    - option "28"
+                    - option "29"
+                    - option "30"
+                  - generic [ref=e442] [cursor=pointer]: Cantidad:1
+                - generic [ref=e449] [cursor=pointer]:
+                  - button "Añadir a la cesta" [ref=e450]
+                  - generic [ref=e451]: Añadir a la cesta
+                - generic [ref=e456] [cursor=pointer]:
+                  - button "Comprar ya" [ref=e457]
+                  - generic [ref=e458]: Comprar ya
+                - generic [ref=e461]:
+                  - group "Información del vendedor, el envío y las opciones de compra" [ref=e463]:
+                    - generic [ref=e464]:
+                      - heading "Remitente / Vendedor" [level=4] [ref=e465]:
+                        - generic [ref=e466]: Remitente / Vendedor
+                      - generic [ref=e469]: Amazon
+                    - generic [ref=e470]:
+                      - heading "Devoluciones" [level=4] [ref=e471]:
+                        - generic [ref=e472]: Devoluciones
+                      - button "Se puede devolver en un plazo de 30 días a partir de la fecha de recepción" [ref=e475] [cursor=pointer]:
+                        - generic [ref=e476]: Se puede devolver en un plazo de 30 días a partir de la fecha de recepción
+                    - generic [ref=e478]:
+                      - generic [ref=e479]:
+                        - heading "Embalaje" [level=4] [ref=e480]:
+                          - generic [ref=e481]: Embalaje
+                        - button "Se envía sin embalaje adicional de Amazon" [ref=e484] [cursor=pointer]:
+                          - generic [ref=e485]: Se envía sin embalaje adicional de Amazon
+                      - generic [ref=e486]:
+                        - heading "Pago" [level=4] [ref=e487]:
+                          - generic [ref=e488]: Pago
+                        - button "Transacción segura" [ref=e491] [cursor=pointer]:
+                          - generic [ref=e492]: Transacción segura
+                  - button "Ver más" [ref=e494] [cursor=pointer]: Ver más
+                - generic [ref=e498]:
+                  - checkbox "Añade un ticket de regalo para facilitar las devoluciones" [ref=e499]
+                  - generic [ref=e500]: Añade un ticket de regalo para facilitar las devoluciones
+            - 'button "Ahorra con usado – Bueno 49,99€ Entrega GRATIS el jueves, 26 de febrero Envío desde: Amazon Vendido por: TP-Link España Oficial" [ref=e503] [cursor=pointer]':
+              - 'heading "Ahorra con usado – Bueno 49,99€ Entrega GRATIS el jueves, 26 de febrero Envío desde: Amazon Vendido por: TP-Link España Oficial" [level=5] [ref=e505]':
+                - generic [ref=e507]: Ahorra con usado – Bueno
+                - generic [ref=e515]:
+                  - generic [ref=e516]: 49,99€
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - text: "49"
+                      - generic [ref=e519]: ","
+                    - text: 99€
+                - generic [ref=e536]: Entrega GRATIS el jueves, 26 de febrero
+                - generic [ref=e538]:
+                  - generic [ref=e540]: "Envío desde: Amazon"
+                  - generic [ref=e542]: "Vendido por: TP-Link España Oficial"
+          - generic [ref=e546]:
+            - separator [ref=e547]
+            - link "Añadir a la Lista de deseos" [ref=e552] [cursor=pointer]:
+              - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fgp%2Faw%2Fd%2FB09PRG6MJX&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esamazon&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+        - generic [ref=e556]:
+          - generic [ref=e557]: Otros vendedores en Amazon
+          - separator [ref=e558]
+          - button "Nueva & De segunda mano (24) desde 49,99€ Envío GRATIS." [ref=e561] [cursor=pointer]:
+            - text: Nueva & De segunda mano (24) desde
+            - generic [ref=e562]:
+              - generic [ref=e563]: 49,99€
+              - generic [ref=e564]:
+                - generic [ref=e565]:
+                  - text: "49"
+                  - generic [ref=e566]: ","
+                - text: 99€
+            - generic [ref=e567]:
+              - strong [ref=e568]: Envío GRATIS
+              - text: .
+      - generic [ref=e569]:
+        - generic [ref=e571]:
+          - button "Compartir" [ref=e572]:
+            - button "Compartir" [ref=e573] [cursor=pointer]
+          - generic [ref=e576]:
+            - radiogroup [ref=e578]:
+              - listitem [ref=e579]:
+                - radio [ref=e584] [cursor=pointer]
+              - listitem [ref=e586]:
+                - radio [ref=e591] [cursor=pointer]
+              - listitem [ref=e593]:
+                - radio [ref=e598] [cursor=pointer]
+              - listitem [ref=e600]:
+                - radio [ref=e605] [cursor=pointer]
+              - listitem [ref=e607]:
+                - radio [ref=e612] [cursor=pointer]
+              - listitem [ref=e614]:
+                - radio [ref=e619] [cursor=pointer]
+              - listitem [ref=e621]:
+                - radio [ref=e626] [cursor=pointer]
+            - generic [ref=e628]:
+              - generic [ref=e630]:
+                - list
+                - list [ref=e631]:
+                  - listitem [ref=e632] [cursor=pointer]:
+                    - button "TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi" [ref=e635]:
+                      - img "TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi" [ref=e636]
+              - link "Haz clic para ver la vista completa" [ref=e640] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e646]:
+          - heading "Recursos de seguridad y productos" [level=2] [ref=e647]
+          - list [ref=e649]:
+            - listitem [ref=e650]:
+              - link "¿Quieres reciclar tu producto gratis?" [ref=e652] [cursor=pointer]:
+                - /url: https://www.amazon.es/gp/help/customer/display.html?ref_=hp_bc_nav&nodeId=GLZVW8G3XF3KG2E9
+      - generic [ref=e653]:
+        - heading "TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi" [level=1] [ref=e656]
+        - link "Visita la tienda de TP-Link" [ref=e659] [cursor=pointer]:
+          - /url: /stores/TP-Link/page/6B2B252A-93BF-49D7-83DF-086260559560?lp_asin=B09PRG6MJX&ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto&byline_logo_guardrail_passed=True
+        - generic [ref=e661]:
+          - generic "4,5 de 5 estrellas" [ref=e663]:
+            - button "4,5 de 5 estrellas" [ref=e665] [cursor=pointer]:
+              - text: 4,5
+              - generic [ref=e667]: 4,5 de 5 estrellas
+          - link "4.981 Reseñas" [ref=e670] [cursor=pointer]:
+            - /url: "#averageCustomerReviewsAnchor"
+            - text: (4.981)
+        - generic [ref=e675]: Opción Amazon
+        - generic [ref=e679]: 500+ comprados el mes pasado
+        - separator [ref=e680]
+        - generic [ref=e685]:
+          - generic [ref=e686]:
+            - generic [ref=e687]:
+              - generic [ref=e688]: 62,60 € con un ahorro del 22 %
+              - generic [ref=e689]: "-22 %"
+              - generic [ref=e691]:
+                - generic [ref=e692]:
+                  - text: "62"
+                  - generic [ref=e693]: ","
+                - text: 60€
+            - generic [ref=e695]:
+              - generic [ref=e696]:
+                - generic [ref=e697]: "Precio recomendado: 79,99 €"
+                - generic [ref=e698]:
+                  - text: "Precio recomendado:"
+                  - generic [ref=e699]:
+                    - generic [ref=e700]: 79,99€
+                    - text: 79,99€
+              - link "Más información sobre los precios y descuentos de Amazon" [ref=e703] [cursor=pointer]:
+                - /url: "#"
+                - img "Más información sobre los precios y descuentos de Amazon" [ref=e704]
+          - generic "Devoluciones GRATIS" [ref=e709]:
+            - button "Devoluciones GRATIS" [ref=e710] [cursor=pointer]: Devoluciones GRATIS
+          - generic [ref=e713]:
+            - text: Los precios de los productos vendidos en Amazon incluyen el IVA. Dependiendo de tu dirección de entrega, el IVA puede variar al finalizar la compra. Para obtener más información, haz clic
+            - link "aqui" [ref=e714] [cursor=pointer]:
+              - /url: https://www.amazon.es/-/es/gp/help/customer/display.html?ref_=hp_bc_nav&nodeId=G7MYTK9H5NVW7QVW
+            - text: .
+          - generic:
+            - table
+        - generic [ref=e723]:
+          - generic [ref=e724]: Financia este producto con Openbank Pay.
+          - link "Ver más" [ref=e727] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e732]:
+          - text: Disponible a un precio más bajo en
+          - link "otros vendedores" [ref=e733] [cursor=pointer]:
+            - /url: /gp/offer-listing/B09PRG6MJX/ref=dp_olp_pn
+          - text: que tal vez no ofrezcan envío de Amazon Prime gratis.
+        - generic [ref=e735]:
+          - list [ref=e738]:
+            - rowgroup [ref=e739]:
+              - listitem [ref=e740]: Marca TP-Link
+              - listitem [ref=e741]: Estándar de comunicación inalámbrica 802.11ax
+              - listitem [ref=e742]: Velocidad de transferencia de datos 3000 Megabits por segundo
+              - listitem [ref=e743]: Clase de banda de frecuencia Banda Doble
+              - listitem [ref=e744]: Función especial Tecnología WiFi 6
+              - listitem [ref=e745]: Color No aplica
+              - listitem [ref=e746]: Frecuencia 5 GHz
+              - listitem [ref=e747]: Componentes incluidos Antena.
+              - listitem [ref=e748]: Peso del producto 250 Gramos
+              - listitem [ref=e749]: Dimensiones del producto 3,6f. x 7,8an. x 14,9al. centímetros
+          - button "Ver más" [ref=e752] [cursor=pointer]: Ver más
+        - generic [ref=e755]:
+          - separator [ref=e756]
+          - heading "Acerca de este producto" [level=1] [ref=e757]
+          - list [ref=e758]:
+            - listitem [ref=e759]: "Compatible con EasyMesh: crea una red Mesh de forma flexible conectando el repetidor a un router compatible con EasyMesh para crear una única red rápida y estable en toda la casa. Si tienes más zonas sin conexión Wi-Fi, simplemente agrega otro router/repetidor Wi-Fi compatible con EasyMesh para ampliar aún más la cobertura."
+            - listitem [ref=e760]: CONEXIÓN ESTABLE SIN CORTES - Crea una red Mesh inalámbrica en segundos con la tecnología TP-Link OneMesh para aumentar la cobertura Wi-Fi en casa. Nota* Es importtante disponer de otro producto Mesh como un router
+            - listitem [ref=e761]: COMPATIBILIDAD UNIVERSAL Y FÁCIL INSTALACIÓN -Compatible con todas las cajas de Internet y routers WiFi. Instalación sencilla mediante la aplicación Tether (aplicación gratuita para ios/Android)
+            - listitem [ref=e762]: PUERTO ETHERNET GIGABIT - Con el puerto Ethernet gigabit, conecta dispositivos con cable como PCs, consolas de juegos, reproductores de streaming, etc.
+            - listitem [ref=e763]: MODO PUNTO DE ACCESO - Modo punto de acceso que sustituye al rendimiento WiFi fallado de tu caja. Este modo permite una ubicación libre (hasta 100 m de tu box)
+            - listitem [ref=e764]: SEÑAL LUMINOSA INTELIGENTE - Ayuda a determinar la mejor ubicación para una cobertura WiFi óptima indicando la fuerza de la señal en la ubicación actual El extensor selecciona automáticamente el mejor camino para tener una velocidad más rápida y estable en tus dispositivos.
+            - listitem [ref=e765]: FÁCIL CONTROL POR APP - Configura tu extensión de red cómodamente desde el móvil con la App TP-Link Tether
+          - generic [ref=e766]:
+            - text: ›
+            - link "Ver más detalles" [ref=e767] [cursor=pointer]:
+              - /url: "#productDetails"
+        - generic [ref=e771]:
+          - heading "Top Brand TP-Link" [level=2] [ref=e772]:
+            - paragraph [ref=e774]: Top Brand
+            - paragraph [ref=e775]: TP-Link
+          - list [ref=e776]:
+            - listitem [ref=e777]:
+              - paragraph [ref=e778]: 91% de valoraciones positivas de 10K+ clientes
+            - listitem [ref=e779]:
+              - paragraph [ref=e780]: 100K+ pedidos recientes de esta marca
+        - link "Informar de un problema con este producto" [ref=e786] [cursor=pointer]:
+          - /url: "#"
+          - text: Informar de un problema con este producto
+        - generic [ref=e790]:
+          - separator [ref=e791]
+          - heading "Hay un nuevo modelo de este producto:" [level=4] [ref=e792]
+          - generic [ref=e794]:
+            - link "TP-Link RE225BE Repetidor de Doble Banda Wi-Fi 7 Amplificador, WiFi de hasta 3,6 Gbps, Puerto Gigabit LAN, MLO, EasyMesh, WPA3, botón WPS, Compatible con Fritzbox" [ref=e797] [cursor=pointer]:
+              - /url: /TP-Link-RE225BE-Repetidor-Amplificador-Compatible-dp-B0FGJYC3FX/dp/B0FGJYC3FX/ref=dp_ob_image_ce
+              - img "TP-Link RE225BE Repetidor de Doble Banda Wi-Fi 7 Amplificador, WiFi de hasta 3,6 Gbps, Puerto Gigabit LAN, MLO, EasyMesh, WPA3, botón WPS, Compatible con Fritzbox" [ref=e798]
+            - generic [ref=e799]:
+              - link "TP-Link RE225BE Repetidor de Doble Banda Wi-Fi 7 Amplificador, WiFi de hasta 3,6 Gbps, Puerto Gigabit LAN, MLO, EasyMesh, WPA3, botón WPS, Compatible con Fritzbox" [ref=e800] [cursor=pointer]:
+                - /url: /TP-Link-RE225BE-Repetidor-Amplificador-Compatible-dp-B0FGJYC3FX/dp/B0FGJYC3FX/ref=dp_ob_title_ce
+              - text: 79,99 €
+              - link "4,6 de 5 estrellas" [ref=e801] [cursor=pointer]:
+                - /url: /product-reviews/B0FGJYC3FX/ref=dp_ob_custreviews_ce_cm_cr_acr_img?showViewpoints=1
+              - link "178Opiniones de clientes sobre este producto" [ref=e803] [cursor=pointer]:
+                - /url: /product-reviews/B0FGJYC3FX/ref=dp_ob_custreviews_ce_cm_cr_acr_txt?showViewpoints=1
+                - text: (178)
+              - text: En stock
+      - generic [ref=e805]:
+        - separator [ref=e806]
+        - generic [ref=e812]:
+          - link [ref=e814] [cursor=pointer]:
+            - /url: https://www.amazon.es/gaming/?_encoding=UTF8&pf_rd_p=6b1818ce-0315-4b3c-9be3-6a9187ea081d&pf_rd_r=HJ4950ZGNX3YNDFKHG58
+          - generic [ref=e815]:
+            - generic [ref=e817]: Amazon Gaming Store.
+            - generic [ref=e819]:
+              - text: Mejora tu setup en la Gaming Store.
+              - link "Mejora tu setup en la Gaming Store." [ref=e820] [cursor=pointer]:
+                - /url: https://www.amazon.es/gaming/?_encoding=UTF8&pf_rd_p=6b1818ce-0315-4b3c-9be3-6a9187ea081d&pf_rd_r=HJ4950ZGNX3YNDFKHG58
+                - text: Compra ahora.
+    - generic [ref=e825]:
+      - separator [ref=e826]
+      - heading "Comprados juntos habitualmente" [level=2] [ref=e827]
+      - generic [ref=e828]:
+        - group "Comprados juntos habitualmente" [ref=e829]:
+          - generic [ref=e830]:
+            - generic [ref=e831]:
+              - 'checkbox "Este producto: TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi" [checked] [ref=e837]'
+              - generic [ref=e842]:
+                - generic [ref=e844]: "Este producto: TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi"
+                - generic [ref=e851]:
+                  - generic [ref=e852]: 62,60€
+                  - generic [ref=e853]:
+                    - generic [ref=e854]:
+                      - text: "62"
+                      - generic [ref=e855]: ","
+                    - text: 60€
+            - generic [ref=e856]:
+              - generic [ref=e857]:
+                - generic [ref=e858]: +
+                - checkbox "Cable Ethernet Cat 8- 0.5M 1M 5M 10M 15M 20M 30M Cable de Red, 40Gbps 2000MHz Alta Velocidad Cable Lan, Plano RJ45 Gigabit POE Trenzado de Nylon Cable Internet para PC, TV, Modem,Regalo para Gamer" [checked] [ref=e862]
+                - link "Cable Ethernet Cat 8- 0.5M 1M 5M 10M 15M 20M 30M Cable de Red, 40Gbps 2000MHz Alta Velocidad Cable Lan, Plano RJ45 Gigabit PO" [ref=e866] [cursor=pointer]:
+                  - /url: /Ethernet-2000MHz-Velocidad-Trenzado-Internet/dp/B0BN7WVRVZ/ref=pd_bxgy_thbs_d_sccl_1/521-5122598-6721804?pd_rd_w=c0gN6&content-id=amzn1.sym.d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_p=d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0BN7WVRVZ&psc=1
+                  - img "Cable Ethernet Cat 8- 0.5M 1M 5M 10M 15M 20M 30M Cable de Red, 40Gbps 2000MHz Alta Velocidad Cable Lan, Plano RJ45 Gigabit PO" [ref=e867]
+              - generic [ref=e868]:
+                - link "Cable Ethernet Cat 8- 0.5M 1M 5M 10M 15M 20M 30M Cable de Red, 40Gbps 2000MHz Alta Velocidad Cable Lan, Plano RJ45 Gigabit POE Trenzado de Nylon Cable Internet para PC, TV, Modem,Regalo para Gamer" [ref=e870] [cursor=pointer]:
+                  - /url: /Ethernet-2000MHz-Velocidad-Trenzado-Internet/dp/B0BN7WVRVZ/ref=pd_bxgy_d_sccl_1/521-5122598-6721804?pd_rd_w=c0gN6&content-id=amzn1.sym.d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_p=d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0BN7WVRVZ&psc=1
+                  - generic [ref=e871]: Cable Ethernet Cat 8- 0.5M 1M 5M 10M 15M 20M 30M Cable de Red, 40Gbps 2000MHz Alta Velocidad Cable Lan, Plano RJ45 Gigabit POE Trenzado de Nylon Cable Internet para PC, TV, Modem,Regalo para Gamer
+                - generic [ref=e878]:
+                  - generic [ref=e879]: 5,99€
+                  - generic [ref=e880]:
+                    - generic [ref=e881]:
+                      - text: "5"
+                      - generic [ref=e882]: ","
+                    - text: 99€
+            - generic [ref=e883]:
+              - generic [ref=e884]:
+                - generic [ref=e885]: +
+                - checkbox "TP Link LS105G - Switch Ethernet Gigabit 5 Puertos RJ45, Plug & Play, Carcasa Metálica Resistente, Super disipación de Calor, Velocidad Estable sin retrasos, Ahorro de Energía, Silencioso, Smart TV" [checked] [ref=e889]
+                - link "TP Link LS105G - Switch Ethernet Gigabit 5 Puertos RJ45, Plug & Play, Carcasa Metálica Resistente, Super disipación de Calor," [ref=e893] [cursor=pointer]:
+                  - /url: /TP%E2%80%91Link-LS105G-gestionado-Escritorio-tecnolog%C3%ADa/dp/B07RPVQY62/ref=pd_bxgy_thbs_d_sccl_2/521-5122598-6721804?pd_rd_w=c0gN6&content-id=amzn1.sym.d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_p=d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B07RPVQY62&psc=1
+                  - img "TP Link LS105G - Switch Ethernet Gigabit 5 Puertos RJ45, Plug & Play, Carcasa Metálica Resistente, Super disipación de Calor," [ref=e894]
+              - generic [ref=e895]:
+                - link "TP Link LS105G - Switch Ethernet Gigabit 5 Puertos RJ45, Plug & Play, Carcasa Metálica Resistente, Super disipación de Calor, Velocidad Estable sin retrasos, Ahorro de Energía, Silencioso, Smart TV" [ref=e897] [cursor=pointer]:
+                  - /url: /TP%E2%80%91Link-LS105G-gestionado-Escritorio-tecnolog%C3%ADa/dp/B07RPVQY62/ref=pd_bxgy_d_sccl_2/521-5122598-6721804?pd_rd_w=c0gN6&content-id=amzn1.sym.d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_p=d3f51ba6-d7d6-4448-ad17-80007607d927&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B07RPVQY62&psc=1
+                  - generic [ref=e898]: TP Link LS105G - Switch Ethernet Gigabit 5 Puertos RJ45, Plug & Play, Carcasa Metálica Resistente, Super disipación de Calor, Velocidad Estable sin retrasos, Ahorro de Energía, Silencioso, Smart TV
+                - generic [ref=e905]:
+                  - generic [ref=e906]: 12,90€
+                  - generic [ref=e907]:
+                    - generic [ref=e908]:
+                      - text: "12"
+                      - generic [ref=e909]: ","
+                    - text: 90€
+        - generic [ref=e910]:
+          - generic [ref=e911]:
+            - generic [ref=e913]:
+              - text: "Precio total:"
+              - generic [ref=e914]:
+                - generic [ref=e915]: 81.49 €
+                - generic [ref=e916]:
+                  - generic [ref=e917]: 81,
+                  - text: 49 €
+            - generic [ref=e923] [cursor=pointer]:
+              - button "Añadir 3 a la cesta, TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi" [ref=e924]
+              - generic [ref=e925]: Añadir 3 a la cesta
+          - generic [ref=e926]:
+            - generic [ref=e930]: Estos productos los envían y venden distintos vendedores.
+            - link "Mostrar detalles de Comprados juntos habitualmente,Después de habilitarlo, redirige la atención a la información del producto para obtener más detalles," [ref=e932] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - text: Mostrar detalles
+    - generic [ref=e935]:
+      - separator [ref=e936]
+      - group [ref=e939]:
+        - heading "Productos destacados que te pueden gustar" [level=2] [ref=e944]
+        - group [ref=e949]:
+          - list [ref=e950]:
+            - listitem [ref=e951]:
+              - generic [ref=e953]:
+                - link [ref=e954] [cursor=pointer]:
+                  - /url: /AmazonBasics-Adaptador-red-Ethernet-1000/dp/B00M77HMU0/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B00M77HMU0&psc=1
+                  - img [ref=e956]
+                - generic [ref=e958]:
+                  - link "Amazon Basics Adaptador de USB 3.0 a Internet 10/100/1000 Gigabit Ethernet Negro" [ref=e959] [cursor=pointer]:
+                    - /url: /AmazonBasics-Adaptador-red-Ethernet-1000/dp/B00M77HMU0/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B00M77HMU0&psc=1
+                    - generic [ref=e961]: Amazon Basics Adaptador de USB 3.0 a Internet 10/100/1000 Gigabit Ethernet Negro
+                  - link "4,6 de 5 estrellas, 21.570 calificaciones" [ref=e964] [cursor=pointer]:
+                    - /url: /product-reviews/B00M77HMU0/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1_cr/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B00M77HMU0
+                    - generic [ref=e966]: 4,6 de 5 estrellas
+                    - text: "21.570"
+                  - link "13,52€" [ref=e970] [cursor=pointer]:
+                    - /url: /AmazonBasics-Adaptador-red-Ethernet-1000/dp/B00M77HMU0/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B00M77HMU0&psc=1
+                    - generic [ref=e972]:
+                      - generic [ref=e973]: 13,52€
+                      - generic [ref=e974]:
+                        - generic [ref=e975]: 13,
+                        - text: 52€
+            - listitem [ref=e976]:
+              - generic [ref=e978]:
+                - link [ref=e979] [cursor=pointer]:
+                  - /url: /TP-Link-RE500X-Repetidor/dp/B095SYK1R9/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B095SYK1R9&psc=1
+                  - img [ref=e981]
+                - generic [ref=e983]:
+                  - link "TP-Link RE500X - WiFi 6 Repetidor, AX1500 WiFi, Puerto Ethernet Gigabit 10/100/1000 Mbos, Compatible con Todos los Routers, Negro, AX1500" [ref=e984] [cursor=pointer]:
+                    - /url: /TP-Link-RE500X-Repetidor/dp/B095SYK1R9/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B095SYK1R9&psc=1
+                    - generic [ref=e986]: TP-Link RE500X - WiFi 6 Repetidor, AX1500 WiFi, Puerto Ethernet Gigabit 10/100/1000 Mbos, Compatible con Todos los Routers, Negro, AX1500
+                  - link "4,3 de 5 estrellas, 11.328 calificaciones" [ref=e989] [cursor=pointer]:
+                    - /url: /product-reviews/B095SYK1R9/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2_cr/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B095SYK1R9
+                    - generic [ref=e991]: 4,3 de 5 estrellas
+                    - text: "11.328"
+                  - generic [ref=e992]:
+                    - link "44,99€" [ref=e995] [cursor=pointer]:
+                      - /url: /TP-Link-RE500X-Repetidor/dp/B095SYK1R9/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B095SYK1R9&psc=1
+                      - generic [ref=e997]:
+                        - generic [ref=e998]: 44,99€
+                        - generic [ref=e999]:
+                          - generic [ref=e1000]: 44,
+                          - text: 99€
+                    - generic [ref=e1002]: Obtenlo el jueves, 26 de febrero como muy tarde.
+                  - text: Envío GRATIS por Amazon
+            - listitem [ref=e1003]:
+              - generic [ref=e1005]:
+                - link [ref=e1006] [cursor=pointer]:
+                  - /url: /TP-Link-RE225BE-Repetidor-Amplificador-Compatible/dp/B0FGJYC3FX/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0FGJYC3FX&psc=1
+                  - img [ref=e1008]
+                - generic [ref=e1010]:
+                  - link "TP-Link RE225BE Repetidor de Doble Banda Wi-Fi 7 Amplificador, WiFi de hasta 3,6 Gbps, Puerto Gigabit LAN, MLO, EasyMesh, WPA3, botón WPS, Compatible con Fritzbox" [ref=e1011] [cursor=pointer]:
+                    - /url: /TP-Link-RE225BE-Repetidor-Amplificador-Compatible/dp/B0FGJYC3FX/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0FGJYC3FX&psc=1
+                    - generic [ref=e1013]: TP-Link RE225BE Repetidor de Doble Banda Wi-Fi 7 Amplificador, WiFi de hasta 3,6 Gbps, Puerto Gigabit LAN, MLO, EasyMesh, WPA3, botón WPS, Compatible con Fritzbox
+                  - link "4,6 de 5 estrellas, 178 calificaciones" [ref=e1016] [cursor=pointer]:
+                    - /url: /product-reviews/B0FGJYC3FX/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3_cr/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0FGJYC3FX
+                    - generic [ref=e1018]: 4,6 de 5 estrellas
+                    - text: "178"
+                  - generic [ref=e1019]:
+                    - link "79,99€" [ref=e1022] [cursor=pointer]:
+                      - /url: /TP-Link-RE225BE-Repetidor-Amplificador-Compatible/dp/B0FGJYC3FX/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0FGJYC3FX&psc=1
+                      - generic [ref=e1024]:
+                        - generic [ref=e1025]: 79,99€
+                        - generic [ref=e1026]:
+                          - generic [ref=e1027]: 79,
+                          - text: 99€
+                    - generic [ref=e1029]: Obtenlo el jueves, 26 de febrero como muy tarde.
+                  - text: Envío GRATIS por Amazon
+            - listitem [ref=e1030]:
+              - generic [ref=e1032]:
+                - link [ref=e1033] [cursor=pointer]:
+                  - /url: /TP-Link-RE550-Amplificador-Compatible-Dispositivos/dp/B08P24Q1TD/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08P24Q1TD&psc=1
+                  - img [ref=e1035]
+                - generic [ref=e1037]:
+                  - link "TP-Link RE550 - Mesh AC1900 Repeater, dual band WiFi, 1300Mbps/in 5GHz + 600Mbps/in 2.4GHz, WiFi amplifier, APP control, compatible with all WiFi devices, Cranberry" [ref=e1038] [cursor=pointer]:
+                    - /url: /TP-Link-RE550-Amplificador-Compatible-Dispositivos/dp/B08P24Q1TD/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08P24Q1TD&psc=1
+                    - generic [ref=e1040]: TP-Link RE550 - Mesh AC1900 Repeater, dual band WiFi, 1300Mbps/in 5GHz + 600Mbps/in 2.4GHz, WiFi amplifier, APP control, compatible with all WiFi devices, Cranberry
+                  - link "4,5 de 5 estrellas, 8.400 calificaciones" [ref=e1043] [cursor=pointer]:
+                    - /url: /product-reviews/B08P24Q1TD/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4_cr/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08P24Q1TD
+                    - generic [ref=e1045]: 4,5 de 5 estrellas
+                    - text: "8.400"
+                  - generic [ref=e1046]:
+                    - link "59,94€" [ref=e1049] [cursor=pointer]:
+                      - /url: /TP-Link-RE550-Amplificador-Compatible-Dispositivos/dp/B08P24Q1TD/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08P24Q1TD&psc=1
+                      - generic [ref=e1051]:
+                        - generic [ref=e1052]: 59,94€
+                        - generic [ref=e1053]:
+                          - generic [ref=e1054]: 59,
+                          - text: 94€
+                    - generic [ref=e1056]: Obtenlo el jueves, 26 de febrero como muy tarde.
+                  - text: Envío GRATIS por Amazon
+            - listitem [ref=e1057]:
+              - generic [ref=e1059]:
+                - link [ref=e1060] [cursor=pointer]:
+                  - /url: /TP-Link-RE330-Repetidor-Ethernet-dispositivos/dp/B08X19VZN8/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08X19VZN8&psc=1
+                  - img [ref=e1062]
+                - generic [ref=e1064]:
+                  - link "TP-Link RE330 WiFi Repeater, AC1200 Amplifier, Extender up to 120 m2, Powerful Repeater with Ethernet Port, EasyMesh, Compatible with All Internet Boxes" [ref=e1065] [cursor=pointer]:
+                    - /url: /TP-Link-RE330-Repetidor-Ethernet-dispositivos/dp/B08X19VZN8/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08X19VZN8&psc=1
+                    - generic [ref=e1067]: TP-Link RE330 WiFi Repeater, AC1200 Amplifier, Extender up to 120 m2, Powerful Repeater with Ethernet Port, EasyMesh, Compatible with All Internet Boxes
+                  - link "4,3 de 5 estrellas, 20.509 calificaciones" [ref=e1070] [cursor=pointer]:
+                    - /url: /product-reviews/B08X19VZN8/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5_cr/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08X19VZN8
+                    - generic [ref=e1072]: 4,3 de 5 estrellas
+                    - text: "20.509"
+                  - generic [ref=e1073]:
+                    - link "El n.º 1 más vendido":
+                      - /url: /gp/bestsellers/computers/937973031/ref=zg_b_bs_937973031_1/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5_bsb/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08X19VZN8
+                      - generic [ref=e1077] [cursor=pointer]: El n.º 1 más vendido
+                  - link "29,99€" [ref=e1081] [cursor=pointer]:
+                    - /url: /TP-Link-RE330-Repetidor-Ethernet-dispositivos/dp/B08X19VZN8/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B08X19VZN8&psc=1
+                    - generic [ref=e1083]:
+                      - generic [ref=e1084]: 29,99€
+                      - generic [ref=e1085]:
+                        - generic [ref=e1086]: 29,
+                        - text: 99€
+            - listitem [ref=e1087]:
+              - generic [ref=e1089]:
+                - link [ref=e1090] [cursor=pointer]:
+                  - /url: /TP-Link-RE780X-Amplificador-MU-MIMO-Compatible/dp/B0D544177Z/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0D544177Z&psc=1
+                  - img [ref=e1092]
+                - generic [ref=e1094]:
+                  - link "TP-Link RE780X - Amplificador WiFi 6 (Doble Banda 2402 Mbit/s, 5 GHz + 574 Mbit/s, 2,4 GHz, MU-MIMO, Puerto Gigabit, Compatible con Todos los routers WLAN)" [ref=e1095] [cursor=pointer]:
+                    - /url: /TP-Link-RE780X-Amplificador-MU-MIMO-Compatible/dp/B0D544177Z/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0D544177Z&psc=1
+                    - generic [ref=e1097]: TP-Link RE780X - Amplificador WiFi 6 (Doble Banda 2402 Mbit/s, 5 GHz + 574 Mbit/s, 2,4 GHz, MU-MIMO, Puerto Gigabit, Compatible con Todos los routers WLAN)
+                  - link "4,4 de 5 estrellas, 204 calificaciones" [ref=e1100] [cursor=pointer]:
+                    - /url: /product-reviews/B0D544177Z/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6_cr/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0D544177Z
+                    - generic [ref=e1102]: 4,4 de 5 estrellas
+                    - text: "204"
+                  - generic [ref=e1103]:
+                    - link "64,99€" [ref=e1106] [cursor=pointer]:
+                      - /url: /TP-Link-RE780X-Amplificador-MU-MIMO-Compatible/dp/B0D544177Z/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/521-5122598-6721804?pd_rd_w=2elLP&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=HJ4950ZGNX3YNDFKHG58&pd_rd_wg=HyhVq&pd_rd_r=75d85964-9ff3-492f-82e6-186250c8f710&pd_rd_i=B0D544177Z&psc=1
+                      - generic [ref=e1108]:
+                        - generic [ref=e1109]: 64,99€
+                        - generic [ref=e1110]:
+                          - generic [ref=e1111]: 64,
+                          - text: 99€
+                    - generic [ref=e1113]: Obtenlo el viernes, 27 de febrero como muy tarde.
+                  - text: Envío GRATIS por Amazon
+    - generic [ref=e1118]:
+      - generic [ref=e1120]:
+        - separator [ref=e1121]
+        - heading "Más información del producto" [level=2] [ref=e1122]
+        - generic [ref=e1124]:
+          - generic [ref=e1134]:
+            - button "Haz clic para reproducir el vídeo" [ref=e1137] [cursor=pointer]:
+              - text: 
+              - generic [ref=e1138]: Haz clic para reproducir el vídeo
+            - text:          
+          - img "RE700X" [ref=e1143]
+          - generic [ref=e1145]:
+            - heading "Velocidad Wi-Fi 6 de Doble Banda AX3000" [level=1] [ref=e1146]
+            - generic [ref=e1147]:
+              - group "Carrusel de contenido destacado" [ref=e1148]:
+                - group [ref=e1152]:
+                  - list [ref=e1153]:
+                    - listitem [ref=e1154]:
+                      - generic [ref=e1155]:
+                        - img "RE700X" [ref=e1157]
+                        - generic [ref=e1161]:
+                          - heading "Llena Tu Hogar con Wi-Fi 6 Doble Banda" [level=1] [ref=e1163]
+                          - paragraph [ref=e1165]: El RE700X se conecta de forma inalámbrica a tu router, aumentando la señal de Wi-Fi 6 de doble banda (574 Mbps a 2,4 GHz, 2402 Mbps a 5 GHz) en toda tu casa.
+                    - listitem [ref=e1166]:
+                      - generic [ref=e1167]:
+                        - img "3b" [ref=e1169]
+                        - generic [ref=e1173]:
+                          - heading "Crea Tu Wi-Fi de Alta Velocidad a Medida" [level=1] [ref=e1175]
+                          - paragraph [ref=e1177]: Cada hogar es diferente. Por eso, nuestro extensor de rango AX te ofrece una serie de opciones flexibles para crear tu propio Wi-Fi de alta velocidad.
+              - tablist "tablist-section" [ref=e1181]:
+                - listitem [ref=e1182]:
+                  - tab "slide-1" [selected] [ref=e1183] [cursor=pointer]
+                - listitem [ref=e1184]:
+                  - tab "slide-2" [ref=e1185] [cursor=pointer]
+          - generic [ref=e1187]:
+            - heading "Excelente Cobertura Wi-Fi" [level=1] [ref=e1188]
+            - generic [ref=e1189]:
+              - group "Carrusel de contenido destacado" [ref=e1190]:
+                - group [ref=e1194]:
+                  - list [ref=e1195]:
+                    - listitem [ref=e1196]:
+                      - generic [ref=e1197]:
+                        - img "13" [ref=e1199]
+                        - generic [ref=e1203]:
+                          - heading "Cobertura Wi-Fi Personalizable" [level=1] [ref=e1205]
+                          - paragraph [ref=e1207]: Mantén tu internet enfocado en una sola habitación o cubre una planta entera con Wi-Fi escogiendo entre 3 niveles de cobertura en la aplicación Tether.
+                    - listitem [ref=e1208]:
+                      - generic [ref=e1209]:
+                        - img "RE700X" [ref=e1211]
+                        - generic [ref=e1215]:
+                          - heading "4 Amplificadores de Alto Rendimiento" [level=1] [ref=e1217]
+                          - paragraph [ref=e1219]: Disfruta del streaming 4K y de juegos online en cualquier habitación gracias a los 4 amplificadores de alto rendimiento de RE700X, que envía señales potentes a esas zonas difíciles de cubrir.
+              - tablist "tablist-section" [ref=e1223]:
+                - listitem [ref=e1224]:
+                  - tab "slide-1" [selected] [ref=e1225] [cursor=pointer]
+                - listitem [ref=e1226]:
+                  - tab "slide-2" [ref=e1227] [cursor=pointer]
+          - generic [ref=e1229]:
+            - heading "EasyMesh construye una potente red Mesh con el módem de casi cualquier operador" [level=3] [ref=e1230]
+            - generic [ref=e1238]:
+              - button "Haz clic para reproducir el vídeo" [ref=e1241] [cursor=pointer]:
+                - text: 
+                - generic [ref=e1242]: Haz clic para reproducir el vídeo
+              - text:          
+            - paragraph [ref=e1244]: Conecta el RE700X a un router compatible con la tecnología EasyMesh para crear una única red Wi-Fi.
+          - generic [ref=e1247]:
+            - group "Carrusel de contenido destacado" [ref=e1248]:
+              - group [ref=e1252]:
+                - list [ref=e1253]:
+                  - listitem [ref=e1254]:
+                    - img "7" [ref=e1256]
+                    - generic [ref=e1261]:
+                      - paragraph [ref=e1262]: 3 Núcleos de 1,5 GHz
+                      - heading "CPU de 3 Núcleos" [level=4] [ref=e1263]
+                      - paragraph [ref=e1264]: Muchos routers solo tienen doble núcleo e inferior.
+                  - listitem [ref=e1265]:
+                    - img "5" [ref=e1267]
+                    - generic [ref=e1272]:
+                      - paragraph [ref=e1273]: Datos más eficientes
+                      - heading "OFDMA" [level=4] [ref=e1274]
+                      - paragraph [ref=e1275]: OFDMA ayuda a integrar los datos de diferentes dispositivos finales para una mayor eficiencia.
+                  - listitem [ref=e1276]:
+                    - img "6" [ref=e1278]
+                    - generic [ref=e1283]:
+                      - paragraph [ref=e1284]: Wi-Fi Fuerte y Dirigido
+                      - heading "Beamforming" [level=4] [ref=e1285]
+                      - paragraph [ref=e1286]: Beamforming encuentra la dirección de tu teléfono o portátil y acelera la intensidad de la señal.
+                  - listitem [ref=e1287]:
+                    - img "RE700X" [ref=e1289]
+                    - generic [ref=e1294]:
+                      - heading "Selección de Ruta Adaptativa" [level=4] [ref=e1295]
+                      - paragraph [ref=e1296]: Mantiene tu red a la máxima velocidad al elegir automáticamente la ruta más rápida al router.
+                  - listitem [ref=e1297]:
+                    - img "9" [ref=e1299]
+                    - generic [ref=e1304]:
+                      - heading "Modo de Punto de Acceso Incorporado" [level=4] [ref=e1305]
+                      - paragraph [ref=e1306]: Conecta un cable Ethernet y convierte la conexión cableada en un punto de acceso inalámbrico.
+            - tablist "tablist section" [ref=e1307]:
+              - tab "CPU Tri-Core" [selected] [ref=e1308] [cursor=pointer]
+              - tab "OFDMA" [ref=e1309] [cursor=pointer]
+              - tab "Beamforming" [ref=e1310] [cursor=pointer]
+              - tab "Selección Ruta Adaptativa" [ref=e1311] [cursor=pointer]
+              - tab "Modo de Punto de Acceso" [ref=e1312] [cursor=pointer]
+          - generic [ref=e1314]:
+            - heading "Configuración y Gestión Sencilla" [level=1] [ref=e1315]
+            - generic [ref=e1316]:
+              - group "Carrusel de contenido destacado" [ref=e1317]:
+                - group [ref=e1321]:
+                  - list [ref=e1322]:
+                    - listitem [ref=e1323]:
+                      - generic [ref=e1324]:
+                        - img "8" [ref=e1326]
+                        - generic [ref=e1330]:
+                          - heading "Configuración Fácil WPS" [level=1] [ref=e1332]
+                          - paragraph [ref=e1334]: Pulsa el botón “WPS” de tu router, después el botón “WPS” del RE700X, y listo!
+                    - listitem [ref=e1335]:
+                      - generic [ref=e1336]:
+                        - img "RE700X" [ref=e1338]
+                        - generic [ref=e1342]:
+                          - heading "Control al Alcance de Tu Mano" [level=1] [ref=e1344]
+                          - paragraph [ref=e1346]: Configura y administra el Wi-Fi a través de la aplicación TP-Link Tether desde tu teléfono de forma sencilla.
+                    - listitem [ref=e1347]:
+                      - generic [ref=e1348]:
+                        - img "10" [ref=e1350]
+                        - generic [ref=e1354]:
+                          - heading "Puerto Ethernet Gigabit" [level=1] [ref=e1356]
+                          - paragraph [ref=e1358]: Proporciona conexiones cableadas más rápidas a Smart TVs, ordenadores y consolas de videojuegos.
+                    - listitem [ref=e1359]:
+                      - img "RE700X" [ref=e1362]
+              - tablist "tablist-section" [ref=e1366]:
+                - listitem [ref=e1367]:
+                  - tab "slide-1" [selected] [ref=e1368] [cursor=pointer]
+                - listitem [ref=e1369]:
+                  - tab "slide-2" [ref=e1370] [cursor=pointer]
+                - listitem [ref=e1371]:
+                  - tab "slide-3" [ref=e1372] [cursor=pointer]
+                - listitem [ref=e1373]:
+                  - tab "slide-4" [ref=e1374] [cursor=pointer]
+      - generic:
+        - navigation:
+          - navigation "Navigate within the product detail page":
+            - navigation "Back to top jump link":
+              - generic:
+                - generic: Arriba
+            - navigation "About this item widget jump link":
+              - generic:
+                - generic: Acerca de este producto
+            - navigation "Similar widget jump link":
+              - generic:
+                - generic: Similar
+            - navigation "From the brand widget jump link":
+              - generic:
+                - generic: De la marca
+            - navigation "Product information widget jump link":
+              - generic:
+                - generic: Información sobre el producto
+            - navigation "Customer reviews widget jump link":
+              - generic:
+                - generic: Reseñas
+          - navigation "Back to top Image jump link":
+            - img "TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi"
+          - navigation "Back to top title jump link":
+            - generic: TP-Link RE700X WiFi 6 WiFi Amplifier Repetidor AX3000 (Doble Banda 2402Mbps 5GHz + 574Mbps 2.4GHz), MU-MIMO, Puerto gigabit, Gran Cobertura, EasyMesh, Compatible con Todos los routers Wi-Fi
+      - generic [ref=e1376]:
+        - separator [ref=e1377]
+        - heading "Detalles del producto" [level=2] [ref=e1378]
+        - list [ref=e1380]:
+          - listitem [ref=e1381]:
+            - generic [ref=e1382]: "Descatalogado por el fabricante ‏ : ‎ No"
+          - listitem [ref=e1383]:
+            - generic [ref=e1384]: "Idioma ‏ : ‎ Inglés"
+          - listitem [ref=e1385]:
+            - generic [ref=e1386]: "Dimensiones del producto ‏ : ‎ 24 x 69 x 2,5 cm; 250 g"
+          - listitem [ref=e1387]:
+            - generic [ref=e1388]: "Fabricante ‏ : ‎ TP-Link"
+          - listitem [ref=e1389]:
+            - generic [ref=e1390]: "ASIN ‏ : ‎ B09PRG6MJX"
+          - listitem [ref=e1391]:
+            - generic [ref=e1392]: "Número de modelo del producto ‏ : ‎ RE700X"
+          - listitem [ref=e1393]:
+            - generic [ref=e1394]: "País de origen ‏ : ‎ China"
+          - listitem [ref=e1395]:
+            - generic [ref=e1396]: "Actualizaciones de software garantizadas hasta ‏ : ‎ desconocido"
+          - listitem [ref=e1397]:
+            - generic [ref=e1398]:
+              - text: "Opiniones de los clientes:"
+              - generic [ref=e1399]:
+                - generic "4,5 de 5 estrellas" [ref=e1401]:
+                  - button "4,5 de 5 estrellas" [ref=e1403] [cursor=pointer]:
+                    - text: 4,5
+                    - generic [ref=e1405]: 4,5 de 5 estrellas
+                - link "4.981 Reseñas" [ref=e1408] [cursor=pointer]:
+                  - /url: "#averageCustomerReviewsAnchor"
+                  - text: (4.981)
+      - generic [ref=e1410]:
+        - separator [ref=e1411]
+        - heading "De la marca" [level=2] [ref=e1412]
+        - generic [ref=e1416]:
+          - generic [ref=e1421]:
+            - heading "TP-Link Deco" [level=3] [ref=e1422]
+            - paragraph [ref=e1423]: Internet en Toda la Casa con Wi-Fi 6 Mesh a Máxima Velocidad.
+          - group "Carrusel de contenido destacado" [ref=e1424]:
+            - group [ref=e1428]:
+              - list [ref=e1429]:
+                - listitem
+                - listitem [ref=e1430]:
+                  - generic [ref=e1432]:
+                    - list [ref=e1433]:
+                      - listitem [ref=e1434]:
+                        - link "1" [ref=e1435] [cursor=pointer]:
+                          - /url: /dp/B09LVG58VX/ref=emc_bcc_2_i
+                          - img "1" [ref=e1436]
+                      - listitem [ref=e1437]:
+                        - link "2" [ref=e1438] [cursor=pointer]:
+                          - /url: /dp/B09LVG58VX/ref=emc_bcc_2_i
+                          - img "2" [ref=e1439]
+                      - listitem [ref=e1440]:
+                        - link "3" [ref=e1441] [cursor=pointer]:
+                          - /url: /dp/B09LVG58VX/ref=emc_bcc_2_i
+                          - img "3" [ref=e1442]
+                      - listitem [ref=e1443]:
+                        - link "4" [ref=e1444] [cursor=pointer]:
+                          - /url: /dp/B09LVG58VX/ref=emc_bcc_2_i
+                          - img "4" [ref=e1445]
+                    - heading "¿Por qué elegir Deco?" [level=3] [ref=e1447]
+                - listitem [ref=e1448]:
+                  - generic [ref=e1452]:
+                    - paragraph [ref=e1453]: ¿Qué es Deco?
+                    - paragraph [ref=e1454]: Deco es la mejor solución para disfrutar de Wi-Fi rápido y estable en cualquier rincón de tu hogar.
+                    - paragraph [ref=e1455]: Deco no funciona como un router tradicional, sino con varios puntos Wi-Fi de una gran red con un solo nombre y contraseña de Wi-Fi. Los Deco stán interconectados de forma inalámbrica y son tan inteligentes que garantizan que siempre estés conectado al punto Wi-Fi más cercano.
+                - listitem [ref=e1456]:
+                  - generic [ref=e1460]:
+                    - heading "Elimina las Zonas sin Wi-Fi" [level=3] [ref=e1461]
+                    - paragraph [ref=e1462]: Todas las unidades Deco trabajan en conjunto para crear una potente red Wi-Fi Mesh AI con cobertura en toda la casa.
+                - listitem [ref=e1463]:
+                  - generic [ref=e1465]:
+                    - list [ref=e1466]:
+                      - listitem [ref=e1467]:
+                        - link "Compuesto por un cepillo o varilla de limpieza de color azul claro con un mango blanco, que se muestra desde varios ángulos sobre un fondo blanco." [ref=e1468] [cursor=pointer]:
+                          - /url: /dp/B0FDWMZMMY/ref=emc_bcc_2_i
+                          - img "Compuesto por un cepillo o varilla de limpieza de color azul claro con un mango blanco, que se muestra desde varios ángulos sobre un fondo blanco." [ref=e1469]
+                      - listitem [ref=e1470]:
+                        - link "aplus content image" [ref=e1471] [cursor=pointer]:
+                          - /url: /dp/B0FDWMZMMY/ref=emc_bcc_2_i
+                          - img "aplus content image" [ref=e1472]
+                      - listitem [ref=e1473]:
+                        - link "aplus content image" [ref=e1474] [cursor=pointer]:
+                          - /url: /dp/B0FDWMZMMY/ref=emc_bcc_2_i
+                          - img "aplus content image" [ref=e1475]
+                      - listitem [ref=e1476]:
+                        - link "aplus content image" [ref=e1477] [cursor=pointer]:
+                          - /url: /dp/B0FDWMZMMY/ref=emc_bcc_2_i
+                          - img "aplus content image" [ref=e1478]
+                    - generic [ref=e1479]:
+                      - heading "Nuevo Deco BE3600 Wi-Fi 7" [level=3] [ref=e1480]
+                      - paragraph [ref=e1481]:
+                        - link "Visita la tienda de TP-Link" [ref=e1482] [cursor=pointer]:
+                          - /url: /stores/page/372412A7-D639-4EAB-8032-43B5996CEB7D?store_ref=storeRecs_dp_aplus
+                          - text: Visita la tienda
+                - listitem [ref=e1483]:
+                  - generic [ref=e1487]:
+                    - heading "Fácil Configuración App Deco" [level=3] [ref=e1488]
+                    - paragraph [ref=e1489]: Configura y gestiona tu red en cualquier momento y en cualquier lugar con la App Deco. Control parental, red de invitados y mucho más!
+                - listitem [ref=e1490]:
+                  - generic [ref=e1494]:
+                    - heading "Inteligente y Seguro" [level=3] [ref=e1495]
+                    - paragraph [ref=e1496]: Personaliza tu red doméstica con seguridad mejorada utilizando el kit de funciones integradas de TP-Link HomeShield.
+                - listitem [ref=e1497]:
+                  - generic [ref=e1499]:
+                    - list [ref=e1500]:
+                      - listitem [ref=e1501]:
+                        - link "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1502] [cursor=pointer]:
+                          - /url: /dp/B0CJJ712ZX/ref=emc_bcc_2_i
+                          - img "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1503]
+                      - listitem [ref=e1504]:
+                        - link "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1505] [cursor=pointer]:
+                          - /url: /dp/B0CJJ712ZX/ref=emc_bcc_2_i
+                          - img "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1506]
+                      - listitem [ref=e1507]:
+                        - link "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1508] [cursor=pointer]:
+                          - /url: /dp/B0CJJ712ZX/ref=emc_bcc_2_i
+                          - img "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1509]
+                      - listitem [ref=e1510]:
+                        - link "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1511] [cursor=pointer]:
+                          - /url: /dp/B0CJJ712ZX/ref=emc_bcc_2_i
+                          - img "Deco BE65 - Sistema Wi-Fi 7 Mesh BE11000 de Triple Banda, 4 Puertos 2.5 Gbps, MLO" [ref=e1512]
+                    - generic [ref=e1513]:
+                      - heading "DECO BE65 Tecnología Wi-Fi 7" [level=3] [ref=e1514]
+                      - paragraph [ref=e1515]:
+                        - link "Visita la tienda de TP-Link" [ref=e1516] [cursor=pointer]:
+                          - /url: /stores/page/372412A7-D639-4EAB-8032-43B5996CEB7D?store_ref=storeRecs_dp_aplus
+                          - text: Visita la tienda
+                - listitem [ref=e1517]:
+                  - generic [ref=e1519]:
+                    - list [ref=e1520]:
+                      - listitem [ref=e1521]:
+                        - link "[NUEVO]TP-Link Deco X1500(2 Pack)-AX1500 Whole Home Mesh Wi-Fi 6 System-Cobertura hasta 600 m2, 3..." [ref=e1522] [cursor=pointer]:
+                          - /url: /dp/B0CL577P1S/ref=emc_bcc_2_i
+                          - img "[NUEVO]TP-Link Deco X1500(2 Pack)-AX1500 Whole Home Mesh Wi-Fi 6 System-Cobertura hasta 600 m2, 3..." [ref=e1523]
+                      - listitem [ref=e1524]:
+                        - link "TP-Link Deco X50 (3-Pack) - Sistema WiFi 6 AI Mesh, AX3000 Doble Banda 2.4 GHz/5 GHz, Cobertura h..." [ref=e1525] [cursor=pointer]:
+                          - /url: /dp/B09LVG58VX/ref=emc_bcc_2_i
+                          - img "TP-Link Deco X50 (3-Pack) - Sistema WiFi 6 AI Mesh, AX3000 Doble Banda 2.4 GHz/5 GHz, Cobertura h..." [ref=e1526]
+                      - listitem [ref=e1527]:
+                        - link "TP-Link Deco XE75 Mesh WLAN Set (Pack de 3), Enrutador y Repetidor Tribanda Wi-Fi 6E AXE5400, 3 P..." [ref=e1528] [cursor=pointer]:
+                          - /url: /dp/B09ZRY9YHB/ref=emc_bcc_2_i
+                          - img "TP-Link Deco XE75 Mesh WLAN Set (Pack de 3), Enrutador y Repetidor Tribanda Wi-Fi 6E AXE5400, 3 P..." [ref=e1529]
+                      - listitem [ref=e1530]:
+                        - link "TP-Link Deco BE65(2-Pack) Wi-Fi 7 Mesh WLAN Set (Paquete de 3), Tribanda 5760 Mbit/s (6 GHz) + 28..." [ref=e1531] [cursor=pointer]:
+                          - /url: /dp/B0CJJ733W3/ref=emc_bcc_2_i
+                          - img "TP-Link Deco BE65(2-Pack) Wi-Fi 7 Mesh WLAN Set (Paquete de 3), Tribanda 5760 Mbit/s (6 GHz) + 28..." [ref=e1532]
+                    - generic [ref=e1533]:
+                      - heading "Wi-Fi Mesh Más Populares" [level=3] [ref=e1534]
+                      - paragraph [ref=e1535]:
+                        - link "Visita la tienda de TP-Link" [ref=e1536] [cursor=pointer]:
+                          - /url: /stores/page/372412A7-D639-4EAB-8032-43B5996CEB7D?store_ref=storeRecs_dp_aplus
+                          - text: Visita la tienda
+      - generic [ref=e1537]:
+        - separator [ref=e1538]
+        - generic [ref=e1540]:
+          - heading "Información del producto" [level=2] [ref=e1541]
+          - generic [ref=e1544]:
+            - generic [ref=e1547]:
+              - heading "Detalles técnicos" [level=1] [ref=e1550]
+              - table [ref=e1554]:
+                - rowgroup [ref=e1555]:
+                  - row "Marca ‎TP-Link" [ref=e1556]:
+                    - rowheader "Marca" [ref=e1557]
+                    - cell "‎TP-Link" [ref=e1558]
+                  - row "Fabricante ‎TP-Link" [ref=e1559]:
+                    - rowheader "Fabricante" [ref=e1560]
+                    - cell "‎TP-Link" [ref=e1561]
+                  - row "Series ‎RE700X" [ref=e1562]:
+                    - rowheader "Series" [ref=e1563]
+                    - cell "‎RE700X" [ref=e1564]
+                  - row "Dimensiones del producto ‎24 x 69 x 2,5 cm; 250 g" [ref=e1565]:
+                    - rowheader "Dimensiones del producto" [ref=e1566]
+                    - cell "‎24 x 69 x 2,5 cm; 250 g" [ref=e1567]
+                  - row "Número de modelo del producto ‎RE700X" [ref=e1568]:
+                    - rowheader "Número de modelo del producto" [ref=e1569]
+                    - cell "‎RE700X" [ref=e1570]
+                  - row "Color ‎No aplica" [ref=e1571]:
+                    - rowheader "Color" [ref=e1572]
+                    - cell "‎No aplica" [ref=e1573]
+                  - row "Tipo de conexión inalámbrica ‎802.11ax" [ref=e1574]:
+                    - rowheader "Tipo de conexión inalámbrica" [ref=e1575]
+                    - cell "‎802.11ax" [ref=e1576]
+                  - row "Voltaje ‎12 Voltios" [ref=e1577]:
+                    - rowheader "Voltaje" [ref=e1578]
+                    - cell "‎12 Voltios" [ref=e1579]
+                  - row "Pilas incluidas ‎No" [ref=e1580]:
+                    - rowheader "Pilas incluidas" [ref=e1581]
+                    - cell "‎No" [ref=e1582]
+                  - row "Peso del producto ‎250 g" [ref=e1583]:
+                    - rowheader "Peso del producto" [ref=e1584]
+                    - cell "‎250 g" [ref=e1585]
+                  - row "Actualizaciones de software garantizadas hasta ‎desconocido" [ref=e1586]:
+                    - rowheader "Actualizaciones de software garantizadas hasta" [ref=e1587]
+                    - cell "‎desconocido" [ref=e1588]
+            - generic [ref=e1589]:
+              - generic [ref=e1591]:
+                - heading "Información adicional" [level=1] [ref=e1592]
+                - table [ref=e1594]:
+                  - rowgroup [ref=e1595]:
+                    - row "ASIN B09PRG6MJX" [ref=e1596]:
+                      - rowheader "ASIN" [ref=e1597]
+                      - cell "B09PRG6MJX" [ref=e1598]
+                    - row "Valoración media de los clientes 4,5 de 5 estrellas 4.981 Reseñas 4,5 de 5 estrellas" [ref=e1599]:
+                      - rowheader "Valoración media de los clientes" [ref=e1600]
+                      - cell "4,5 de 5 estrellas 4.981 Reseñas 4,5 de 5 estrellas" [ref=e1601]:
+                        - generic [ref=e1602]:
+                          - generic "4,5 de 5 estrellas" [ref=e1604]:
+                            - button "4,5 de 5 estrellas" [ref=e1606] [cursor=pointer]:
+                              - text: 4,5
+                              - generic [ref=e1608]: 4,5 de 5 estrellas
+                          - link "4.981 Reseñas" [ref=e1611] [cursor=pointer]:
+                            - /url: "#averageCustomerReviewsAnchor"
+                            - text: (4.981)
+                        - text: 4,5 de 5 estrellas
+                    - row "Clasificación en los más vendidos de Amazon nº34 en Informática (Ver el Top 100 en Informática) nº4 en Repetidores de red" [ref=e1612]:
+                      - rowheader "Clasificación en los más vendidos de Amazon" [ref=e1613]
+                      - cell "nº34 en Informática (Ver el Top 100 en Informática) nº4 en Repetidores de red" [ref=e1614]:
+                        - list [ref=e1616]:
+                          - listitem [ref=e1617]:
+                            - generic [ref=e1619]:
+                              - text: nº34 en Informática (
+                              - link "Ver el Top 100 en Informática" [ref=e1620] [cursor=pointer]:
+                                - /url: /gp/bestsellers/computers/ref=pd_zg_ts_computers
+                              - text: )
+                          - listitem [ref=e1621]:
+                            - generic [ref=e1623]:
+                              - text: nº4 en
+                              - link "Repetidores de red" [ref=e1624] [cursor=pointer]:
+                                - /url: /gp/bestsellers/computers/937973031/ref=pd_zg_hrsr_computers
+                    - row "Producto en Amazon.es desde 5 marzo 2022" [ref=e1625]:
+                      - rowheader "Producto en Amazon.es desde" [ref=e1626]
+                      - cell "5 marzo 2022" [ref=e1627]
+              - generic [ref=e1629]:
+                - heading "Ayúdanos a mejorar" [level=1] [ref=e1630]
+                - generic [ref=e1635]:
+                  - text: ¿Quieres
+                  - button "informarnos sobre un precio más bajo?" [ref=e1637] [cursor=pointer]: informarnos sobre un precio más bajo?
+    - generic [ref=e1641]:
+      - separator [ref=e1642]
+      - generic [ref=e1643]:
+        - heading "Recursos de seguridad y productos" [level=2] [ref=e1644]
+        - generic [ref=e1646]:
+          - generic [ref=e1647]:
+            - heading "Imágenes y contactos" [level=3] [ref=e1648]
+            - button "Imágenes y contactos de seguridad" [ref=e1650] [cursor=pointer]
+          - generic [ref=e1651]:
+            - heading "Documentos de seguridad" [level=3] [ref=e1652]
+            - generic [ref=e1656]:
+              - link "Declaración de transparencia de datos (PDF)" [ref=e1657] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - generic [ref=e1658]: "|"
+              - link "Guía de usuario (PDF)" [ref=e1659] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - generic [ref=e1660]: "|"
+              - link "Manual de usuario (PDF)" [ref=e1661] [cursor=pointer]:
+                - /url: javascript:void(0)
+    - generic [ref=e1663]:
+      - separator [ref=e1664]
+      - heading "Contenido de la caja" [level=2] [ref=e1665]
+      - listitem [ref=e1667]: Antena.
+    - generic "Reseñas más importantes" [ref=e1670]:
+      - separator [ref=e1671]
+      - generic [ref=e1673]:
+        - generic [ref=e1674]:
+          - generic [ref=e1679]:
+            - heading "Opiniones de clientes" [level=2] [ref=e1681]
+            - generic [ref=e1683]:
+              - generic [ref=e1686]: 4,5 de 5 estrellas
+              - generic [ref=e1689]: 4,5 de 5
+            - generic [ref=e1690]: 4.981 calificaciones globales
+            - list [ref=e1694]:
+              - listitem [ref=e1695]:
+                - link "Un 75 por ciento de las reseñas tienen 5 estrellas" [ref=e1697] [cursor=pointer]:
+                  - /url: /product-reviews/B09PRG6MJX/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1698]: 5 estrellas
+                  - progressbar [ref=e1700]
+                  - generic [ref=e1701]: 75%
+              - listitem [ref=e1702]:
+                - link "Un 13 por ciento de las reseñas tienen 4 estrellas" [ref=e1704] [cursor=pointer]:
+                  - /url: /product-reviews/B09PRG6MJX/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1705]: 4 estrellas
+                  - progressbar [ref=e1707]
+                  - generic [ref=e1708]: 13%
+              - listitem [ref=e1709]:
+                - link "Un 6 por ciento de las reseñas tienen 3 estrellas" [ref=e1711] [cursor=pointer]:
+                  - /url: /product-reviews/B09PRG6MJX/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1712]: 3 estrellas
+                  - progressbar [ref=e1714]
+                  - generic [ref=e1715]: 6%
+              - listitem [ref=e1716]:
+                - link "Un 2 por ciento de las reseñas tienen 2 estrellas" [ref=e1718] [cursor=pointer]:
+                  - /url: /product-reviews/B09PRG6MJX/ref=acr_dp_hist_2?ie=UTF8&filterByStar=two_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1719]: 2 estrellas
+                  - progressbar [ref=e1721]
+                  - generic [ref=e1722]: 2%
+              - listitem [ref=e1723]:
+                - link "Un 4 por ciento de las reseñas tienen 1 estrellas" [ref=e1725] [cursor=pointer]:
+                  - /url: /product-reviews/B09PRG6MJX/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1726]: 1 estrella
+                  - progressbar [ref=e1728]
+                  - generic [ref=e1729]: 4%
+            - button "Cómo funcionan las opiniones y las valoraciones de los clientes" [ref=e1734] [cursor=pointer]: Cómo funcionan las opiniones y las valoraciones de los clientes
+          - separator [ref=e1736]
+          - separator [ref=e1737]
+        - generic [ref=e1741]:
+          - generic [ref=e1745]:
+            - heading "Los clientes dicen" [level=3] [ref=e1746]
+            - generic [ref=e1748]: Los clientes destacan el buen funcionamiento y efectividad del repetidor inalámbrico. Mencionan que ofrece excelente cobertura de señal y buen alcance. La instalación resulta fácil de realizar y configurar, además de ser sencillo de conectar. Los usuarios consideran que es un muy buen producto y repetidor. También aprecian la velocidad y estabilidad del dispositivo, así como su facilidad de uso. Sin embargo, tienen opiniones diversas sobre la estabilidad de conexión.
+            - generic [ref=e1749]:
+              - generic [ref=e1750]:
+                - generic [ref=e1751]: Generado por IA a partir del texto de las opiniones de los clientes
+                - img [ref=e1752]
+                - generic [ref=e1753]: Generado por IA a partir del texto de las opiniones de los clientes
+              - heading "Selecciona para obtener más información" [level=4] [ref=e1754]
+              - tablist "Selecciona para obtener más información" [ref=e1755]:
+                - generic [ref=e1756]:
+                  - tab "Aspecto positivo, funcionamiento, 192 menciones" [ref=e1760]:
+                    - button "Funcionamiento(192)" [ref=e1761] [cursor=pointer]:
+                      - generic [ref=e1762]:
+                        - img [ref=e1763]
+                        - generic [ref=e1765]: Funcionamiento(192)
+                  - tab "Aspecto positivo, cobertura, 172 menciones" [ref=e1770]:
+                    - button "Cobertura(172)" [ref=e1771] [cursor=pointer]:
+                      - generic [ref=e1772]:
+                        - img [ref=e1773]
+                        - generic [ref=e1775]: Cobertura(172)
+                  - tab "Aspecto positivo, facilidad de instalación, 133 menciones" [ref=e1780]:
+                    - button "Facilidad de instalación(133)" [ref=e1781] [cursor=pointer]:
+                      - generic [ref=e1782]:
+                        - img [ref=e1783]
+                        - generic [ref=e1785]: Facilidad de instalación(133)
+                  - tab "Aspecto positivo, calidad, 121 menciones" [ref=e1790]:
+                    - button "Calidad(121)" [ref=e1791] [cursor=pointer]:
+                      - generic [ref=e1792]:
+                        - img [ref=e1793]
+                        - generic [ref=e1795]: Calidad(121)
+                  - tab "Aspecto positivo, velocidad, 56 menciones" [ref=e1800]:
+                    - button "Velocidad(56)" [ref=e1801] [cursor=pointer]:
+                      - generic [ref=e1802]:
+                        - img [ref=e1803]
+                        - generic [ref=e1805]: Velocidad(56)
+                  - tab "Aspecto positivo, estabilidad, 34 menciones" [ref=e1810]:
+                    - button "Estabilidad(34)" [ref=e1811] [cursor=pointer]:
+                      - generic [ref=e1812]:
+                        - img [ref=e1813]
+                        - generic [ref=e1815]: Estabilidad(34)
+                  - tab "Aspecto positivo, facilidad de uso, 30 menciones" [ref=e1820]:
+                    - button "Facilidad de uso(30)" [ref=e1821] [cursor=pointer]:
+                      - generic [ref=e1822]:
+                        - img [ref=e1823]
+                        - generic [ref=e1825]: Facilidad de uso(30)
+                  - tab "Aspecto neutro, estabilidad de conexión, 77 menciones" [ref=e1830]:
+                    - button "Estabilidad de conexión(77)" [ref=e1831] [cursor=pointer]:
+                      - generic [ref=e1832]:
+                        - img [ref=e1833]
+                        - generic [ref=e1835]: Estabilidad de conexión(77)
+          - generic [ref=e1838]:
+            - group [ref=e1840]:
+              - generic [ref=e1841]:
+                - heading "Reseñas con imágenes" [level=3] [ref=e1843]
+                - link "Ver todas las fotos" [ref=e1846] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - group [ref=e1850]:
+                - list [ref=e1851]:
+                  - listitem [ref=e1852]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1853] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1854]
+                  - listitem [ref=e1856]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1857] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1858]
+                  - listitem [ref=e1860]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1861] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1862]
+                  - listitem [ref=e1864]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1865] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1866]
+                  - listitem [ref=e1868]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1869] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1870]
+                  - listitem [ref=e1872]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1873] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1874]
+                  - listitem [ref=e1876]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1877] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1878]
+                  - listitem [ref=e1880]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1881] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1882]
+                  - listitem [ref=e1884]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1885] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1886]
+                  - listitem [ref=e1888]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1889] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1890]
+                  - listitem [ref=e1892]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1893] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1894]
+                  - listitem [ref=e1896]:
+                    - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1897] [cursor=pointer]:
+                      - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1898]
+            - separator [ref=e1900]
+          - generic [ref=e1901]:
+            - generic [ref=e1904]:
+              - heading "Principales reseñas de España" [level=3] [ref=e1906]
+              - list [ref=e1909]:
+                - listitem [ref=e1910]:
+                  - generic [ref=e1913]:
+                    - link "Ndsvan" [ref=e1915] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AEDI7K2DXHZ7PRIZRRDV6DKDUARA
+                      - img [ref=e1918]
+                      - generic [ref=e1919]: Ndsvan
+                    - heading "5,0 de 5 estrellas REPETIDOR / O / PUNTO DE ACCESO MUY BUENO WPA 3 = WIFI 6 NUEVO ESTANDAR AX" [level=5] [ref=e1921]:
+                      - link "5,0 de 5 estrellas REPETIDOR / O / PUNTO DE ACCESO MUY BUENO WPA 3 = WIFI 6 NUEVO ESTANDAR AX" [ref=e1922] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/R133OXKK3SNZQW/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1924]: 5,0 de 5 estrellas
+                        - text: REPETIDOR / O / PUNTO DE ACCESO MUY BUENO WPA 3 = WIFI 6 NUEVO ESTANDAR AX
+                    - heading "Reseñado en España el 4 de diciembre de 2023" [level=6] [ref=e1925]
+                    - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1927] [cursor=pointer]':
+                      - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                      - text: Compra verificada
+                    - generic [ref=e1930]:
+                      - generic [ref=e1932]:
+                        - text: "Es un aparato muy potente y de gran calidad, no hay más que mirar las especificaciones. Se puede usar como \"repetidor\", es decir que coge una señal floja del router principal y te la extiende allí donde la del router no llega bien, o bien como yo lo he configurado: como un \"punto de acceso\" (AP) mediante un cable Ethernet de categoría 8 (de lo mejor) y 15 metros desde el router en mi casa. De esta forma es como si tuviera otro router en realidad, con las mismos nombres de Wifi que el router principal (sistema Mesh) o bien otras dos Wifis independientes, con el mismo nombre y clave (o diferentes, como se quiera) pero añadiendo -Ext al nombre para distinguirlas."
+                        - text: "Trabaja en WiFi 6 (encriptación WPA3, el WPA2 tiene ya 15 años y está obsoleto y es facilmente hackeable en Wifi) un nuevo estándar de seguridad muy sólido pero que no todos los aparatos antiguos de tu casa pueden ser compatibles. No hay problema porque en lugar de establecer encriptación \"WPA 3 personal\" de forma exclusiva, te da la opción : WPA2/WPA3, un mix, los aparatos antiguos irán con WPA2 y los modernos que admiten WPA3 trabajaran con esta otra. Tengo un Ipad 4 de hace 10 años que no se entiende con esta opción (los de Apple siempre tan exclusivos con sus cosas), el resto de las cosas marchan sin problema y lo más importante: A CAÑON."
+                        - text: El router del ISP (proveedor de Internet) por lo general es bastante inferior (nada que ver con el Tp-Link) de calidad y no suelen ser WPA3 (Wifi 6), suelen tener anomalías con bastante frecuencia, por lo que si el operador te lo cambia tienes la gran ventaja de que toda tu configuración y control está en tu router y repetidor TP-link. El router del ISP solo lo uso para la señal de internet que viene de la calle, de éste por cable directo al Router TP-Link es el que uso router de servicio, split de cables Ethernet al resto de la casa y señal WiFi.
+                        - text: Tengo una larga experiencia con esta marca y son productos muy fiables, de gran calidad y muy fáciles de configurar, que puedes hacer a través del navegador o mejor aun con la App Tether.
+                        - text: "Si vives en un núcleo de población de gran densidad (torres de pisos, como en mi caso) tu señal Wifi puede llegar hasta 300 y 500 metros a la redonda, a través de ventanas principalmente y nunca sabes quien puede captar tu señal y como hackearla. Te conviene pasar en Router y Extensor a WiFi 6 (WPA3) un nuevo estándar de encriptación muy dificil de hackear tras 15 años con la WPA2. Piensatelo, no es tanto dinero y te quitas de sustos. Mi combination es: TP-Link Archer AX53 - Router WiFi 6 AX3000, Doble Banda y Extensor RE700X WiFi 6 AX3000 de doble banda."
+                      - button "Lea más de esta reseña" [ref=e1935] [cursor=pointer]: Leer más
+                    - generic [ref=e1937]:
+                      - generic [ref=e1938]:
+                        - generic [ref=e1939]: A 108 personas les ha parecido esto útil
+                        - link "Marcar la reseña como útil" [ref=e1943] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB09PRG6MJX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhCRtI2OdihUMgHjfqlKeuN%252FPgNeDF1OCnfIXXgqFRUfOAAAAAGmcb9kAAAAB%26reviewId%3DR133OXKK3SNZQW%23R133OXKK3SNZQW&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1944]: Útil
+                      - generic [ref=e1946]:
+                        - img [ref=e1947]
+                        - link "Denunciar reseña de Ndsvan" [ref=e1949] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hCRtI2OdihUMgHjfqlKeuN/PgNeDF1OCnfIXXgqFRUfOAAAAAGmcb9kAAAAB&reviewId=R133OXKK3SNZQW
+                          - text: Denunciar
+                - listitem [ref=e1950]:
+                  - generic [ref=e1953]:
+                    - link "STEFANO" [ref=e1955] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AFYOF44EBOY77RVEDESZQ2JUGTQA
+                      - img [ref=e1958]
+                      - generic [ref=e1959]: STEFANO
+                    - heading "5,0 de 5 estrellas Empecé con uno, ¡ahora tengo 5!" [level=5] [ref=e1961]:
+                      - link "5,0 de 5 estrellas Empecé con uno, ¡ahora tengo 5!" [ref=e1962] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/R2O2WFZT7HREKH/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1964]: 5,0 de 5 estrellas
+                        - text: Empecé con uno, ¡ahora tengo 5!
+                    - heading "Reseñado en España el 23 de mayo de 2023" [level=6] [ref=e1965]
+                    - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1967] [cursor=pointer]':
+                      - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                      - text: Compra verificada
+                    - generic [ref=e1970]:
+                      - generic [ref=e1972]:
+                        - text: Tenía un “Súper WiFi 6” con Router y 2 extensores de mi compañía telefónica. El lugar donde se halla el router con un extensor llegaba a tener hasta 800Mb/segundo. Me animé y con la primera oferta compré este TP-Link RE700X y ya pude quitarme de encima un extensor de la compañía que me facilita el acceso a la fibra de 1Gb/segundo. Otra oferta, más barata aún, y compré el segundo TP-Link RE700X pero vista la configuración de ni vivienda, una grande casa terrera con patio interior y paredes portantes, no conseguía llegar al extremo opuesto de mi casa con una velocidad para disfrutar un UHD 4K con Dolby Atmos. Me animé durante la “semana de ofertas locas” y compré un tercer TP-Link RE700X junto con el router TP-Link Archer AX73 y la cosa mejoró muchísimo. Hay que decir que éste tipo de extensor es una maravilla si acompañado con un Router/modem que esté a la altura y como ya dije la vivienda tiene que ser “geométricamente perfecta” para que con uno o dos extensores se cubran todos los rincones de la casa.
+                        - text: Hoy en día tengo 5 extensores TP-Link RE700X y entrando en las impostaciones del Router AX73 liberé la frecuencia de 160 MhZ y la cosa va que es una maravilla! En el salón llego a superar el 1Gb/segundo y al lado opuesto de la vivienda, ¡consigo unos 250Mb/segundo! Nada mal!
+                        - text: Es muy fácil de instalar con la APP Tether de TP-Link, desde allí veo todos los extensores, el router principal y también la Red Mesh que me permite estar conectado siempre al dispositivo con mejor señal y velocidad de datos más alta.
+                        - text: Algo desaconsejable es comprar un extensor de una marca, otro de otra y el router que va directamente enlazado por WLan al Modem de la compañía telefónica de una tercera empresa. Cuando se elige un modelo de una marca definida hay que seguir con ella hasta encontrar la velocidad y estabilidad que uno necesita ya que las necesidades de cada individuo son diferentes.
+                        - text: Aconsejo muy FAVORABLEMENTE el extensor TP-LINK RE700X en cuanto rinde las cosas más fáciles y es muy fácil de instalar y gestionar además de ser muy estable. No molesta demasiado a la vista porque no tiene ninguna antena visible, al contrario del Router Archer AX73 siempre de TP-LINK que tiene 6 y me costó mucho que la parienta lo aceptara 😂.
+                        - text: Bromas a parte ahora que tengo experiencia de unos cuantos meses lo único que cambiaría es el router para comprar el más potente con 8 antenas que es siempre un TP-LINK Archer pero el modelo AX ahora mismo no lo recuerdo. ¿Por qué? Sencillamente por lo que escribí al principio, vivienda grande con azotea enorme y ése router me hubiera servido más pero no es una queja, es sólo una hipotética compra alternativa. Recuerden que son router y extensores que soportan WiFi 6 pero trabajan muy bien con WiFi 5 así que a la hora de decidirse hay que evaluar bien las exigencias y las necesidades reales y si no estamos al tanto de cómo instalar y qué necesitamos siempre estará algún amigo o familiar que nos puede asesorar y ayudar.
+                        - text: Espero que estos comentarios sean útiles para que podamos disfrutar de la actual configuración de los proveedores de servicios internet y redes de fibra óptica.
+                        - text: Saludos a todos
+                      - button "Lea más de esta reseña" [ref=e1975] [cursor=pointer]: Leer más
+                    - generic [ref=e1977]:
+                      - generic [ref=e1978]:
+                        - generic [ref=e1979]: A 88 personas les ha parecido esto útil
+                        - link "Marcar la reseña como útil" [ref=e1983] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB09PRG6MJX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhMRS2p1rI2S0%252FCPoL8YWTO1v7d3QznB9t%252F%252B9FxmeqylKAAAAAGmcb9kAAAAB%26reviewId%3DR2O2WFZT7HREKH%23R2O2WFZT7HREKH&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1984]: Útil
+                      - generic [ref=e1986]:
+                        - img [ref=e1987]
+                        - link "Denunciar reseña de STEFANO" [ref=e1989] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hMRS2p1rI2S0/CPoL8YWTO1v7d3QznB9t/+9FxmeqylKAAAAAGmcb9kAAAAB&reviewId=R2O2WFZT7HREKH
+                          - text: Denunciar
+              - generic [ref=e1991]:
+                - separator [ref=e1992]
+                - link "Ver más opiniones" [ref=e1993] [cursor=pointer]:
+                  - /url: /product-reviews/B09PRG6MJX/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews
+            - generic [ref=e1997]:
+              - generic [ref=e1998]:
+                - heading "Reseñas más importantes de otros países" [level=3] [ref=e1999]
+                - link "Traducir todas las opiniones al español" [ref=e2005] [cursor=pointer]:
+                  - /url: "#customerReviews"
+              - list [ref=e2008]:
+                - listitem [ref=e2009]:
+                  - generic [ref=e2012]:
+                    - generic [ref=e2014]:
+                      - img [ref=e2017]
+                      - generic [ref=e2018]: Marek Tomal
+                    - heading "5,0 de 5 estrellas Działa" [level=5] [ref=e2020]:
+                      - generic [ref=e2022]: 5,0 de 5 estrellas
+                      - generic [ref=e2023]: Działa
+                    - heading "Revisado en Polonia el 5 de enero de 2026" [level=6] [ref=e2024]
+                    - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2026] [cursor=pointer]':
+                      - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                      - text: Compra verificada
+                    - generic [ref=e2031]:
+                      - text: Wzmacniacz działa poprawnie. Ma czuły odbiornik.
+                      - text: Długo wstaje, szczególnie przy pierwszym uruchomieniu.
+                    - generic [ref=e2032]:
+                      - link "Denunciar reseña de Marek Tomal" [ref=e2036] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hNgIPCqj10Olbnq9oZmwLmvxwfJ6TPRtEbfRlRtZgxlbAAAAAGmcb9kAAAAB&reviewId=R1ETIZ3NG997NM
+                        - text: Denunciar
+                      - link "Traducir reseña a Español" [ref=e2039] [cursor=pointer]:
+                        - /url: "#customerReviews"
+                - listitem [ref=e2040]:
+                  - generic [ref=e2043]:
+                    - generic [ref=e2045]:
+                      - img [ref=e2048]
+                      - generic [ref=e2049]: Simone Stoppa
+                    - heading "5,0 de 5 estrellas Più di un Wi-Fi Extender!" [level=5] [ref=e2051]:
+                      - generic [ref=e2053]: 5,0 de 5 estrellas
+                      - generic [ref=e2054]: Più di un Wi-Fi Extender!
+                    - heading "Reseñado en Italia el 23 de enero de 2024" [level=6] [ref=e2055]
+                    - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2057] [cursor=pointer]':
+                      - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                      - text: Compra verificada
+                    - generic [ref=e2060]:
+                      - generic [ref=e2062]:
+                        - text: Il TP-Link RE700X è un ripetitore Wi-Fi che ha dimostrato di essere una soluzione tecnologicamente avanzata per estendere la copertura della rete domestica. Durante il mio utilizzo, ho notato diversi aspetti che ritengo degni di nota.
+                        - text: Innanzitutto, l'installazione è stata estremamente agevole grazie all'interfaccia utente intuitiva e alle chiare istruzioni fornite dal produttore. Il dispositivo supporta le più recenti tecnologie Wi-Fi, incluso lo standard Wi-Fi 6 (802.11ax), garantendo così una connessione veloce e affidabile.
+                        - text: Dal punto di vista delle specifiche tecniche, il RE700X opera su banda duale a 2,4 GHz e 5 GHz, offrendo una flessibilità notevole nella gestione del traffico. La tecnologia Beamforming contribuisce a ottimizzare la direzione del segnale, migliorando l'efficienza della trasmissione dati. Inoltre, la presenza di antenne ad alta potenza aumenta la portata del segnale, estendendo la copertura anche nelle aree precedentemente problematiche.
+                        - text: Una caratteristica apprezzabile è la compatibilità con OneMesh di TP-Link, che consente l'integrazione senza soluzione di continuità con altri dispositivi OneMesh per creare una rete domestica coesa e efficiente.
+                        - text: In termini di sicurezza, il ripetitore offre supporto per le più recenti tecnologie di crittografia, contribuendo a garantire la protezione delle informazioni trasmesse sulla rete.
+                        - text: Il design fisico del RE700X è elegante e discreto, facilitando la collocazione in diversi ambienti domestici senza compromettere l'estetica. La qualità costruttiva è solida, riflettendo l'affidabilità del marchio TP-Link.
+                        - text: In conclusione, il TP-Link RE700X si distingue come un ripetitore Wi-Fi all'avanguardia, offrendo prestazioni elevate, una configurazione agevole e una serie di funzionalità tecniche avanzate che lo rendono ideale per chi cerca una soluzione di estensione della rete altamente performante.
+                      - button "Lea más de esta reseña" [ref=e2065] [cursor=pointer]: Leer más
+                    - list [ref=e2068]:
+                      - listitem [ref=e2069]:
+                        - button "Imagen del cliente" [ref=e2071] [cursor=pointer]:
+                          - img "Imagen del cliente" [ref=e2072]
+                    - generic [ref=e2073]:
+                      - link "Denunciar reseña de Simone Stoppa" [ref=e2077] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hAIA53f0o7kpM0pml8nHON4pbHp89aYtEfMHQqEPFlA+AAAAAGmcb9kAAAAB&reviewId=R1IADE77O5E2ZM
+                        - text: Denunciar
+                      - link "Traducir reseña a Español" [ref=e2080] [cursor=pointer]:
+                        - /url: "#customerReviews"
+                - listitem [ref=e2081]:
+                  - generic [ref=e2084]:
+                    - generic [ref=e2086]:
+                      - img [ref=e2089]
+                      - generic [ref=e2090]: Amazon Customer
+                    - heading "5,0 de 5 estrellas Quality fast WiFi extender" [level=5] [ref=e2092]:
+                      - generic [ref=e2094]: 5,0 de 5 estrellas
+                      - generic [ref=e2095]: Quality fast WiFi extender
+                    - heading "Reseñado en Emiratos Árabes Unidos el 24 de septiembre de 2025" [level=6] [ref=e2096]
+                    - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2098] [cursor=pointer]':
+                      - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                      - text: Compra verificada
+                    - generic [ref=e2103]: Very easy to pair with the router Wi-Fi. Excellent speed and signal strength. No dead spots in the apartment now! Supports dual 2.5g and 5g.
+                    - generic [ref=e2104]:
+                      - link "Denunciar reseña de Amazon Customer" [ref=e2108] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hAsnO/+6+VLHhCgJRsvxWh4cddnbBWOclUFY6GPdQpf4AAAAAGmcb9kAAAAB&reviewId=R1VEPMHOD2JHAA
+                        - text: Denunciar
+                      - link "Traducir reseña a Español" [ref=e2111] [cursor=pointer]:
+                        - /url: "#customerReviews"
+                - listitem [ref=e2112]:
+                  - generic [ref=e2115]:
+                    - generic [ref=e2117]:
+                      - img [ref=e2120]
+                      - generic [ref=e2121]: Edd-k
+                    - heading "1,0 de 5 estrellas Bad product" [level=5] [ref=e2123]:
+                      - generic [ref=e2125]: 1,0 de 5 estrellas
+                      - generic [ref=e2126]: Bad product
+                    - heading "Reseñado en Australia el 26 de marzo de 2025" [level=6] [ref=e2127]
+                    - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2129] [cursor=pointer]':
+                      - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                      - text: Compra verificada
+                    - generic [ref=e2134]: I had a terrible experience with this TP-Link extender. I spent two full days trying to set it up, only to face constant issues. It wouldn’t stay connected for more than a minute, and every time I tried to change a setting, it disconnected again. The app was completely useless, as it couldn’t even connect to the device properly. Overall, this extender was a waste of time and money
+                    - generic [ref=e2135]:
+                      - link "Denunciar reseña de Edd-k" [ref=e2139] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hEYRW3DkXJwTZChut8wrydrhv37ynRjCJOe+52QEhN20AAAAAGmcb9kAAAAB&reviewId=R209X70XJKLA20
+                        - text: Denunciar
+                      - link "Traducir reseña a Español" [ref=e2142] [cursor=pointer]:
+                        - /url: "#customerReviews"
+                - listitem [ref=e2143]:
+                  - generic [ref=e2146]:
+                    - generic [ref=e2148]:
+                      - img [ref=e2151]
+                      - generic [ref=e2152]: Amazon Customer
+                    - heading "4,0 de 5 estrellas Versión Europea" [level=5] [ref=e2154]:
+                      - generic [ref=e2156]: 4,0 de 5 estrellas
+                      - generic [ref=e2157]: Versión Europea
+                    - heading "Reseñado en México el 3 de septiembre de 2022" [level=6] [ref=e2158]
+                    - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2160] [cursor=pointer]':
+                      - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                      - text: Compra verificada
+                    - generic [ref=e2165]: Producto europeo, no es solamente tener que usar un adaptador en otras regiones, pero para conectar a la 5ghz tienes que que cambiar el canal que usa por variación en los protocolos en Europa. Si lo utilizas con un router tp link tienes que desactivar la función que permite ver la 2.4 y 5ghz como una sola red. Fuera de esos detalles funciona bien.
+                    - link "Denunciar reseña de Amazon Customer" [ref=e2170] [cursor=pointer]:
+                      - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hML5y0x+RR73yQyDkZF0FeKMTm3wafmjqSHtY3mx6lEPAAAAAGmcb9kAAAAB&reviewId=R3OGJ9424NP0U0
+                      - text: Denunciar
+              - generic [ref=e2171]:
+                - separator [ref=e2172]
+                - link "Ver más opiniones" [ref=e2173] [cursor=pointer]:
+                  - /url: /product-reviews/B09PRG6MJX/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews
+  - complementary "Productos que has visto recientemente y recomendaciones destacadas"
+  - generic [ref=e2178]:
+    - button "Volver arriba" [ref=e2179] [cursor=pointer]:
+      - generic [ref=e2180]: Volver arriba
+    - generic [ref=e2181]:
+      - generic [ref=e2182]:
+        - heading "Conócenos" [level=6] [ref=e2183]
+        - list [ref=e2184]:
+          - listitem [ref=e2185]:
+            - link "Trabajar en Amazon" [ref=e2186] [cursor=pointer]:
+              - /url: /gp/browse.html?node=923374031&ref_=footer_gw_m_b_careers
+          - listitem [ref=e2187]:
+            - link "Sobre Amazon.es" [ref=e2188] [cursor=pointer]:
+              - /url: https://www.amazon.es/sobreamazon
+          - listitem [ref=e2189]:
+            - link "Sostenibilidad" [ref=e2190] [cursor=pointer]:
+              - /url: https://sostenibilidad.aboutamazon.es/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e2191]:
+            - link "Amazon Science" [ref=e2192] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2194]:
+        - heading "Gana dinero con nosotros" [level=6] [ref=e2195]
+        - list [ref=e2196]:
+          - listitem [ref=e2197]:
+            - link "Vende con más de 47.250€ en incentivos" [ref=e2198] [cursor=pointer]:
+              - /url: https://services.amazon.es/sell.html?ld=AZESSOAFooter&ref_=sdes_soa
+          - listitem [ref=e2199]:
+            - link "Vender en Amazon Business" [ref=e2200] [cursor=pointer]:
+              - /url: https://sell.amazon.es/programas/amazon-business/?ld=AZESB2BRetailFooter
+          - listitem [ref=e2201]:
+            - link "Vende en Amazon Handmade" [ref=e2202] [cursor=pointer]:
+              - /url: https://services.amazon.es/handmade.htm?ref=azessoafoo&ld=AZESHNDFooter
+          - listitem [ref=e2203]:
+            - link "Desarrolla y protege tu marca" [ref=e2204] [cursor=pointer]:
+              - /url: https://sell.amazon.es/propietarios-de-marcas/?ref_=AOESABRLGNRFOOT&ld=AZESBrandRegFooter#inscribe-tu-marca
+          - listitem [ref=e2205]:
+            - link "Programa de afiliados" [ref=e2206] [cursor=pointer]:
+              - /url: https://afiliados.amazon.es/
+          - listitem [ref=e2207]:
+            - link "Logística de Amazon" [ref=e2208] [cursor=pointer]:
+              - /url: https://services.amazon.es/servicios/logistica-de-amazon/funciones-y-ventajas/?ld=AZESFBAFooter
+          - listitem [ref=e2209]:
+            - link "Suministrar a Amazon" [ref=e2210] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta
+          - listitem [ref=e2211]:
+            - link "Promociona tus productos" [ref=e2212] [cursor=pointer]:
+              - /url: https://advertising.amazon.es/products-self-serve?ref_=ext_amzn_ftr
+          - listitem [ref=e2213]:
+            - link "Publica tu libro en Kindle" [ref=e2214] [cursor=pointer]:
+              - /url: https://kdp.amazon.com/?language=es_ES
+          - listitem [ref=e2215]:
+            - link "Amazon Pay" [ref=e2216] [cursor=pointer]:
+              - /url: https://pay.amazon.com/es?ld=AWREESAPAFooter
+          - listitem [ref=e2217]:
+            - link "Alojar un Amazon Hub" [ref=e2218] [cursor=pointer]:
+              - /url: https://www.amazon.es/b?node=13350923031
+      - generic [ref=e2220]:
+        - heading "Métodos de pago Amazon" [level=6] [ref=e2221]
+        - list [ref=e2222]:
+          - listitem [ref=e2223]:
+            - link "Métodos de pago" [ref=e2224] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201262600&ref_=footer_payment
+          - listitem [ref=e2225]:
+            - link "Conversor de divisas de Amazon" [ref=e2226] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201239250&ref_=footer_tfx
+          - listitem [ref=e2227]:
+            - link "Tarjetas regalo" [ref=e2228] [cursor=pointer]:
+              - /url: /gp/gc?ref_=footer_giftcards
+          - listitem [ref=e2229]:
+            - link "Recarga online" [ref=e2230] [cursor=pointer]:
+              - /url: /gp/gc/create?ref_=footer_topup_es
+          - listitem [ref=e2231]:
+            - link "Recarga en tienda" [ref=e2232] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15417070031&ref_=footer_purchase_code
+      - generic [ref=e2234]:
+        - heading "¿Necesitas ayuda?" [level=6] [ref=e2235]
+        - list [ref=e2236]:
+          - listitem [ref=e2237]:
+            - link "Localizar o gestionar compras" [ref=e2238] [cursor=pointer]:
+              - /url: /gp/css/order-history?ref_=footer_hp_ss_comp_tmp
+          - listitem [ref=e2239]:
+            - link "Tarifas y políticas de envío" [ref=e2240] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200522630&ref_=footer_shiprates
+          - listitem [ref=e2241]:
+            - link "Amazon Prime" [ref=e2242] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=e2243]:
+            - link "Devolver o reemplazar productos" [ref=e2244] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2245]:
+            - link "Reciclaje" [ref=e2246] [cursor=pointer]:
+              - /url: /gp/browse.html?node=22380251031&ref_=footer_disposal
+          - listitem [ref=e2247]:
+            - link "Gestionar contenido y dispositivos" [ref=e2248] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e2249]:
+            - link "Retiradas y alertas de seguridad de productos" [ref=e2250] [cursor=pointer]:
+              - /url: https://www.amazon.es/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2251]:
+            - link "App Amazon" [ref=e2252] [cursor=pointer]:
+              - /url: /gp/browse.html?node=5061838031&ref_=footer_mobapp
+          - listitem [ref=e2253]:
+            - link "Atención al Cliente" [ref=e2254] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_cs
+          - listitem [ref=e2255]:
+            - link "IVA sobre los bienes" [ref=e2256] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201239260&ref_=footer_vat
+          - listitem [ref=e2257]:
+            - link "Accesibilidad" [ref=e2258] [cursor=pointer]:
+              - /url: https://www.amazon.es/gp/help/customer/display.html?nodeId=GUUVBZ8WGVFP8R8X&ref_=nav_foot_accessibility
+          - listitem [ref=e2259]:
+            - link "Listas de regalos" [ref=e2260] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e2261]:
+            - link "Denunciar contenido ilegal" [ref=e2262] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=TLtMJsPGBmJPpN3hvy&ref_=footer_report_illegal_content
+    - generic [ref=e2264]:
+      - link "Amazon Spain Home" [ref=e2267] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=e2270]:
+        - generic [ref=e2271]:
+          - link "Elige un idioma para comprar. La selección actual es Castellano." [ref=e2272] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2274]: Castellano
+          - button "Expandir para cambiar idioma o país" [ref=e2275] [cursor=pointer]
+        - button "Elige un país y región para comprar. La selección actual es España." [ref=e2276] [cursor=pointer]:
+          - generic [ref=e2278]: España
+    - generic "Más en Amazon" [ref=e2279]:
+      - generic "Más en Amazon" [ref=e2280]:
+        - list [ref=e2281]:
+          - listitem [ref=e2282]:
+            - link "Amazon Music Transmite millones de canciones" [ref=e2283] [cursor=pointer]:
+              - /url: https://music.amazon.es/?ref=dm_aff_amz_es
+              - heading "Amazon Music" [level=5] [ref=e2284]
+              - generic [ref=e2285]:
+                - text: Transmite millones
+                - text: de canciones
+          - listitem [ref=e2286]
+          - listitem [ref=e2287]:
+            - link "IberLibro Libros, arte & artículos de colección" [ref=e2288] [cursor=pointer]:
+              - /url: https://www.iberlibro.com/
+              - heading "IberLibro" [level=5] [ref=e2289]
+              - generic [ref=e2290]:
+                - text: Libros, arte
+                - text: "& artículos de colección"
+          - listitem [ref=e2291]
+          - listitem [ref=e2292]:
+            - link "Amazon Web Services Servicios Cloud Computing de Amazon" [ref=e2293] [cursor=pointer]:
+              - /url: https://aws.amazon.com/es/?sc_channel=EL&sc_campaign=ES_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2294]
+              - generic [ref=e2295]:
+                - text: Servicios Cloud Computing
+                - text: de Amazon
+          - listitem [ref=e2296]
+          - listitem [ref=e2297]:
+            - link "Kindle Direct Publishing Publica tu libro en papel y digital de manera independiente" [ref=e2298] [cursor=pointer]:
+              - /url: https://kdp.amazon.com/?language=es_ES
+              - heading "Kindle Direct Publishing" [level=5] [ref=e2299]
+              - generic [ref=e2300]:
+                - text: Publica tu libro en papel y digital
+                - text: de manera independiente
+        - list [ref=e2301]:
+          - listitem [ref=e2302]:
+            - link "Amazon Segunda mano Productos devueltos y como nuevos" [ref=e2303] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3582001031&ref_=footer_wrhsdls
+              - heading "Amazon Segunda mano" [level=5] [ref=e2304]
+              - generic [ref=e2305]: Productos devueltos y como nuevos
+          - listitem [ref=e2306]
+          - listitem [ref=e2307]:
+            - link "Shopbop Marcas de moda de diseño" [ref=e2308] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e2309]
+              - generic [ref=e2310]:
+                - text: Marcas
+                - text: de moda de diseño
+          - listitem [ref=e2311]
+          - listitem [ref=e2312]:
+            - link "Amazon Business Servicio para clientes de empresa" [ref=e2313] [cursor=pointer]:
+              - /url: /gp/browse.html?node=14862331031&ref_=nav_footer_business
+              - heading "Amazon Business" [level=5] [ref=e2314]
+              - generic [ref=e2315]:
+                - text: Servicio para
+                - text: clientes de empresa
+          - listitem [ref=e2316]
+          - listitem [ref=e2317]:
+            - link "Audible Disfruta de miles de audiolibros y podcasts originales" [ref=e2318] [cursor=pointer]:
+              - /url: https://www.audible.es
+              - heading "Audible" [level=5] [ref=e2319]
+              - generic [ref=e2320]: Disfruta de miles de audiolibros y podcasts originales
+    - generic [ref=e2321]:
+      - list [ref=e2322]:
+        - listitem [ref=e2323]:
+          - link "Condiciones de Uso y Venta" [ref=e2324] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909000&ref_=footer_cou
+        - listitem [ref=e2325]:
+          - link "Aviso de privacidad" [ref=e2326] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909010&ref_=footer_privacy
+        - listitem [ref=e2327]:
+          - link "Área legal" [ref=e2328] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909250&ref_=footer_legal_area
+        - listitem [ref=e2329]:
+          - link "Cookies" [ref=e2330] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies_notice
+        - listitem [ref=e2331]:
+          - link "Publicidad basada en intereses" [ref=e2332] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909150&ref_=footer_Interest_Based_Ads_Notice
+      - generic [ref=e2333]: © 1996-2026, Amazon.com, Inc. o sus afiliados

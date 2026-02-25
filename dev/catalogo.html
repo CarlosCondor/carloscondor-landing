@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Curated Picks | Premium Minimalist Catalog</title>
+<!-- Tailwind CSS v3 CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Inter -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: '#1152d4', // From THEME_3
+            surface: '#f9f9f9',
+          },
+          borderRadius: {
+            'custom': '8px', // From THEME_3 (ROUND_EIGHT)
+          }
+        }
+      }
+    }
+  </script>
+<style data-purpose="custom-layout">
+    body {
+      background-color: #ffffff;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+    }
+    .product-card-img-container {
+      aspect-ratio: 1 / 1;
+      background-color: #f6f6f6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+    .product-card:hover .product-card-img-container {
+      background-color: #efefef;
+    }
+    .product-card:hover .product-img {
+      transform: scale(1.05);
+    }
+    .product-img {
+      max-width: 80%;
+      max-height: 80%;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    /* Hide scrollbar for category list but allow scrolling */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="font-sans">
+<!-- BEGIN: SiteNavigation -->
+<nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100" data-purpose="main-nav">
+<div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<a class="text-xl font-bold tracking-tighter text-primary" href="#">CURATED.</a>
+<div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-500">
+<a class="hover:text-black transition-colors" href="#">Discover</a>
+<a class="hover:text-black transition-colors" href="#">Browse</a>
+<a class="hover:text-black transition-colors" href="#">Blog</a>
+<a class="hover:text-black transition-colors" href="#">About</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-gray-500 hover:text-black">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</nav>
+<!-- END: SiteNavigation -->
+<main>
+<!-- BEGIN: HeroHeader -->
+<section class="max-w-4xl mx-auto px-6 pt-20 pb-12 text-center" data-purpose="hero-section">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-50 text-green-600 text-[10px] font-semibold uppercase tracking-wider mb-6">
+<span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
+        Updated every Sunday
+      </div>
+<h1 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6 leading-tight">
+        Discover well-designed,<br/>carefully curated products
+      </h1>
+<p class="text-lg text-gray-500 mb-10 max-w-2xl mx-auto">
+        Subscribe and join 4,500+ readers for weekly emails featuring timeless, design-led products across home, work, and life.
+      </p>
+<!-- Subscription Bar -->
+<div class="max-w-md mx-auto flex gap-2">
+<input class="flex-1 px-4 py-3 rounded-custom border border-gray-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all text-sm" placeholder="name@email.com" type="email"/>
+<button class="px-6 py-3 bg-gray-900 text-white font-medium rounded-custom hover:bg-black transition-colors text-sm">Subscribe</button>
+</div>
+</section>
+<!-- END: HeroHeader -->
+<!-- BEGIN: CategoriesFilter -->
+<section class="border-y border-gray-100 mb-12" data-purpose="filter-bar">
+<div class="max-w-7xl mx-auto px-6 overflow-x-auto no-scrollbar py-4 flex items-center justify-between">
+<div class="flex items-center gap-2 md:gap-6">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gray-100 text-black text-sm font-medium">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" fill-rule="evenodd"></path></svg>
+            All
+          </button>
+<button class="px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap">✨ New</button>
+<button class="px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap">⭐ Picks</button>
+<button class="px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap">💻 Tech</button>
+<button class="px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap">🪑 Workspace</button>
+<button class="px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap">🏠 Home</button>
+<button class="px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap">👜 Carry</button>
+<button class="px-3 py-1.5 text-gray-500 hover:text-black text-sm font-medium transition-colors whitespace-nowrap">📚 Books</button>
+</div>
+<button class="text-sm font-medium text-gray-900 ml-4 whitespace-nowrap">See More</button>
+</div>
+</section>
+<!-- END: CategoriesFilter -->
+<!-- BEGIN: ProductGrid -->
+<section class="max-w-7xl mx-auto px-6 pb-20" data-purpose="catalog-grid">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
+<!-- Card 1 -->
+<article class="product-card group cursor-pointer">
+<div class="product-card-img-container rounded-custom relative mb-4">
+<span class="absolute top-4 left-4 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-orange-500 bg-white/90 px-2 py-1 rounded shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> Staff Pick
+            </span>
+<button class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<img alt="Studio Display" class="product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTBct_EiAvVLlIQ4xNqIrnZdqjih6x-VuL4DleqEUCyVC01fg2GFNWK3wd4udxzjg1wMGTPGSeLvRyYqWsq5QCBc7_WlKemEJkrqwp2Altxzse5oPgMTyLYzRrhCRafMbT7kvjncXYsKW-bZpBpUzkCS0vWwM_T2oOQZxxcoyAX020fgKAYInynA0vz-RQSPUnkgzyOy2wcaoeMYcL-9ZMSj2ihVY7WvJ4pP_4bKQJC5a9_lTBYh7jUhYg14eXMnBVLxKAs4bZ3gE"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">Apple · Tech</p>
+<h3 class="text-sm font-bold text-gray-900">Studio Display</h3>
+</div>
+<span class="text-sm font-semibold text-gray-900">$1,599</span>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="product-card group cursor-pointer">
+<div class="product-card-img-container rounded-custom relative mb-4">
+<button class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<img alt="Herman Miller Aeron" class="product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYGRp7awRmWTRTTZs1MEWedJWPy3jpvCunP4lqTRKXyktKcAS8y4I7NomrsTlma87xdoVJzrYumqdVhzrMOrzNVbXD6NPQV4MqLm0geWP-UvxPMvX7rUBE-Qke4mRAYh751K-x2iBkPGRxFNVTZmeAN3ZOPbymXSKASmt9CH3gyxQ6eDs8jsDzAn3t37LYpekuyzWrKp1x3XwAsawR-Dg2SZJ-QMAiGVXdzAPzsOS4xrkbw7Py-nKyYTNLSkbfClS-CJb5o6ievB4"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">Herman Miller · Workspace</p>
+<h3 class="text-sm font-bold text-gray-900">Aeron Chair</h3>
+</div>
+<span class="text-sm font-semibold text-gray-900">$1,830</span>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="product-card group cursor-pointer">
+<div class="product-card-img-container rounded-custom relative mb-4">
+<button class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<img alt="Leica Q3" class="product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHNwc8JxAwAfv8uToqqUNN-q_hbHF-2jYUWRBqou3hlc0n45hp4iloXhA91c7we2iiHBTyBCeB20E0o1Kv3PGSSuP0Z1CXxZfgFRtZ2cq4lr1wi9jaBJ2BPHheHnOxNB4rvXXShJCMnRf-t7RhL0tkoqKmiTX9axBGmEUJQZP1bHHUEcCw3OBiQ3pAUIqQqeObbMzOGKH0qbg7SmERzcwMxPXwUc0FCr5VLcgVFYHReIQhQ-kcxMHcUomv0gq1ZmhjunAFSDEyeMo"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">Leica · Cameras</p>
+<h3 class="text-sm font-bold text-gray-900">Leica Q3</h3>
+</div>
+<span class="text-sm font-semibold text-gray-900">$5,735</span>
+</div>
+</article>
+<!-- Card 4 -->
+<article class="product-card group cursor-pointer">
+<div class="product-card-img-container rounded-custom relative mb-4">
+<span class="absolute top-4 left-4 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-orange-500 bg-white/90 px-2 py-1 rounded shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> Staff Pick
+            </span>
+<button class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<img alt="Fellow Stagg Kettle" class="product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsICp6uCVSgax_RS3K7YCkyAWjqeqmCf9dJ1HfjN2Ogecav6jh6lmPoVZSjuABM-fs_kxz-iemoy-KKTqlEcwBReeduv-8ks3Kv15XavwTUU2qPrTIe2vPE2B_jsrhuzo45Fovkc2oLzQQfCqmA-k3N_KP7UGIeh_2i58zBRytFPjKHPbqrmr4HHLHzDty7We1NQFQYMPZHT-rDKDoWcc6xaTxHcLuZ31dzFLeyoJlFufYUlQ2YeCrliluAd-Y8c70tl0nC7wfUXQ"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">Fellow · Coffee</p>
+<h3 class="text-sm font-bold text-gray-900">Stagg EKG Electric Kettle</h3>
+</div>
+<span class="text-sm font-semibold text-gray-900">$189</span>
+</div>
+</article>
+<!-- Card 5 -->
+<article class="product-card group cursor-pointer">
+<div class="product-card-img-container rounded-custom relative mb-4">
+<button class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<img alt="Mechanical Keyboard" class="product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-a2MK604Iv2l88SCdPw7vXBPK8mVY6FU9MacUvlaYItJARtGZZ3Yr3OgqC6paj4TpDzgcs7Jwt5fOyDfKMoy835lT6brfqaNnAzB3chLOm52ZApZRsoRBerkStK07pT1wwOzAlC46RMp68oTwDrhDotq0ov9WsWh2MD7v_Cut0pLq5Kn-vvnfGfuAIeFA_FFcn07-K3Dchh2G0iWiUPagBXclnk0pWs26ZlCZjde4AixDz_uPyeYV4rXLl_vJqiij1AYVULYK_0g"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">Keychron · Workspace</p>
+<h3 class="text-sm font-bold text-gray-900">Q1 Max Mechanical Keyboard</h3>
+</div>
+<span class="text-sm font-semibold text-gray-900">$189</span>
+</div>
+</article>
+<!-- Card 6 -->
+<article class="product-card group cursor-pointer">
+<div class="product-card-img-container rounded-custom relative mb-4">
+<button class="absolute top-4 right-4 p-2 bg-white/90 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<img alt="Earbuds" class="product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDydVPgE1xgRwmE-cowCGUeQ1-5b7q5gu7zW7rsvYcr3QzURPm114U_gRoH5ug93didveoq4kp0gkd-xmzxSY4nL2TfgTe4xIXBWKxkCj8sfS8JtxhoCBmHPjwgt2T4gOZ3SHIiuSiNYOJzExYYUfsxmfJbT5fGHbUlr0Q03qO-LDAr9wFSRHL4Ruu7Br5UaZkSyrDxOtC5MV0DSXDoRdBkKajps1beCMeU6S4S9B7iVc5Np_ee9k-3zsc3wnVb2CfVpQE9THXhdqs"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">Nothing · Tech</p>
+<h3 class="text-sm font-bold text-gray-900">Ear (2) Headphones</h3>
+</div>
+<span class="text-sm font-semibold text-gray-900">$149</span>
+</div>
+</article>
+</div>
+<!-- Show More Button -->
+<div class="flex justify-center mt-16">
+<button class="px-8 py-3 border border-gray-200 rounded-custom text-sm font-semibold text-gray-900 hover:bg-gray-50 transition-colors">
+          Show More
+        </button>
+</div>
+</section>
+<!-- END: ProductGrid -->
+<!-- BEGIN: NewsletterFooter -->
+<section class="bg-surface py-20 border-t border-gray-100" data-purpose="bottom-newsletter">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-2">
+<div class="mb-6">
+<a class="text-xl font-bold tracking-tighter text-primary" href="#">CURATED.</a>
+</div>
+<div class="flex flex-col gap-4 max-w-sm">
+<div class="flex gap-2">
+<input class="flex-1 px-4 py-2.5 rounded-custom border border-gray-200 focus:ring-1 focus:ring-primary outline-none text-sm bg-white" placeholder="name@email.com" type="email"/>
+<button class="px-5 py-2.5 bg-gray-900 text-white font-medium rounded-custom hover:bg-black transition-colors text-sm">Subscribe</button>
+</div>
+<p class="text-xs text-gray-400 leading-relaxed">
+              Select links may be affiliate links. Prices listed are non-dynamic and may change. I back what I share, and only include products I use, trust or see real value in.
+            </p>
+</div>
+</div>
+<div data-purpose="footer-links">
+<h4 class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-6">Navigation</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-600 font-medium">
+<li><a class="hover:text-black transition-colors" href="#">Discover</a></li>
+<li><a class="hover:text-black transition-colors" href="#">Lists</a></li>
+<li><a class="hover:text-black transition-colors" href="#">Brands</a></li>
+<li><a class="hover:text-black transition-colors" href="#">Categories</a></li>
+<li><a class="hover:text-black transition-colors" href="#">Index</a></li>
+</ul>
+</div>
+<div data-purpose="footer-links">
+<h4 class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-6">Info</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-600 font-medium">
+<li><a class="hover:text-black transition-colors" href="#">About</a></li>
+<li><a class="hover:text-black transition-colors" href="#">Blog</a></li>
+<li><a class="hover:text-black transition-colors" href="#">Legal</a></li>
+</ul>
+<h4 class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-8 mb-6">Contact</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-600 font-medium">
+<li><a class="hover:text-black transition-colors" href="#">Twitter</a></li>
+<li><a class="hover:text-black transition-colors" href="#">Email</a></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- END: NewsletterFooter -->
+<!-- BEGIN: Copyright -->
+<footer class="py-10 border-t border-gray-100" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-gray-400">© 2024 Curated Supply. All rights reserved.</p>
+<p class="text-xs text-gray-400">Made by <a class="hover:text-black" href="#">@JustinFerrua</a></p>
+</div>
+</footer>
+<!-- END: Copyright -->
+</main>
+</body></html>
