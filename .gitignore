@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+node_modules/
+test-results/
+playwright-report/
+dist/
