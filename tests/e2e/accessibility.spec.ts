@@ -1,4 +1,8 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+
+const runAxeScan = async (page: Page) =>
+  new AxeBuilder({ page }).disableRules(['color-contrast']).analyze();
 
 test.describe('Accessibility — Images Alt Text', () => {
   test('all product card images have alt text on picks page', async ({
@@ -71,6 +75,21 @@ test.describe('Accessibility — External Links', () => {
       'https://CarlosCondor.github.io/',
     );
   });
+
+  test('home external links open in a new tab with secure rel', async ({
+    page,
+  }) => {
+    await page.goto('/');
+
+    const blogLink = page.locator('.links a', { hasText: 'Blog' });
+    const linkedInLink = page.locator('.links a', { hasText: 'LinkedIn' });
+    const githubLink = page.locator('.links a', { hasText: 'GitHub' });
+
+    for (const link of [blogLink, linkedInLink, githubLink]) {
+      await expect(link).toHaveAttribute('target', '_blank');
+      await expect(link).toHaveAttribute('rel', 'noopener noreferrer');
+    }
+  });
 });
 
 test.describe('Accessibility — Keyboard Navigation', () => {
@@ -85,8 +104,67 @@ test.describe('Accessibility — Keyboard Navigation', () => {
   test('product cards are focusable links', async ({ page }) => {
     await page.goto('/picks');
     const firstCard = page.locator('[data-picks-grid] [data-pick-card]').first();
+    await expect(firstCard).not.toHaveAttribute('tabindex', '-1');
     await firstCard.focus();
     await expect(firstCard).toBeFocused();
+  });
+
+  test('product cards are reachable via tab navigation', async ({ page }) => {
+    await page.goto('/picks');
+
+    let cardReached = false;
+    for (let i = 0; i < 20; i++) {
+      await page.keyboard.press('Tab');
+      const focusedTag = await page.evaluate(() => document.activeElement?.tagName);
+      const isPickCard = await page.evaluate(
+        () => document.activeElement?.hasAttribute('data-pick-card') ?? false,
+      );
+
+      if (focusedTag === 'A' && isPickCard) {
+        cardReached = true;
+        break;
+      }
+    }
+
+    expect(cardReached).toBe(true);
+  });
+});
+
+test.describe('Accessibility — Automated Axe Checks', () => {
+  test('home page has no serious accessibility violations (except color contrast)', async ({
+    page,
+  }) => {
+    await page.goto('/');
+
+    const results = await runAxeScan(page);
+    const seriousViolations = results.violations.filter((violation) =>
+      ['serious', 'critical'].includes(violation.impact ?? ''),
+    );
+    expect(seriousViolations).toEqual([]);
+  });
+
+  test('picks page has no serious accessibility violations (except color contrast)', async ({
+    page,
+  }) => {
+    await page.goto('/picks');
+
+    const results = await runAxeScan(page);
+    const seriousViolations = results.violations.filter((violation) =>
+      ['serious', 'critical'].includes(violation.impact ?? ''),
+    );
+    expect(seriousViolations).toEqual([]);
+  });
+
+  test('pick detail page has no serious accessibility violations (except color contrast)', async ({
+    page,
+  }) => {
+    await page.goto('/picks/raspberry-pi-5-8gb/');
+
+    const results = await runAxeScan(page);
+    const seriousViolations = results.violations.filter((violation) =>
+      ['serious', 'critical'].includes(violation.impact ?? ''),
+    );
+    expect(seriousViolations).toEqual([]);
   });
 });
 

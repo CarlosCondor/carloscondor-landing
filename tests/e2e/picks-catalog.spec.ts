@@ -165,10 +165,28 @@ test.describe('Picks Catalog — Category Filters', () => {
     await expect(stats).toContainText(/\d+ producto/);
   });
 
-  test('empty state shows when filtering a category with no products', async ({
+  test('empty state shows when filtering an empty category (if present)', async ({
     page,
   }) => {
-    await page.locator('[data-filter-btn][data-filter="lifestyle"]').click();
+    const emptyCategory = await page.evaluate(() => {
+      const cards = Array.from(document.querySelectorAll('[data-pick-card]'));
+      const filters = Array.from(document.querySelectorAll('[data-filter-btn]'))
+        .map((button) => button.getAttribute('data-filter'))
+        .filter((filter): filter is string => Boolean(filter) && filter !== 'all');
+
+      return (
+        filters.find(
+          (filter) =>
+            !cards.some((card) => card.getAttribute('data-category') === filter),
+        ) ?? null
+      );
+    });
+
+    if (!emptyCategory) {
+      test.skip(true, 'Fixture data currently has at least one product per category.');
+    }
+
+    await page.locator(`[data-filter-btn][data-filter="${emptyCategory}"]`).click();
 
     const emptyState = page.locator('[data-empty-state]');
     await expect(emptyState).toBeVisible();

@@ -6,6 +6,7 @@ const FIRST_TITLE = 'Raspberry Pi 5 8GB';
 const FIRST_BRAND = 'Selección personal';
 const FIRST_CATEGORY_LABEL = 'Espacio de trabajo';
 const FIRST_PRICE = '139 €';
+// Intentional fixture assertion: this guards accidental affiliate-link changes.
 const FIRST_AFFILIATE_URL = 'https://amzn.to/4tYgNWz';
 
 /** All slugs for iteration tests */

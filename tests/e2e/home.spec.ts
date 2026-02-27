@@ -13,6 +13,7 @@ test.describe('Home Page', () => {
     const profileImg = page.locator('.profile-image img');
     await expect(profileImg).toBeVisible();
     await expect(profileImg).toHaveAttribute('src', '/images/yo.jpg');
+    await expect(profileImg).toHaveAttribute('alt', 'Juan Carlos Delgado');
   });
 
   test('displays name and subtitle', async ({ page }) => {
@@ -30,19 +31,38 @@ test.describe('Home Page', () => {
 
     const expectedLinks = [
       { text: 'Productos recomendados', href: '/picks' },
-      { text: 'Blog', href: 'https://CarlosCondor.github.io/' },
+      {
+        text: 'Blog',
+        href: 'https://CarlosCondor.github.io/',
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      },
       { text: 'Contacto', href: 'mailto:j.carloscondor@gmail.com' },
       {
         text: 'LinkedIn',
         href: 'https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/',
+        target: '_blank',
+        rel: 'noopener noreferrer',
       },
-      { text: 'GitHub', href: 'http://github.com/carloscondor' },
+      {
+        text: 'GitHub',
+        href: 'https://github.com/carloscondor',
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      },
     ];
 
     for (let i = 0; i < expectedLinks.length; i++) {
       const link = links.nth(i);
       await expect(link).toHaveText(expectedLinks[i].text);
       await expect(link).toHaveAttribute('href', expectedLinks[i].href);
+
+      if ('target' in expectedLinks[i]) {
+        await expect(link).toHaveAttribute('target', expectedLinks[i].target);
+      }
+      if ('rel' in expectedLinks[i]) {
+        await expect(link).toHaveAttribute('rel', expectedLinks[i].rel);
+      }
     }
   });
 
