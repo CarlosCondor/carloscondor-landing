@@ -1,0 +1,1877 @@
+- generic [ref=e2]:
+  - navigation "Menú de métodos abreviados" [ref=e30]:
+    - heading "Saltar a" [level=2] [ref=e31]
+    - list "Saltar a" [ref=e32]:
+      - listitem [ref=e33]:
+        - link "Contenido principal" [ref=e34] [cursor=pointer]:
+          - /url: "#skippedLink"
+      - listitem [ref=e35]:
+        - link "Saltar a las opciones de compra" [ref=e36] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Opciones de compra
+      - listitem [ref=e37]:
+        - link "Opiniones" [ref=e38] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=e39]
+    - heading "Métodos abreviados de teclado" [level=2] [ref=e40]
+    - list "Métodos abreviados de teclado" [ref=e41]:
+      - listitem [ref=e42]:
+        - link "Buscar, opción, barra diagonal" [ref=e43] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e44]:
+            - generic [ref=e45]: Buscar
+            - generic [ref=e46]:
+              - generic [ref=e47]: opt
+              - generic [ref=e48]: +
+              - generic [ref=e49]: /
+      - listitem [ref=e50]:
+        - link "Cesta, Mayús, opción, c" [ref=e51] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e52]:
+            - generic [ref=e53]: Cesta
+            - generic [ref=e54]:
+              - generic [ref=e55]: mayús
+              - generic [ref=e56]: +
+              - generic [ref=e57]: opt
+              - generic [ref=e58]: +
+              - generic [ref=e59]: C
+      - listitem [ref=e60]:
+        - link "Inicio, Mayús, opción, h" [ref=e61] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e62]:
+            - generic [ref=e63]: Inicio
+            - generic [ref=e64]:
+              - generic [ref=e65]: mayús
+              - generic [ref=e66]: +
+              - generic [ref=e67]: opt
+              - generic [ref=e68]: +
+              - generic [ref=e69]: H
+      - listitem [ref=e70]:
+        - link "Tus pedidos, Mayús, opción, o" [ref=e71] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e72]:
+            - generic [ref=e73]: Pedidos
+            - generic [ref=e74]:
+              - generic [ref=e75]: mayús
+              - generic [ref=e76]: +
+              - generic [ref=e77]: opt
+              - generic [ref=e78]: +
+              - generic [ref=e79]: O
+      - listitem [ref=e80]:
+        - button "Añadir a la cesta, mayús, opción, K" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - generic [ref=e83]: Añadir a la cesta
+            - generic [ref=e84]:
+              - generic [ref=e85]: mayús
+              - generic [ref=e86]: +
+              - generic [ref=e87]: opt
+              - generic [ref=e88]: +
+              - generic [ref=e89]: K
+      - listitem [ref=e90]:
+        - button "Mostrar/ocultar los atajos, Mayús, opción, z" [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: Mostrar/ocultar métodos abreviados
+            - generic [ref=e94]:
+              - generic [ref=e95]: mayús
+              - generic [ref=e96]: +
+              - generic [ref=e97]: opt
+              - generic [ref=e98]: +
+              - generic [ref=e99]: Z
+    - generic [ref=e105]: Para moverte entre los productos, usa las flechas arriba o abajo del teclado.
+  - banner [ref=e106]:
+    - navigation "Principal" [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - link "Amazon.es" [ref=e111] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .es
+          - button "Entrega en Zafra 06300 Actualizar ubicación" [ref=e114] [cursor=pointer]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: Entrega en Zafra 06300
+              - generic [ref=e118]: Actualizar ubicación
+        - search [ref=e121]:
+          - generic [ref=e124]:
+            - generic [ref=e126]: Alimentación y bebidas
+            - combobox "Selecciona el departamento que quieras buscar" [ref=e128] [cursor=pointer]:
+              - option "Todos los departamentos"
+              - option "Alexa Skills"
+              - option "Alimentación y bebidas" [selected]
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon Segunda mano"
+              - option "Aplicaciones y juegos"
+              - option "Audible audiolibros y podcasts exclusivos"
+              - option "Bebé"
+              - option "Belleza"
+              - option "Bricolaje y herramientas"
+              - option "Cheques regalo"
+              - option "Coche y Moto - Piezas y accesorios"
+              - option "Deportes y aire libre"
+              - option "Dispositivos de Amazon"
+              - option "Electrónica"
+              - option "Equipaje y accesorios de viaje"
+              - option "Grandes electrodomésticos"
+              - option "Handmade"
+              - option "Hogar y cocina"
+              - option "Iluminación"
+              - option "Industria y ciencia"
+              - option "Informática"
+              - option "Instrumentos musicales"
+              - option "Jardín"
+              - option "Juguetes y juegos"
+              - option "Libros"
+              - option "Luxury Stores"
+              - option "Menos de 10€"
+              - option "Moda"
+              - option "Ropa, zapatos y joyería para mujer"
+              - option "Ropa, zapatos y joyería para hombre"
+              - option "Ropa, zapatos y joyería para chicas"
+              - option "Ropa, zapatos y joyería para chicos"
+              - option "Ropa, zapatos y joyería de bebé"
+              - option "Música Digital"
+              - 'option "Música: CDs y vinilos"'
+              - option "Oficina y papelería"
+              - option "Películas y TV"
+              - option "Prime Video"
+              - option "Productos para mascotas"
+              - option "Salud y cuidado personal"
+              - option "Software"
+              - option "Suscríbete y Ahorra"
+              - option "Tienda Kindle"
+              - option "Videojuegos"
+          - searchbox "Buscar en Amazon.es" [ref=e131]
+          - generic "Ir" [ref=e134] [cursor=pointer]:
+            - button "Ir" [ref=e135]
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - link "Elige un idioma para comprar en Amazon España. La selección actual es Castellano (ES)." [ref=e139] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e142]:
+                - img "España" [ref=e143]
+                - generic [ref=e144]: ES
+            - button "Expandir para cambiar idioma o país" [ref=e145] [cursor=pointer]
+          - generic [ref=e146]:
+            - link "Hola, identifícate Cuenta y listas" [ref=e147] [cursor=pointer]:
+              - /url: https://www.amazon.es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.es%2FSpecialty-Colombia-Especialidad-Arabica-Espresso%2Fdp%2FB08JK6XZ9D%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e149]: Hola, identifícate
+              - generic [ref=e150]: Cuenta y listas
+            - button "Amplía la cuenta y las listas" [ref=e151] [cursor=pointer]
+          - link "Devoluciones y Pedidos" [ref=e152] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e153]: Devoluciones
+            - generic [ref=e154]: y Pedidos
+          - link "0 artículos en la cesta" [ref=e155] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e157]: "0"
+            - generic [ref=e160]: Cesta
+      - generic [ref=e161]:
+        - button "Abrir el menú de todas las categorías" [ref=e163] [cursor=pointer]:
+          - generic [ref=e165]: Todo
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - link "Amazon Haul" [ref=e172] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e173]:
+            - link "Fiesta de Ofertas de Primavera" [ref=e175] [cursor=pointer]:
+              - /url: /springdealdays?ref_=nav_cs_gb_td_ss_dt_cr
+          - listitem [ref=e176]:
+            - link "Últimas Novedades" [ref=e178] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e179]:
+            - link "Los más vendidos" [ref=e181] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e182]:
+            - link "Amazon Basics" [ref=e184] [cursor=pointer]:
+              - /url: /amazonbasics/?field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e185]:
+            - link "Hogar y cocina" [ref=e187] [cursor=pointer]:
+              - /url: /Hogar-y-cocina/b/?ie=UTF8&node=599391031&ref_=nav_cs_home
+          - listitem [ref=e188]:
+            - link "Informática" [ref=e190] [cursor=pointer]:
+              - /url: /informatica/b/?ie=UTF8&node=667049031&ref_=nav_cs_pc
+          - listitem [ref=e191]:
+            - link "Libros" [ref=e193] [cursor=pointer]:
+              - /url: /comprar-libros-espa%C3%B1ol/b/?ie=UTF8&node=599364031&ref_=nav_cs_books
+          - listitem [ref=e194]:
+            - link "Deportes y Aire libre" [ref=e196] [cursor=pointer]:
+              - /url: /deportes-aire-libre/b/?ie=UTF8&node=2454136031&ref_=nav_cs_sports
+          - listitem [ref=e197]:
+            - generic [ref=e198]:
+              - link "Tarjetas regalo" [ref=e199] [cursor=pointer]:
+                - /url: /cheques-regalo/b/?ie=UTF8&node=3564279031&ref_=nav_cs_gc
+              - button "Datos de Tarjetas regalo" [ref=e200] [cursor=pointer]
+          - listitem [ref=e201]:
+            - link "Electrónica y Fotografía" [ref=e203] [cursor=pointer]:
+              - /url: /electronica/b/?ie=UTF8&node=599370031&ref_=nav_cs_electronics
+          - listitem [ref=e204]:
+            - link "Bricolaje y herramientas" [ref=e206] [cursor=pointer]:
+              - /url: /Bricolaje-Herramientas-Fontaneria-Ferreteria-Jardineria/b/?ie=UTF8&node=2454133031&ref_=nav_cs_hi
+          - listitem [ref=e207]:
+            - link "Juguetes y juegos" [ref=e209] [cursor=pointer]:
+              - /url: /Juguetes-y-juegos/b/?ie=UTF8&node=599385031&ref_=nav_cs_toys
+          - listitem [ref=e210]:
+            - link "Videojuegos" [ref=e212] [cursor=pointer]:
+              - /url: /videojuegos-accesorios-consolas/b/?ie=UTF8&node=599382031&ref_=nav_cs_video_games
+          - listitem [ref=e213]:
+            - link "Coche y moto" [ref=e215] [cursor=pointer]:
+              - /url: /Coche-y-moto/b/?ie=UTF8&node=1951051031&ref_=nav_cs_automotive
+          - listitem [ref=e216]:
+            - link "Bebé" [ref=e218] [cursor=pointer]:
+              - /url: /bebe/b/?ie=UTF8&node=1703495031&ref_=nav_cs_baby
+          - listitem [ref=e219]:
+            - link "Salud y cuidado personal" [ref=e221] [cursor=pointer]:
+              - /url: /Salud-y-cuidado-personal/b/?ie=UTF8&node=3677430031&ref_=nav_cs_hpc
+          - listitem [ref=e222]:
+            - link "Moda" [ref=e224] [cursor=pointer]:
+              - /url: /moda/b/?ie=UTF8&node=5512276031&ref_=nav_cs_fashion
+          - listitem [ref=e225]:
+            - generic [ref=e226]:
+              - link "Prime" [ref=e227] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Datos de Prime" [ref=e228] [cursor=pointer]
+          - listitem [ref=e229]:
+            - link "Básicos del día a día" [ref=e231] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials?ref_=nav_cs_ee
+          - listitem [ref=e232]:
+            - link "eBooks Kindle" [ref=e234] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=827231031&ref_=nav_cs_kindle_books
+          - listitem [ref=e235]:
+            - link "Productos personalizados" [ref=e237] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=14578063031&ref_=nav_cs_custom
+          - listitem [ref=e238]:
+            - link "Belleza" [ref=e240] [cursor=pointer]:
+              - /url: /Belleza/b/?ie=UTF8&node=6198054031&ref_=nav_cs_beauty
+          - listitem [ref=e241]:
+            - link "Vender en Amazon" [ref=e243] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZESGNOSellC&node=2383605031&ref_=nav_cs_sell
+          - listitem [ref=e244]:
+            - link "Envío Gratis" [ref=e246] [cursor=pointer]:
+              - /url: /b/?node=27173191031&ref_=nav_cs_freeshipping
+          - listitem [ref=e247]:
+            - link "Suscríbete y ahorra" [ref=e249] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e250]:
+            - link "Kit de Compras" [ref=e252] [cursor=pointer]:
+              - /url: /b/?node=15419504031&ref_=nav_cs_shoppertoolkit
+          - listitem [ref=e253]:
+            - link "Atención al Cliente" [ref=e255] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Fiesta de Ofertas de Primavera" [ref=e259] [cursor=pointer]:
+          - /url: /springdealdays/?_encoding=UTF8&ref_=nav_swm_Fiesta%20de%20Ofertas%20de%20Primavera&pf_rd_p=fd7b083e-64d4-4d04-8112-3063065f033a&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A1RKKUPIHCS9HS&pf_rd_r=5GSDA255BQX2FX475G14
+          - img "Fiesta de Ofertas de Primavera" [ref=e260]
+      - list [ref=e263]:
+        - listitem [ref=e264]:
+          - link "Alimentación y bebidas" [ref=e266] [cursor=pointer]:
+            - /url: /Categorias/b/?ie=UTF8&node=6198073031&ref_=topnav_storetab_sv_grocery_1
+        - listitem [ref=e267]:
+          - link "Ofertas" [ref=e269] [cursor=pointer]:
+            - /url: https://www.amazon.es/gp/goldbox/?ie=UTF8&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%25226C2C54F43CC0E0912AD2DD734C615F84%2522%252C%2522departments%2522%253A%255B%25226198072031%2522%255D%252C%2522sorting%2522%253A%2522BY_SCORE%2522%257D&ref_=sv_sv_grocery_1_1
+        - listitem [ref=e270]:
+          - link "Los más vendidos" [ref=e272] [cursor=pointer]:
+            - /url: /gp/bestsellers/grocery/?ie=UTF8&ref_=sv_sv_grocery_1_2
+        - listitem [ref=e273]:
+          - link "Aperitivos" [ref=e275] [cursor=pointer]:
+            - /url: /Aperitivos/b/?ie=UTF8&node=6347413031&ref_=sv_sv_grocery_1_3
+        - listitem [ref=e276]:
+          - link "Legumbres, arroces y harinas" [ref=e278] [cursor=pointer]:
+            - /url: /Legumbres-Arroces-Harinas/b/?ie=UTF8&node=6349951031&ref_=sv_sv_grocery_1_4
+        - listitem [ref=e279]:
+          - link "Salsas, condimentos y aliños" [ref=e281] [cursor=pointer]:
+            - /url: /Salsas/b/?ie=UTF8&node=6373017031&ref_=sv_sv_grocery_1_5
+        - listitem [ref=e282]:
+          - link "Café, té y bebidas" [ref=e284] [cursor=pointer]:
+            - /url: /Cafe-Te-Bebidas/b/?ie=UTF8&node=6347509031&ref_=sv_sv_grocery_1_6
+        - listitem [ref=e285]:
+          - link "Dulces" [ref=e287] [cursor=pointer]:
+            - /url: /Dulces-Chocolates-Chicles/b/?ie=UTF8&node=6348124031&ref_=sv_sv_grocery_1_7
+        - listitem [ref=e288]:
+          - link "Bebidas alcohólicas" [ref=e290] [cursor=pointer]:
+            - /url: /Cervezas-Vinos-Licores/b/?ie=UTF8&node=6347711031&ref_=sv_sv_grocery_1_8
+        - listitem [ref=e291]:
+          - link "Alimentación y vinos de España" [ref=e293] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=11529232031&ref_=sv_sv_grocery_1_9
+        - listitem [ref=e294]:
+          - link "Suscríbete y ahorra" [ref=e296] [cursor=pointer]:
+            - /url: /Suscribete-Ahorra/b/?ie=UTF8&node=9699700031&ref_=sv_sv_grocery_1_10
+      - dialog [ref=e297]
+  - generic [ref=e299]:
+    - heading "El resumen del producto presenta información clave del producto Método abreviado de teclado mayús + opt + D" [level=1] [ref=e302]:
+      - button "El resumen del producto presenta información clave del producto" [ref=e303] [cursor=pointer]:
+        - generic [ref=e304]: El resumen del producto presenta información clave del producto
+      - separator [ref=e306]
+      - generic [ref=e307]:
+        - text: Método abreviado de teclado
+        - generic [ref=e308]: mayús + opt + D
+    - main [ref=e309]:
+      - list [ref=e315]:
+        - listitem [ref=e316]:
+          - link "Alimentación y bebidas" [ref=e318] [cursor=pointer]:
+            - /url: /Supermercado/b/ref=dp_bc_1?ie=UTF8&node=6198072031
+        - listitem [ref=e319]: ›
+        - listitem [ref=e320]:
+          - link "Café, té y bebidas" [ref=e322] [cursor=pointer]:
+            - /url: /Cafe-Te-Bebidas/b/ref=dp_bc_2?ie=UTF8&node=6347509031
+        - listitem [ref=e323]: ›
+        - listitem [ref=e324]:
+          - link "Café" [ref=e326] [cursor=pointer]:
+            - /url: /Cafe-Espreso/b/ref=dp_bc_3?ie=UTF8&node=6347531031
+        - listitem [ref=e327]: ›
+        - listitem [ref=e328]:
+          - link "Granos de café enteros" [ref=e330] [cursor=pointer]:
+            - /url: /Granos-caf%C3%A9-enteros/b/ref=dp_bc_4?ie=UTF8&node=28055437031
+        - listitem [ref=e331]: ›
+        - listitem [ref=e332]:
+          - link "Café de grano tostado" [ref=e334] [cursor=pointer]:
+            - /url: /b/ref=dp_bc_5?ie=UTF8&node=12668276031
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e340]:
+            - img "Logo de Amazon Prime" [ref=e342]
+            - generic [ref=e343]: Disfruta de entregas rápidas y gratis, ofertas exclusivas y películas y series de televisión galardonadas.
+            - button "Únete a Prime" [ref=e345] [cursor=pointer]
+          - generic [ref=e349]:
+            - group [ref=e352]:
+              - generic [ref=e354]:
+                - button "Compra única 35,50€ 35,50&nbsp;&euro; por kg" [expanded] [ref=e355]:
+                  - heading "Compra única 35,50€ 35,50&nbsp;&euro; por kg" [level=5] [ref=e357]:
+                    - generic [ref=e358]: Compra única
+                    - generic [ref=e365]:
+                      - generic [ref=e366]:
+                        - generic [ref=e367]: 35,50€
+                        - generic [ref=e368]:
+                          - generic [ref=e369]:
+                            - text: "35"
+                            - generic [ref=e370]: ","
+                          - text: 50€
+                      - generic [ref=e371]:
+                        - generic [ref=e372]: 35,50&nbsp;&euro; por kg
+                        - generic [ref=e373]:
+                          - text: (
+                          - generic [ref=e374]:
+                            - generic [ref=e375]: 35,50€
+                            - text: 35,50€
+                          - text: / kg)
+                - generic [ref=e380]:
+                  - generic [ref=e382]:
+                    - generic [ref=e385]:
+                      - generic [ref=e387]:
+                        - text: Entrega GRATIS el viernes, 13 de marzo.
+                        - link "Detalles sobre los gastos de entrega y los métodos de envío" [ref=e388] [cursor=pointer]:
+                          - /url: /gp/help/customer/display.html/?nodeId=202093880
+                          - text: Ver detalles
+                      - generic [ref=e390]:
+                        - text: entrega más rápida mañana, 11 de marzo. Haz el pedido en 11 horas 19 mins.
+                        - link "Detalles sobre los gastos de entrega y los métodos de envío" [ref=e391] [cursor=pointer]:
+                          - /url: /gp/help/customer/display.html/?nodeId=202093880
+                          - text: Ver detalles
+                    - button "Entrega en Zafra 06300 - Actualizar ubicación" [ref=e394] [cursor=pointer]:
+                      - generic [ref=e400]: Entrega en Zafra 06300 - Actualizar ubicación
+                  - generic [ref=e403]: Sólo queda(n) 3 en stock.
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: "Cantidad:"
+                    - combobox "Cantidad:" [ref=e413]:
+                      - option "1" [selected]
+                      - option "2"
+                      - option "3"
+                    - generic [ref=e416] [cursor=pointer]: Cantidad:1
+                  - generic [ref=e423] [cursor=pointer]:
+                    - button "Añadir a la cesta" [ref=e424]
+                    - generic [ref=e425]: Añadir a la cesta
+                  - generic [ref=e430] [cursor=pointer]:
+                    - button "Comprar ya" [ref=e431]
+                    - generic [ref=e432]: Comprar ya
+                  - group "Información del vendedor, el envío y las opciones de compra" [ref=e437]:
+                    - generic [ref=e438]:
+                      - heading "Envío desde" [level=4] [ref=e439]:
+                        - generic [ref=e440]: Envío desde
+                      - generic [ref=e443]: Amazon
+                    - generic [ref=e444]:
+                      - heading "Vendido por" [level=4] [ref=e445]:
+                        - generic [ref=e446]: Vendido por
+                      - link "Bocono Specialty Coffee" [ref=e449] [cursor=pointer]:
+                        - /url: /gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A37YDP2RK5A18N&asin=B08JK6XZ9D&ref_=dp_merchant_link&isAmazonFulfilled=1
+                    - generic [ref=e450]:
+                      - heading "Devoluciones" [level=4] [ref=e451]:
+                        - generic [ref=e452]: Devoluciones
+                      - button "Ver política de devoluciones" [ref=e455] [cursor=pointer]:
+                        - generic [ref=e456]: Ver política de devoluciones
+                    - generic [ref=e458]:
+                      - generic [ref=e459]:
+                        - heading "Pago" [level=4] [ref=e460]:
+                          - generic [ref=e461]: Pago
+                        - button "Transacción segura" [ref=e464] [cursor=pointer]:
+                          - generic [ref=e465]: Transacción segura
+                      - generic [ref=e466]:
+                        - heading "Garantía legal" [level=4] [ref=e467]:
+                          - generic [ref=e468]: Garantía legal
+                        - button "Disponible" [ref=e471] [cursor=pointer]:
+                          - generic [ref=e472]: Disponible
+                  - generic [ref=e475]:
+                    - checkbox "Añade un ticket de regalo para facilitar las devoluciones" [ref=e476]
+                    - generic [ref=e477]: Añade un ticket de regalo para facilitar las devoluciones
+              - button "Compra recurrente 33,72€ 33,72&nbsp;&euro; por kg Entrega GRATIS el viernes, 13 de marzo Envío desde Amazon Vendido por Bocono Specialty Coffee" [ref=e480] [cursor=pointer]:
+                - heading "Compra recurrente 33,72€ 33,72&nbsp;&euro; por kg Entrega GRATIS el viernes, 13 de marzo Envío desde Amazon Vendido por Bocono Specialty Coffee" [level=5] [ref=e482]:
+                  - generic [ref=e483]:
+                    - generic [ref=e486]: Compra recurrente
+                    - generic [ref=e496]:
+                      - generic [ref=e497]:
+                        - generic [ref=e498]: 33,72€
+                        - generic [ref=e499]:
+                          - generic [ref=e500]:
+                            - text: "33"
+                            - generic [ref=e501]: ","
+                          - text: 72€
+                      - generic [ref=e502]:
+                        - generic [ref=e503]: 33,72&nbsp;&euro; por kg
+                        - generic [ref=e504]:
+                          - text: (
+                          - generic [ref=e505]:
+                            - generic [ref=e506]: 33,72€
+                            - text: 33,72€
+                          - text: / kg)
+                    - generic [ref=e511]: Entrega GRATIS el viernes, 13 de marzo
+                    - generic [ref=e515]:
+                      - generic [ref=e516]:
+                        - generic [ref=e518]: Envío desde
+                        - generic [ref=e521]: Amazon
+                      - generic [ref=e522]:
+                        - generic [ref=e524]: Vendido por
+                        - generic [ref=e527]:
+                          - link "Bocono Specialty Coffee":
+                            - /url: /gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A37YDP2RK5A18N&asin=B08JK6XZ9D&ref_=dp_merchant_link&isAmazonFulfilled=1
+            - link "Añadir a la Lista de deseos" [ref=e536] [cursor=pointer]:
+              - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fgp%2Faw%2Fd%2FB08JK6XZ9D&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esamazon&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+        - generic [ref=e540]:
+          - button "Compartir" [ref=e541]:
+            - button "Compartir" [ref=e542] [cursor=pointer]
+          - generic [ref=e545]:
+            - radiogroup [ref=e547]:
+              - listitem [ref=e548]:
+                - radio [ref=e553] [cursor=pointer]
+              - listitem [ref=e555]:
+                - radio [ref=e560] [cursor=pointer]
+              - listitem [ref=e562]:
+                - radio [ref=e567] [cursor=pointer]
+              - listitem [ref=e569]:
+                - radio [ref=e574] [cursor=pointer]
+              - listitem [ref=e576]:
+                - radio [ref=e581] [cursor=pointer]
+              - listitem [ref=e583]:
+                - generic [ref=e587] [cursor=pointer]:
+                  - radio "2+" [ref=e588]
+                  - generic [ref=e590]: 2+
+              - listitem [ref=e591]:
+                - generic [ref=e593]:
+                  - radio [ref=e596] [cursor=pointer]
+                  - generic [ref=e598]: VÍDEO
+            - generic [ref=e599]:
+              - generic [ref=e601]:
+                - list
+                - list [ref=e602]:
+                  - listitem [ref=e603] [cursor=pointer]:
+                    - button "Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano" [ref=e606]:
+                      - img "Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano" [ref=e607]
+                  - text:           
+              - link "Haz clic para ver la vista completa" [ref=e2310] [cursor=pointer]:
+                - /url: "#"
+          - text:           
+        - generic [ref=e612]:
+          - heading "Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano" [level=1] [ref=e615]
+          - link "Visita la tienda de BOCONO SPECIALTY COFFEE" [ref=e618] [cursor=pointer]:
+            - /url: /stores/Bocon%C3%B3SpecialtyCoffee/page/615A2579-76EB-4084-820C-6BAC30E3FD44?lp_asin=B08JK6XZ9D&ref_=ast_bln
+          - generic [ref=e620]:
+            - generic "4,3 de 5 estrellas" [ref=e622]:
+              - button "4,3 de 5 estrellas" [ref=e624] [cursor=pointer]:
+                - text: 4,3
+                - generic [ref=e626]: 4,3 de 5 estrellas
+            - link "278 Reseñas" [ref=e629] [cursor=pointer]:
+              - /url: "#averageCustomerReviewsAnchor"
+              - text: (278)
+          - separator [ref=e630]
+          - generic [ref=e635]:
+            - generic [ref=e637]:
+              - generic [ref=e638]: 35,50 €
+              - generic [ref=e640]:
+                - generic [ref=e641]:
+                  - text: "35"
+                  - generic [ref=e642]: ","
+                - text: 50€
+              - generic [ref=e644]:
+                - generic [ref=e645]: 35,50&nbsp;&euro; por kg
+                - generic [ref=e646]:
+                  - text: (
+                  - generic [ref=e647]:
+                    - generic [ref=e648]: 35,50€
+                    - text: 35,50€
+                  - text: / kg)
+            - generic [ref=e650]:
+              - text: Los precios de los productos vendidos en Amazon incluyen el IVA. Dependiendo de tu dirección de entrega, el IVA puede variar al finalizar la compra. Para obtener más información, haz clic
+              - link "aqui" [ref=e651] [cursor=pointer]:
+                - /url: https://www.amazon.es/-/es/gp/help/customer/display.html?ref_=hp_bc_nav&nodeId=G7MYTK9H5NVW7QVW
+              - text: .
+            - generic:
+              - table
+          - generic [ref=e652]:
+            - generic [ref=e654]:
+              - button "Lo más destacado" [ref=e658] [cursor=pointer]:
+                - heading "Lo más destacado" [level=5] [ref=e660]
+              - button "Detalles del producto" [ref=e664] [cursor=pointer]:
+                - heading "Detalles del producto" [level=5] [ref=e666]
+              - button "Medidas" [ref=e670] [cursor=pointer]:
+                - heading "Medidas" [level=5] [ref=e672]
+            - link "Ver todas las especificaciones del producto" [disabled] [ref=e678] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e680]:
+            - separator [ref=e681]
+            - heading "Datos adicionales" [level=1] [ref=e682]
+            - generic [ref=e686]:
+              - generic [ref=e687]: Pequeños Negocios
+              - generic [ref=e688]:
+                - generic [ref=e689]:
+                  - text: Este producto es de una marca de pequeñas empresas. Apoya a las pequeñas empresas.
+                  - link "Más información" [ref=e693] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e695]:
+                  - text: Este producto es de una marca de pequeñas empresas. Apoya a las pequeñas e…
+                  - link [ref=e699] [cursor=pointer]:
+                    - /url: "#"
+                    - text: Más información
+          - generic [ref=e703]:
+            - separator [ref=e704]
+            - generic [ref=e705]:
+              - heading "Producto a un precio competitivo" [level=4] [ref=e707]
+              - generic [ref=e709]:
+                - link [ref=e712] [cursor=pointer]:
+                  - /url: /dp/B08WSPZYPT/ref=vp_d_pb_TIER2_trans_lp_B08JK6XZ9D_pd?_encoding=UTF8&pf_rd_p=c974c6b2-c842-42ae-9f20-96ccf2f27612&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=q19F2&pd_rd_i=B08WSPZYPT&pd_rd_w=3Ujt1&content-id=amzn1.sym.c974c6b2-c842-42ae-9f20-96ccf2f27612&pd_rd_r=74b5ed0f-e7cc-451b-a0cf-28bfb127614c&psc=1
+                  - img [ref=e713]
+                - generic [ref=e714]:
+                  - link "by Amazon - Café en grano Natural Espresso crema, tueste claro - Certificado Rainforest Alliance, 500g" [ref=e716] [cursor=pointer]:
+                    - /url: /dp/B08WSPZYPT/ref=vp_d_pb_TIER2_trans_lp_B08JK6XZ9D_pd?_encoding=UTF8&pf_rd_p=c974c6b2-c842-42ae-9f20-96ccf2f27612&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=q19F2&pd_rd_i=B08WSPZYPT&pd_rd_w=3Ujt1&content-id=amzn1.sym.c974c6b2-c842-42ae-9f20-96ccf2f27612&pd_rd_r=74b5ed0f-e7cc-451b-a0cf-28bfb127614c&psc=1
+                  - generic [ref=e717]: 500 g (Paquete de 1)
+                  - generic [ref=e718]:
+                    - generic [ref=e720]: 4.2 de 5 estrellas
+                    - link "7814 calificaciones" [ref=e721] [cursor=pointer]:
+                      - /url: /product-reviews/B08WSPZYPT/ref=vp_d_pb_TIER2_trans_lp_B08JK6XZ9D_rv?_encoding=UTF8&pf_rd_p=c974c6b2-c842-42ae-9f20-96ccf2f27612&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=q19F2&pd_rd_i=B08WSPZYPT&pd_rd_w=3Ujt1&content-id=amzn1.sym.c974c6b2-c842-42ae-9f20-96ccf2f27612&pd_rd_r=74b5ed0f-e7cc-451b-a0cf-28bfb127614c?showViewpoints=1
+                      - text: (7814)
+                  - generic [ref=e722]: EUR 8,05 (16,10 €/kg)
+                  - generic [ref=e723]: 4 características de sostenibilidad
+          - link "Informar de un problema con este producto" [ref=e728] [cursor=pointer]:
+            - /url: "#"
+            - text: Informar de un problema con este producto
+        - generic [ref=e731]:
+          - separator [ref=e732]
+          - generic [ref=e738]:
+            - link [ref=e740] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=14608924031&pf_rd_p=56e57f0c-9f37-4f45-8605-1bebb1428786&pf_rd_r=5GSDA255BQX2FX475G14
+            - generic [ref=e741]:
+              - generic [ref=e743]: Solimo
+              - generic [ref=e745]:
+                - text: Opciones inteligentes para las necesidades del día a día.
+                - link "Opciones inteligentes para las necesidades del día a día." [ref=e746] [cursor=pointer]:
+                  - /url: /b/?_encoding=UTF8&node=14608924031&pf_rd_p=56e57f0c-9f37-4f45-8605-1bebb1428786&pf_rd_r=5GSDA255BQX2FX475G14
+                  - text: Compra ya
+      - generic [ref=e751]:
+        - separator [ref=e752]
+        - heading "Comprados juntos habitualmente" [level=2] [ref=e753]
+        - generic [ref=e754]:
+          - group "Comprados juntos habitualmente" [ref=e755]:
+            - generic [ref=e756]:
+              - generic [ref=e757]:
+                - 'checkbox "Este producto: Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano" [checked] [ref=e763]'
+                - generic [ref=e768]:
+                  - generic [ref=e770]: "Este producto: Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano"
+                  - generic [ref=e776]:
+                    - generic [ref=e777]:
+                      - generic [ref=e778]: 35,50€
+                      - generic [ref=e779]:
+                        - generic [ref=e780]:
+                          - text: "35"
+                          - generic [ref=e781]: ","
+                        - text: 50€
+                    - text: (35,50 €/kg)
+              - generic [ref=e782]:
+                - generic [ref=e783]:
+                  - generic [ref=e784]: +
+                  - checkbox "Incapto Café en Grano de Especialidad 1kg | Origen Colombia | 100% Arábica | Specialty Coffee 84 puntos SCA | Tueste Natural y Artesanal | Finca Huila, Cadefihuila" [checked] [ref=e788]
+                  - link "Incapto Café en Grano de Especialidad 1kg | Origen Colombia | 100% Arábica | Specialty Coffee 84 puntos SCA | Tueste Natural" [ref=e792] [cursor=pointer]:
+                    - /url: /Incapto-Coffee-Risaralda-Sudamericano-Equilibrado/dp/B08J3S5ZRB/ref=pd_bxgy_thbs_d_sccl_1/520-3563993-0360023?pd_rd_w=4Jw5o&content-id=amzn1.sym.9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_p=9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB&psc=1
+                    - img "Incapto Café en Grano de Especialidad 1kg | Origen Colombia | 100% Arábica | Specialty Coffee 84 puntos SCA | Tueste Natural" [ref=e793]
+                - generic [ref=e794]:
+                  - link "Incapto Café en Grano de Especialidad 1kg | Origen Colombia | 100% Arábica | Specialty Coffee 84 puntos SCA | Tueste Natural y Artesanal | Finca Huila, Cadefihuila" [ref=e796] [cursor=pointer]:
+                    - /url: /Incapto-Coffee-Risaralda-Sudamericano-Equilibrado/dp/B08J3S5ZRB/ref=pd_bxgy_d_sccl_1/520-3563993-0360023?pd_rd_w=4Jw5o&content-id=amzn1.sym.9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_p=9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB&psc=1
+                    - generic [ref=e797]: Incapto Café en Grano de Especialidad 1kg | Origen Colombia | 100% Arábica | Specialty Coffee 84 puntos SCA | Tueste Natural y Artesanal | Finca Huila, Cadefihuila
+                  - generic [ref=e803]:
+                    - generic [ref=e804]:
+                      - generic [ref=e805]: 35,99€
+                      - generic [ref=e806]:
+                        - generic [ref=e807]:
+                          - text: "35"
+                          - generic [ref=e808]: ","
+                        - text: 99€
+                    - text: (35,99 €/kg)
+              - generic [ref=e809]:
+                - generic [ref=e810]:
+                  - generic [ref=e811]: +
+                  - checkbox "CAFES GUILIS DESDE 1928 AMANTES DEL CAFE Café en Grano Descafeinado Arábica 1 Kg - Tueste Natural, Sabor Espresso, Aroma Suave y Equilibrado" [checked] [ref=e815]
+                  - link "CAFES GUILIS DESDE 1928 AMANTES DEL CAFE Café en Grano Descafeinado Arábica 1 Kg - Tueste Natural, Sabor Espresso, Aroma Suav" [ref=e819] [cursor=pointer]:
+                    - /url: /CAFES-GUILIS-DESDE-1928-AMANTES/dp/B07G69SY95/ref=pd_bxgy_thbs_d_sccl_2/520-3563993-0360023?pd_rd_w=4Jw5o&content-id=amzn1.sym.9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_p=9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07G69SY95&psc=1
+                    - img "CAFES GUILIS DESDE 1928 AMANTES DEL CAFE Café en Grano Descafeinado Arábica 1 Kg - Tueste Natural, Sabor Espresso, Aroma Suav" [ref=e820]
+                - generic [ref=e821]:
+                  - link "CAFES GUILIS DESDE 1928 AMANTES DEL CAFE Café en Grano Descafeinado Arábica 1 Kg - Tueste Natural, Sabor Espresso, Aroma Suave y Equilibrado" [ref=e823] [cursor=pointer]:
+                    - /url: /CAFES-GUILIS-DESDE-1928-AMANTES/dp/B07G69SY95/ref=pd_bxgy_d_sccl_2/520-3563993-0360023?pd_rd_w=4Jw5o&content-id=amzn1.sym.9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_p=9abfd478-06b8-4d16-a5ae-d877fea17aae&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07G69SY95&psc=1
+                    - generic [ref=e824]: CAFES GUILIS DESDE 1928 AMANTES DEL CAFE Café en Grano Descafeinado Arábica 1 Kg - Tueste Natural, Sabor Espresso, Aroma Suave y Equilibrado
+                  - generic [ref=e830]:
+                    - generic [ref=e831]:
+                      - generic [ref=e832]: 29,50€
+                      - generic [ref=e833]:
+                        - generic [ref=e834]:
+                          - text: "29"
+                          - generic [ref=e835]: ","
+                        - text: 50€
+                    - text: (29,50 €/kg)
+          - generic [ref=e836]:
+            - generic [ref=e837]:
+              - generic [ref=e839]:
+                - text: "Precio total:"
+                - generic [ref=e840]:
+                  - generic [ref=e841]: 100.99 €
+                  - generic [ref=e842]:
+                    - generic [ref=e843]: 100,
+                    - text: 99 €
+              - generic [ref=e849] [cursor=pointer]:
+                - button "Añadir 3 a la cesta, Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano" [ref=e850]
+                - generic [ref=e851]: Añadir 3 a la cesta
+            - generic [ref=e852]:
+              - generic [ref=e856]: Algunos de estos productos se envian antes que los otros.
+              - link "Mostrar detalles de Comprados juntos habitualmente,Después de habilitarlo, redirige la atención a la información del producto para obtener más detalles," [ref=e858] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - text: Mostrar detalles
+      - generic [ref=e861]:
+        - separator [ref=e862]
+        - group [ref=e865]:
+          - heading "Productos destacados que te pueden gustar" [level=2] [ref=e870]
+          - group [ref=e875]:
+            - list [ref=e876]:
+              - listitem [ref=e877]:
+                - generic [ref=e879]:
+                  - link [ref=e880] [cursor=pointer]:
+                    - /url: /Marca-Amazon-Happy-Select-Brasil/dp/B08FRSX4F5/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08FRSX4F5&psc=1
+                    - img [ref=e882]
+                  - generic [ref=e884]:
+                    - link "by Amazon Granos de Café Brasileños, Tostado Medio, 1kg (2 Paquetes de 500g), Certificados por Rainforest Alliance" [ref=e885] [cursor=pointer]:
+                      - /url: /Marca-Amazon-Happy-Select-Brasil/dp/B08FRSX4F5/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08FRSX4F5&psc=1
+                      - generic [ref=e887]: by Amazon Granos de Café Brasileños, Tostado Medio, 1kg (2 Paquetes de 500g), Certificados por Rainforest Alliance
+                    - link "4,0 de 5 estrellas, 2.239 calificaciones" [ref=e890] [cursor=pointer]:
+                      - /url: /product-reviews/B08FRSX4F5/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1_cr/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08FRSX4F5
+                      - generic [ref=e892]: 4,0 de 5 estrellas
+                      - text: "2.239"
+                    - generic [ref=e894]:
+                      - generic [ref=e895]: "-15%"
+                      - generic [ref=e896]: Oferta de Primavera
+                    - generic [ref=e899]:
+                      - link:
+                        - /url: /Marca-Amazon-Happy-Select-Brasil/dp/B08FRSX4F5/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08FRSX4F5&psc=1
+                      - generic [ref=e900]:
+                        - link "16,10€" [ref=e901] [cursor=pointer]:
+                          - /url: /Marca-Amazon-Happy-Select-Brasil/dp/B08FRSX4F5/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08FRSX4F5&psc=1
+                          - generic [ref=e902]:
+                            - generic [ref=e903]: 16,10€
+                            - generic [ref=e904]:
+                              - generic [ref=e905]: 16,
+                              - text: 10€
+                        - link "(16,10 €/kg)" [ref=e906] [cursor=pointer]:
+                          - /url: /Marca-Amazon-Happy-Select-Brasil/dp/B08FRSX4F5/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_1/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08FRSX4F5&psc=1
+                      - generic [ref=e908]: "Mediano: 18,89 €"
+                    - generic [ref=e910]: 4% reservadas
+                  - button "4 características de sostenibilidad" [ref=e914] [cursor=pointer]:
+                    - generic [ref=e915]: 4 características de sostenibilidad
+              - listitem [ref=e917]:
+                - generic [ref=e919]:
+                  - link [ref=e920] [cursor=pointer]:
+                    - /url: /Especialidad-ecol%C3%B3gica-Artesanal-69-CrazyBeans/dp/B0FDHD1V2S/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FDHD1V2S&psc=1
+                    - img [ref=e922]
+                  - generic [ref=e924]:
+                    - link "Café de Especialidad ecológica en grano | Colombia | Finca El Ensueño | 100% Arábica | 85,5 puntos SCA | Tueste Natural y Artesanal | Isnos Huila | Paquete 500g | 69 CrazyBeans Specialty Coffee" [ref=e925] [cursor=pointer]:
+                      - /url: /Especialidad-ecol%C3%B3gica-Artesanal-69-CrazyBeans/dp/B0FDHD1V2S/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FDHD1V2S&psc=1
+                      - generic [ref=e927]: Café de Especialidad ecológica en grano | Colombia | Finca El Ensueño | 100% Arábica | 85,5 puntos SCA | Tueste Natural y Artesanal | Isnos Huila | Paquete 500g | 69 CrazyBeans Specialty Coffee
+                    - link "4,2 de 5 estrellas, 42 calificaciones" [ref=e930] [cursor=pointer]:
+                      - /url: /product-reviews/B0FDHD1V2S/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2_cr/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FDHD1V2S
+                      - generic [ref=e932]: 4,2 de 5 estrellas
+                      - text: "42"
+                    - generic [ref=e934]:
+                      - generic [ref=e935]: "-9%"
+                      - generic [ref=e936]: Oferta de Primavera
+                    - generic [ref=e937]:
+                      - generic [ref=e939]:
+                        - link:
+                          - /url: /Especialidad-ecol%C3%B3gica-Artesanal-69-CrazyBeans/dp/B0FDHD1V2S/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FDHD1V2S&psc=1
+                        - generic [ref=e940]:
+                          - link "20,69€" [ref=e941] [cursor=pointer]:
+                            - /url: /Especialidad-ecol%C3%B3gica-Artesanal-69-CrazyBeans/dp/B0FDHD1V2S/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FDHD1V2S&psc=1
+                            - generic [ref=e942]:
+                              - generic [ref=e943]: 20,69€
+                              - generic [ref=e944]:
+                                - generic [ref=e945]: 20,
+                                - text: 69€
+                          - link "(41,38 €/kg)" [ref=e946] [cursor=pointer]:
+                            - /url: /Especialidad-ecol%C3%B3gica-Artesanal-69-CrazyBeans/dp/B0FDHD1V2S/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_2/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FDHD1V2S&psc=1
+                        - generic [ref=e948]: "Recomendado: 22,69 €"
+                      - generic [ref=e950]: Obtenlo el viernes, 13 de marzo como muy tarde.
+                    - text: Envío GRATIS por Amazon
+                    - generic [ref=e952]: 2% reservadas
+              - listitem [ref=e953]:
+                - generic [ref=e955]:
+                  - link [ref=e956] [cursor=pointer]:
+                    - /url: /Marca-Amazon-tueste-natural-Intenso/dp/B07CTSZXRC/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07CTSZXRC&psc=1
+                    - img [ref=e958]
+                  - generic [ref=e960]:
+                    - link "by Amazon Granos de Café Intenso, Tostado Ligero, 1kg (2 Paquetes de 500g), Certificado por Rainforest Alliance" [ref=e961] [cursor=pointer]:
+                      - /url: /Marca-Amazon-tueste-natural-Intenso/dp/B07CTSZXRC/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07CTSZXRC&psc=1
+                      - generic [ref=e963]: by Amazon Granos de Café Intenso, Tostado Ligero, 1kg (2 Paquetes de 500g), Certificado por Rainforest Alliance
+                    - link "4,2 de 5 estrellas, 7.814 calificaciones" [ref=e966] [cursor=pointer]:
+                      - /url: /product-reviews/B07CTSZXRC/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3_cr/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07CTSZXRC
+                      - generic [ref=e968]: 4,2 de 5 estrellas
+                      - text: "7.814"
+                    - generic [ref=e971]:
+                      - link:
+                        - /url: /Marca-Amazon-tueste-natural-Intenso/dp/B07CTSZXRC/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07CTSZXRC&psc=1
+                      - generic [ref=e972]:
+                        - link "15,46€" [ref=e973] [cursor=pointer]:
+                          - /url: /Marca-Amazon-tueste-natural-Intenso/dp/B07CTSZXRC/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07CTSZXRC&psc=1
+                          - generic [ref=e974]:
+                            - generic [ref=e975]: 15,46€
+                            - generic [ref=e976]:
+                              - generic [ref=e977]: 15,
+                              - text: 46€
+                        - link "(15,46 €/kg)" [ref=e978] [cursor=pointer]:
+                          - /url: /Marca-Amazon-tueste-natural-Intenso/dp/B07CTSZXRC/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_3/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07CTSZXRC&psc=1
+                  - button "4 características de sostenibilidad" [ref=e982] [cursor=pointer]:
+                    - generic [ref=e983]: 4 características de sostenibilidad
+              - listitem [ref=e985]:
+                - generic [ref=e987]:
+                  - link [ref=e988] [cursor=pointer]:
+                    - /url: /natural-Arabica-Colombia-Tostado-artesanal/dp/B07QBHF6QM/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07QBHF6QM&psc=1
+                    - img [ref=e990]
+                  - generic [ref=e992]:
+                    - link "Café en grano natural. 100% Arabica. Origen único Colombia, Tostado artesanal. Tueste Medio. 1Kg" [ref=e993] [cursor=pointer]:
+                      - /url: /natural-Arabica-Colombia-Tostado-artesanal/dp/B07QBHF6QM/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07QBHF6QM&psc=1
+                      - generic [ref=e995]: Café en grano natural. 100% Arabica. Origen único Colombia, Tostado artesanal. Tueste Medio. 1Kg
+                    - link "4,3 de 5 estrellas, 708 calificaciones" [ref=e998] [cursor=pointer]:
+                      - /url: /product-reviews/B07QBHF6QM/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4_cr/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07QBHF6QM
+                      - generic [ref=e1000]: 4,3 de 5 estrellas
+                      - text: "708"
+                    - generic [ref=e1001]:
+                      - generic [ref=e1003]:
+                        - link:
+                          - /url: /natural-Arabica-Colombia-Tostado-artesanal/dp/B07QBHF6QM/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07QBHF6QM&psc=1
+                        - generic [ref=e1004]:
+                          - link "27,47€" [ref=e1005] [cursor=pointer]:
+                            - /url: /natural-Arabica-Colombia-Tostado-artesanal/dp/B07QBHF6QM/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07QBHF6QM&psc=1
+                            - generic [ref=e1006]:
+                              - generic [ref=e1007]: 27,47€
+                              - generic [ref=e1008]:
+                                - generic [ref=e1009]: 27,
+                                - text: 47€
+                          - link "(27,47 €/kg)" [ref=e1010] [cursor=pointer]:
+                            - /url: /natural-Arabica-Colombia-Tostado-artesanal/dp/B07QBHF6QM/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_4/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B07QBHF6QM&psc=1
+                      - generic [ref=e1012]: Obtenlo el sábado, 21 de marzo como muy tarde.
+              - listitem [ref=e1013]:
+                - generic [ref=e1015]:
+                  - link [ref=e1016] [cursor=pointer]:
+                    - /url: /Amazon-Cafeinado-certificado-Rainforest-Alliance/dp/B0DF357WFW/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DF357WFW&psc=1
+                    - img [ref=e1018]
+                  - generic [ref=e1020]:
+                    - link "by Amazon - Café en grano natural Caffè Intenso, tueste claro, Cafeinado, 500g, (Paquete de 4), certificado Rainforest Alliance" [ref=e1021] [cursor=pointer]:
+                      - /url: /Amazon-Cafeinado-certificado-Rainforest-Alliance/dp/B0DF357WFW/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DF357WFW&psc=1
+                      - generic [ref=e1023]: by Amazon - Café en grano natural Caffè Intenso, tueste claro, Cafeinado, 500g, (Paquete de 4), certificado Rainforest Alliance
+                    - link "4,2 de 5 estrellas, 7.814 calificaciones" [ref=e1026] [cursor=pointer]:
+                      - /url: /product-reviews/B0DF357WFW/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5_cr/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DF357WFW
+                      - generic [ref=e1028]: 4,2 de 5 estrellas
+                      - text: "7.814"
+                    - generic [ref=e1031]:
+                      - link:
+                        - /url: /Amazon-Cafeinado-certificado-Rainforest-Alliance/dp/B0DF357WFW/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DF357WFW&psc=1
+                      - generic [ref=e1032]:
+                        - link "30,92€" [ref=e1033] [cursor=pointer]:
+                          - /url: /Amazon-Cafeinado-certificado-Rainforest-Alliance/dp/B0DF357WFW/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DF357WFW&psc=1
+                          - generic [ref=e1034]:
+                            - generic [ref=e1035]: 30,92€
+                            - generic [ref=e1036]:
+                              - generic [ref=e1037]: 30,
+                              - text: 92€
+                        - link "(15,46 €/kg)" [ref=e1038] [cursor=pointer]:
+                          - /url: /Amazon-Cafeinado-certificado-Rainforest-Alliance/dp/B0DF357WFW/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_5/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DF357WFW&psc=1
+                  - button "4 características de sostenibilidad" [ref=e1042] [cursor=pointer]:
+                    - generic [ref=e1043]: 4 características de sostenibilidad
+              - listitem [ref=e1045]:
+                - generic [ref=e1047]:
+                  - link [ref=e1048] [cursor=pointer]:
+                    - /url: /Especialidad-Natural-Ar%C3%A1bica-Arom%C3%A1tico-Equilibrada/dp/B0FBWWQPPG/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FBWWQPPG&psc=1
+                    - img [ref=e1050]
+                  - generic [ref=e1052]:
+                    - link "Cafe en Grano Natural de Especialidad 100% Arabica Tueste Natural y Artsenal con Sabor Intenso Acidez Equilibrada para Todas las Cafeteras 250g Gran altitud Origen Brasil - SABROA" [ref=e1053] [cursor=pointer]:
+                      - /url: /Especialidad-Natural-Ar%C3%A1bica-Arom%C3%A1tico-Equilibrada/dp/B0FBWWQPPG/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FBWWQPPG&psc=1
+                      - generic [ref=e1055]: Cafe en Grano Natural de Especialidad 100% Arabica Tueste Natural y Artsenal con Sabor Intenso Acidez Equilibrada para Todas las Cafeteras 250g Gran altitud Origen Brasil - SABROA
+                    - link "4,3 de 5 estrellas, 33 calificaciones" [ref=e1058] [cursor=pointer]:
+                      - /url: /product-reviews/B0FBWWQPPG/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6_cr/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FBWWQPPG
+                      - generic [ref=e1060]: 4,3 de 5 estrellas
+                      - text: "33"
+                    - generic [ref=e1061]:
+                      - generic [ref=e1063]:
+                        - link:
+                          - /url: /Especialidad-Natural-Ar%C3%A1bica-Arom%C3%A1tico-Equilibrada/dp/B0FBWWQPPG/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FBWWQPPG&psc=1
+                        - generic [ref=e1064]:
+                          - link "12,90€" [ref=e1065] [cursor=pointer]:
+                            - /url: /Especialidad-Natural-Ar%C3%A1bica-Arom%C3%A1tico-Equilibrada/dp/B0FBWWQPPG/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FBWWQPPG&psc=1
+                            - generic [ref=e1066]:
+                              - generic [ref=e1067]: 12,90€
+                              - generic [ref=e1068]:
+                                - generic [ref=e1069]: 12,
+                                - text: 90€
+                          - link "(51,60 €/kg)" [ref=e1070] [cursor=pointer]:
+                            - /url: /Especialidad-Natural-Ar%C3%A1bica-Arom%C3%A1tico-Equilibrada/dp/B0FBWWQPPG/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_1_6/520-3563993-0360023?pd_rd_w=Xfz9i&content-id=amzn1.sym.89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_p=89101b7d-ab12-43ec-9284-9bcc9bad8558&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0FBWWQPPG&psc=1
+                      - generic [ref=e1072]: Obtenlo el viernes, 13 de marzo como muy tarde.
+                    - text: Envío GRATIS por Amazon
+      - generic [ref=e1077]:
+        - separator [ref=e1078]
+        - group [ref=e1081]:
+          - heading "Obtén productos similares rápidamente" [level=2] [ref=e1086]
+          - group [ref=e1091]:
+            - list [ref=e1092]:
+              - listitem [ref=e1093]:
+                - generic [ref=e1095]:
+                  - link [ref=e1096] [cursor=pointer]:
+                    - /url: /NATURAL-Costa-Rica-Personalizado-Especialidad/dp/B0DXGT89QN/ref=dp-upsell-widget_d_sccl_2_1/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGT89QN&psc=1
+                    - img [ref=e1098]
+                  - generic [ref=e1100]:
+                    - link "Café especialidad Caturra en grano 100% Arábica cultivo de altura grano de oro origen volcánico activo Costa Rica tueste medio tostado reciente proceso secado al sol empaque bolsa hermética 900g" [ref=e1101] [cursor=pointer]:
+                      - /url: /NATURAL-Costa-Rica-Personalizado-Especialidad/dp/B0DXGT89QN/ref=dp-upsell-widget_d_sccl_2_1/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGT89QN&psc=1
+                      - generic [ref=e1103]: Café especialidad Caturra en grano 100% Arábica cultivo de altura grano de oro origen volcánico activo Costa Rica tueste medio tostado reciente proceso secado al sol empaque bolsa hermética 900g
+                    - link "4,1 de 5 estrellas, 35 calificaciones" [ref=e1106] [cursor=pointer]:
+                      - /url: /product-reviews/B0DXGT89QN/ref=dp-upsell-widget_d_sccl_2_1_cr/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGT89QN
+                      - generic [ref=e1108]: 4,1 de 5 estrellas
+                      - text: "35"
+                    - generic [ref=e1109]:
+                      - generic [ref=e1111]:
+                        - link:
+                          - /url: /NATURAL-Costa-Rica-Personalizado-Especialidad/dp/B0DXGT89QN/ref=dp-upsell-widget_d_sccl_2_1/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGT89QN&psc=1
+                        - generic [ref=e1112]:
+                          - link "34,50€" [ref=e1113] [cursor=pointer]:
+                            - /url: /NATURAL-Costa-Rica-Personalizado-Especialidad/dp/B0DXGT89QN/ref=dp-upsell-widget_d_sccl_2_1/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGT89QN&psc=1
+                            - generic [ref=e1114]:
+                              - generic [ref=e1115]: 34,50€
+                              - generic [ref=e1116]:
+                                - generic [ref=e1117]: 34,
+                                - text: 50€
+                          - link "(38,33 €/kg)" [ref=e1118] [cursor=pointer]:
+                            - /url: /NATURAL-Costa-Rica-Personalizado-Especialidad/dp/B0DXGT89QN/ref=dp-upsell-widget_d_sccl_2_1/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGT89QN&psc=1
+                      - generic [ref=e1120]: Obtenlo el viernes, 13 de marzo como muy tarde.
+                    - text: Envío GRATIS por Amazon
+              - listitem [ref=e1121]:
+                - generic [ref=e1123]:
+                  - link [ref=e1124] [cursor=pointer]:
+                    - /url: /Caf%C3%A9-Brasil-Grano-Criollo-Ar%C3%A1bica/dp/B08JCYM66V/ref=dp-upsell-widget_d_sccl_2_2/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08JCYM66V&psc=1
+                    - img [ref=e1126]
+                  - generic [ref=e1128]:
+                    - link "Cafés El Criollo | Café Origen Brasil en GRANO | Café de Especialidad 1Kg | 100% Arábica | Specialty Coffee 82,75 puntos SCA | Tueste Natural | Cerrado Mineiro | Pack 4x250g 1kg" [ref=e1129] [cursor=pointer]:
+                      - /url: /Caf%C3%A9-Brasil-Grano-Criollo-Ar%C3%A1bica/dp/B08JCYM66V/ref=dp-upsell-widget_d_sccl_2_2/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08JCYM66V&psc=1
+                      - generic [ref=e1131]: Cafés El Criollo | Café Origen Brasil en GRANO | Café de Especialidad 1Kg | 100% Arábica | Specialty Coffee 82,75 puntos SCA | Tueste Natural | Cerrado Mineiro | Pack 4x250g 1kg
+                    - link "4,2 de 5 estrellas, 344 calificaciones" [ref=e1134] [cursor=pointer]:
+                      - /url: /product-reviews/B08JCYM66V/ref=dp-upsell-widget_d_sccl_2_2_cr/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08JCYM66V
+                      - generic [ref=e1136]: 4,2 de 5 estrellas
+                      - text: "344"
+                    - generic [ref=e1137]:
+                      - generic [ref=e1139]:
+                        - link:
+                          - /url: /Caf%C3%A9-Brasil-Grano-Criollo-Ar%C3%A1bica/dp/B08JCYM66V/ref=dp-upsell-widget_d_sccl_2_2/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08JCYM66V&psc=1
+                        - generic [ref=e1140]:
+                          - link "27,75€" [ref=e1141] [cursor=pointer]:
+                            - /url: /Caf%C3%A9-Brasil-Grano-Criollo-Ar%C3%A1bica/dp/B08JCYM66V/ref=dp-upsell-widget_d_sccl_2_2/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08JCYM66V&psc=1
+                            - generic [ref=e1142]:
+                              - generic [ref=e1143]: 27,75€
+                              - generic [ref=e1144]:
+                                - generic [ref=e1145]: 27,
+                                - text: 75€
+                          - link "(27,75 €/kg)" [ref=e1146] [cursor=pointer]:
+                            - /url: /Caf%C3%A9-Brasil-Grano-Criollo-Ar%C3%A1bica/dp/B08JCYM66V/ref=dp-upsell-widget_d_sccl_2_2/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08JCYM66V&psc=1
+                      - generic [ref=e1148]: Obtenlo el viernes, 13 de marzo como muy tarde.
+                    - text: Envío GRATIS por Amazon
+              - listitem [ref=e1149]:
+                - generic [ref=e1151]:
+                  - link [ref=e1152] [cursor=pointer]:
+                    - /url: /Incapto-Coffee-Risaralda-Sudamericano-Equilibrado/dp/B08J3S5ZRB/ref=dp-upsell-widget_d_sccl_2_3/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB&psc=1
+                    - img [ref=e1154]
+                  - generic [ref=e1156]:
+                    - link "Incapto Café en Grano de Especialidad 1kg | Origen Colombia | 100% Arábica | Specialty Coffee 84 puntos SCA | Tueste Natural y Artesanal | Finca Huila, Cadefihuila" [ref=e1157] [cursor=pointer]:
+                      - /url: /Incapto-Coffee-Risaralda-Sudamericano-Equilibrado/dp/B08J3S5ZRB/ref=dp-upsell-widget_d_sccl_2_3/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB&psc=1
+                      - generic [ref=e1159]: Incapto Café en Grano de Especialidad 1kg | Origen Colombia | 100% Arábica | Specialty Coffee 84 puntos SCA | Tueste Natural y Artesanal | Finca Huila, Cadefihuila
+                    - link "4,2 de 5 estrellas, 2.173 calificaciones" [ref=e1162] [cursor=pointer]:
+                      - /url: /product-reviews/B08J3S5ZRB/ref=dp-upsell-widget_d_sccl_2_3_cr/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB
+                      - generic [ref=e1164]: 4,2 de 5 estrellas
+                      - text: "2.173"
+                    - generic [ref=e1165]:
+                      - generic [ref=e1167]:
+                        - link:
+                          - /url: /Incapto-Coffee-Risaralda-Sudamericano-Equilibrado/dp/B08J3S5ZRB/ref=dp-upsell-widget_d_sccl_2_3/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB&psc=1
+                        - generic [ref=e1168]:
+                          - link "35,99€" [ref=e1169] [cursor=pointer]:
+                            - /url: /Incapto-Coffee-Risaralda-Sudamericano-Equilibrado/dp/B08J3S5ZRB/ref=dp-upsell-widget_d_sccl_2_3/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB&psc=1
+                            - generic [ref=e1170]:
+                              - generic [ref=e1171]: 35,99€
+                              - generic [ref=e1172]:
+                                - generic [ref=e1173]: 35,
+                                - text: 99€
+                          - link "(35,99 €/kg)" [ref=e1174] [cursor=pointer]:
+                            - /url: /Incapto-Coffee-Risaralda-Sudamericano-Equilibrado/dp/B08J3S5ZRB/ref=dp-upsell-widget_d_sccl_2_3/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B08J3S5ZRB&psc=1
+                      - generic [ref=e1176]: Obtenlo el viernes, 13 de marzo como muy tarde.
+                    - text: Envío GRATIS por Amazon
+              - listitem [ref=e1177]:
+                - generic [ref=e1179]:
+                  - link [ref=e1180] [cursor=pointer]:
+                    - /url: /NATURAL-Costa-Rica-Especialidad-Personalizado/dp/B0DXGYYQJ6/ref=dp-upsell-widget_d_sccl_2_4/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGYYQJ6&psc=1
+                    - img [ref=e1182]
+                  - generic [ref=e1184]:
+                    - link "Café especialidad Sarchimor en grano 100% Arábica cultivo de altura grano de oro origen volcánico activo Costa Rica tueste medio tostado reciente proceso secado al sol empaque bolsa hermética 900g" [ref=e1185] [cursor=pointer]:
+                      - /url: /NATURAL-Costa-Rica-Especialidad-Personalizado/dp/B0DXGYYQJ6/ref=dp-upsell-widget_d_sccl_2_4/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGYYQJ6&psc=1
+                      - generic [ref=e1187]: Café especialidad Sarchimor en grano 100% Arábica cultivo de altura grano de oro origen volcánico activo Costa Rica tueste medio tostado reciente proceso secado al sol empaque bolsa hermética 900g
+                    - link "4,1 de 5 estrellas, 35 calificaciones" [ref=e1190] [cursor=pointer]:
+                      - /url: /product-reviews/B0DXGYYQJ6/ref=dp-upsell-widget_d_sccl_2_4_cr/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGYYQJ6
+                      - generic [ref=e1192]: 4,1 de 5 estrellas
+                      - text: "35"
+                    - generic [ref=e1193]:
+                      - generic [ref=e1195]:
+                        - link:
+                          - /url: /NATURAL-Costa-Rica-Especialidad-Personalizado/dp/B0DXGYYQJ6/ref=dp-upsell-widget_d_sccl_2_4/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGYYQJ6&psc=1
+                        - generic [ref=e1196]:
+                          - link "34,50€" [ref=e1197] [cursor=pointer]:
+                            - /url: /NATURAL-Costa-Rica-Especialidad-Personalizado/dp/B0DXGYYQJ6/ref=dp-upsell-widget_d_sccl_2_4/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGYYQJ6&psc=1
+                            - generic [ref=e1198]:
+                              - generic [ref=e1199]: 34,50€
+                              - generic [ref=e1200]:
+                                - generic [ref=e1201]: 34,
+                                - text: 50€
+                          - link "(38,33 €/kg)" [ref=e1202] [cursor=pointer]:
+                            - /url: /NATURAL-Costa-Rica-Especialidad-Personalizado/dp/B0DXGYYQJ6/ref=dp-upsell-widget_d_sccl_2_4/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B0DXGYYQJ6&psc=1
+                      - generic [ref=e1204]: Obtenlo el viernes, 13 de marzo como muy tarde.
+                    - text: Envío GRATIS por Amazon
+              - listitem [ref=e1205]:
+                - generic [ref=e1207]:
+                  - link [ref=e1208] [cursor=pointer]:
+                    - /url: /Caf%C3%A9-Platino-Selecci%C3%B3n-Certificada-Federaci%C3%B3n/dp/B09XBGBW7X/ref=dp-upsell-widget_d_sccl_2_5/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B09XBGBW7X&psc=1
+                    - img [ref=e1210]
+                  - generic [ref=e1212]:
+                    - link "Café Platino - Café en Grano Natural de Colombia Excelso Tostado 1Kg - 100% Arábica - Malla +14 Barista Selection" [ref=e1213] [cursor=pointer]:
+                      - /url: /Caf%C3%A9-Platino-Selecci%C3%B3n-Certificada-Federaci%C3%B3n/dp/B09XBGBW7X/ref=dp-upsell-widget_d_sccl_2_5/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B09XBGBW7X&psc=1
+                      - generic [ref=e1215]: Café Platino - Café en Grano Natural de Colombia Excelso Tostado 1Kg - 100% Arábica - Malla +14 Barista Selection
+                    - link "4,2 de 5 estrellas, 75 calificaciones" [ref=e1218] [cursor=pointer]:
+                      - /url: /product-reviews/B09XBGBW7X/ref=dp-upsell-widget_d_sccl_2_5_cr/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B09XBGBW7X
+                      - generic [ref=e1220]: 4,2 de 5 estrellas
+                      - text: "75"
+                    - generic [ref=e1221]:
+                      - generic [ref=e1223]:
+                        - link:
+                          - /url: /Caf%C3%A9-Platino-Selecci%C3%B3n-Certificada-Federaci%C3%B3n/dp/B09XBGBW7X/ref=dp-upsell-widget_d_sccl_2_5/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B09XBGBW7X&psc=1
+                        - generic [ref=e1224]:
+                          - link "34,95€" [ref=e1225] [cursor=pointer]:
+                            - /url: /Caf%C3%A9-Platino-Selecci%C3%B3n-Certificada-Federaci%C3%B3n/dp/B09XBGBW7X/ref=dp-upsell-widget_d_sccl_2_5/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B09XBGBW7X&psc=1
+                            - generic [ref=e1226]:
+                              - generic [ref=e1227]: 34,95€
+                              - generic [ref=e1228]:
+                                - generic [ref=e1229]: 34,
+                                - text: 95€
+                          - link "(34,95 €/kg)" [ref=e1230] [cursor=pointer]:
+                            - /url: /Caf%C3%A9-Platino-Selecci%C3%B3n-Certificada-Federaci%C3%B3n/dp/B09XBGBW7X/ref=dp-upsell-widget_d_sccl_2_5/520-3563993-0360023?pd_rd_w=s3QZV&content-id=amzn1.sym.825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_p=825207cc-8ad8-4822-96d1-6b8318169a44&pf_rd_r=5GSDA255BQX2FX475G14&pd_rd_wg=TP0LG&pd_rd_r=e70f2f41-2966-44f8-baba-7f6b76cb130f&pd_rd_i=B09XBGBW7X&psc=1
+                      - generic [ref=e1232]: Obtenlo el viernes, 13 de marzo como muy tarde.
+                    - text: Envío GRATIS por Amazon
+      - generic [ref=e1236]:
+        - heading "Información importante" [level=2] [ref=e1237]
+        - generic [ref=e1238]:
+          - heading "Información de seguridad" [level=4] [ref=e1239]
+          - paragraph
+          - paragraph [ref=e1240]: Puede contener alérgenos. Conservar en un lugar fresco, seco y aireado.
+          - paragraph
+        - generic [ref=e1241]:
+          - heading "Nota legal" [level=4] [ref=e1242]
+          - paragraph
+          - paragraph [ref=e1243]: Te recomendamos que siempre leas las etiquetas, advertencias e instrucciones del embalaje del producto antes de utilizarlo o consumirlo, ya que podrás encontrar información más detallada y actualizada sobre el mismo.
+          - paragraph
+      - generic [ref=e1245]:
+        - separator [ref=e1246]
+        - heading "Descripción del producto" [level=2] [ref=e1247]
+        - generic [ref=e1249]:
+          - img "Boconó Specialty Coffee Beans" [ref=e1252]
+          - img "Tueste medio claro" [ref=e1255]
+          - img "Café orígen Colombia." [ref=e1258]
+          - img "Café en grano de 1 Kg" [ref=e1261]
+          - generic [ref=e1263]:
+            - heading "Recomendaciones de preparación" [level=3] [ref=e1264]
+            - table [ref=e1267]:
+              - rowgroup [ref=e1268]:
+                - 'row "Prensa Francesa Relación 1:15. Colocar por cada gramo de café molido muy grueso, 15 gramos de agua a 96 grados de temperatura, remover bien, dejar infusionar entre 3:30 y 4:00 minutos, bajar el émbolo y verter completamente en la taza. Ejemplo: 20 gramos de café en 300 gramos o mililitros de agua." [ref=e1269]':
+                  - cell "Prensa Francesa" [ref=e1270]
+                  - 'cell "Relación 1:15. Colocar por cada gramo de café molido muy grueso, 15 gramos de agua a 96 grados de temperatura, remover bien, dejar infusionar entre 3:30 y 4:00 minutos, bajar el émbolo y verter completamente en la taza. Ejemplo: 20 gramos de café en 300 gramos o mililitros de agua." [ref=e1271]'
+                - row "Aeropress Relación 1:10. Por las dimensiones del AeroPress, recomendamos colocar 18 gramos de café molido medio en 180 gramos de agua entre 80 a 96 grados, dependiendo del gusto (hacer pruebas). Dejar infusionar por 1:00 minuto, voltear y prensar durante los 30 segundos siguientes. Luego, dependiendo del gusto, se le puede agregar agua para disminuir la intensidad." [ref=e1272]:
+                  - cell "Aeropress" [ref=e1273]
+                  - cell "Relación 1:10. Por las dimensiones del AeroPress, recomendamos colocar 18 gramos de café molido medio en 180 gramos de agua entre 80 a 96 grados, dependiendo del gusto (hacer pruebas). Dejar infusionar por 1:00 minuto, voltear y prensar durante los 30 segundos siguientes. Luego, dependiendo del gusto, se le puede agregar agua para disminuir la intensidad." [ref=e1274]
+                - row "Espresso Relacion 1:2 o 1:2,5 con un tiempo de extracción entre 25 a 35 segundos (hacer pruebas)" [ref=e1275]:
+                  - cell "Espresso" [ref=e1276]
+                  - cell "Relacion 1:2 o 1:2,5 con un tiempo de extracción entre 25 a 35 segundos (hacer pruebas)" [ref=e1277]
+                - row "Máquinas súper automáticas intentar conseguir el mismo procedimiento que el espresso." [ref=e1278]:
+                  - cell "Máquinas súper automáticas" [ref=e1279]
+                  - cell "intentar conseguir el mismo procedimiento que el espresso." [ref=e1280]
+                - row "Cafetera Italiana Recomendamos utilizar molienda media a gruesa, es importante experimentar con el grosor del café, tenemos información en nuestra web." [ref=e1281]:
+                  - cell "Cafetera Italiana" [ref=e1282]
+                  - cell "Recomendamos utilizar molienda media a gruesa, es importante experimentar con el grosor del café, tenemos información en nuestra web." [ref=e1283]
+          - generic [ref=e1285]:
+            - heading "Cosas que nos diferencia como verdadero café de especialidad" [level=3] [ref=e1286]
+            - generic [ref=e1287]:
+              - generic [ref=e1288]:
+                - paragraph [ref=e1289]:
+                  - img "cafe de colombia en grano arabica" [ref=e1290]
+                - heading "Más de 20 años de experiencia ofreciendo café de calidad excepcional." [level=4] [ref=e1291]
+              - generic [ref=e1292]:
+                - paragraph [ref=e1293]:
+                  - img "Cafe en grano natural" [ref=e1294]
+                - heading "Ganadores del Madrid Specialty Coffee Roadster 2023, demostrando nuestra pasión y excelencia." [level=4] [ref=e1295]
+              - generic [ref=e1296]:
+                - paragraph [ref=e1297]:
+                  - img "Café en grano de especialidad" [ref=e1298]
+                - heading "Tostamos a diario en nuestro propio tostadero, utilizando procesos únicos y personalizados." [level=4] [ref=e1299]
+              - generic [ref=e1300]:
+                - paragraph [ref=e1301]:
+                  - img "Cafe en grano tostado" [ref=e1302]
+                - heading "Café de origen con relaciones directas y sostenibles con los productores." [level=4] [ref=e1303]
+          - table [ref=e1308]:
+            - rowgroup [ref=e1309]:
+              - row "Brasil Etiopía Colombia" [ref=e1310]:
+                - cell [ref=e1311]
+                - columnheader "Brasil" [ref=e1312]:
+                  - link "Brasil" [ref=e1313] [cursor=pointer]:
+                    - /url: /dp/B0871NKFCD?ref=emc_s_m_5_i_atc
+                    - generic [ref=e1315]: Brasil
+                - columnheader "Etiopía" [ref=e1316]:
+                  - link "Etiopía" [ref=e1317] [cursor=pointer]:
+                    - /url: /dp/B0871P9DT2?ref=emc_s_m_5_i_atc
+                    - generic [ref=e1319]: Etiopía
+                - columnheader "Colombia" [ref=e1320]:
+                  - link "Colombia" [ref=e1321] [cursor=pointer]:
+                    - /url: /dp/B08JK6XZ9D?ref=emc_s_m_5_i_atc
+                    - generic [ref=e1323]: Colombia
+              - row "Opciones de compra Opciones de compra Añadir a la cesta" [ref=e1324]:
+                - cell [ref=e1325]
+                - cell "Opciones de compra" [ref=e1326]:
+                  - link "Opciones de compra" [ref=e1330] [cursor=pointer]:
+                    - /url: /dp/B0871NKFCD?ref=emc_s_m_5_i_atc
+                - cell "Opciones de compra" [ref=e1331]:
+                  - link "Opciones de compra" [ref=e1335] [cursor=pointer]:
+                    - /url: /dp/B0871P9DT2?ref=emc_s_m_5_i_atc
+                - cell "Añadir a la cesta" [ref=e1336]:
+                  - generic [ref=e1340] [cursor=pointer]:
+                    - button "Añadir a la cesta" [ref=e1341]
+                    - generic [ref=e1342]: Añadir a la cesta
+              - row "Opiniones de clientes 4,0 de 5 estrellas 332 4,3 de 5 estrellas 338 4,3 de 5 estrellas 278" [ref=e1343]:
+                - rowheader "Opiniones de clientes" [ref=e1344]
+                - cell "4,0 de 5 estrellas 332" [ref=e1345]:
+                  - generic [ref=e1347]:
+                    - generic [ref=e1349]: 4,0 de 5 estrellas
+                    - text: "332"
+                - cell "4,3 de 5 estrellas 338" [ref=e1350]:
+                  - generic [ref=e1352]:
+                    - generic [ref=e1354]: 4,3 de 5 estrellas
+                    - text: "338"
+                - cell "4,3 de 5 estrellas 278" [ref=e1355]:
+                  - generic [ref=e1357]:
+                    - generic [ref=e1359]: 4,3 de 5 estrellas
+                    - text: "278"
+              - row "Precio — no data — no data 35,50 €" [ref=e1360]:
+                - rowheader "Precio" [ref=e1361]
+                - cell "— no data" [ref=e1362]:
+                  - text: —
+                  - generic [ref=e1363]: no data
+                - cell "— no data" [ref=e1364]:
+                  - text: —
+                  - generic [ref=e1365]: no data
+                - cell "35,50 €" [ref=e1366]:
+                  - generic [ref=e1367]:
+                    - generic [ref=e1368]: 35,50 €
+                    - generic [ref=e1369]:
+                      - text: €
+                      - generic [ref=e1370]:
+                        - text: "35"
+                        - generic [ref=e1371]: ","
+                      - text: "50"
+              - row "Origen Brasil Etiopía Colombia" [ref=e1372]:
+                - rowheader "Origen" [ref=e1373]
+                - cell "Brasil" [ref=e1374]
+                - cell "Etiopía" [ref=e1375]
+                - cell "Colombia" [ref=e1376]
+              - row "Región Espiritu Santo Del Phinal Sidamo Huila" [ref=e1377]:
+                - rowheader "Región" [ref=e1378]
+                - cell "Espiritu Santo Del Phinal" [ref=e1379]
+                - cell "Sidamo" [ref=e1380]
+                - cell "Huila" [ref=e1381]
+              - row "Proceso Lavado Natural Process / Lavado Lavado" [ref=e1382]:
+                - rowheader "Proceso" [ref=e1383]
+                - cell "Lavado" [ref=e1384]
+                - cell "Natural Process / Lavado" [ref=e1385]
+                - cell "Lavado" [ref=e1386]
+              - row "Especie Arábica Arábica Arábica" [ref=e1387]:
+                - rowheader "Especie" [ref=e1388]
+                - cell "Arábica" [ref=e1389]
+                - cell "Arábica" [ref=e1390]
+                - cell "Arábica" [ref=e1391]
+              - row "Notas Afrutado – Dulce – Nueces Cacao – Frutos Cítricos - Floral Rosas - Frutos Secos - Muy Dulce" [ref=e1392]:
+                - rowheader "Notas" [ref=e1393]
+                - cell "Afrutado – Dulce – Nueces" [ref=e1394]
+                - cell "Cacao – Frutos Cítricos - Floral" [ref=e1395]
+                - cell "Rosas - Frutos Secos - Muy Dulce" [ref=e1396]
+      - generic:
+        - navigation:
+          - navigation "Navigate within the product detail page":
+            - navigation "Back to top jump link":
+              - generic:
+                - generic: Arriba
+            - navigation "Similar widget jump link":
+              - generic:
+                - generic: Similar
+            - navigation "Product information widget jump link":
+              - generic:
+                - generic: Información sobre el producto
+            - navigation "From the brand widget jump link":
+              - generic:
+                - generic: De la marca
+            - navigation "Customer reviews widget jump link":
+              - generic:
+                - generic: Reseñas
+          - navigation "Back to top Image jump link":
+            - img "Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano"
+          - navigation "Back to top title jump link":
+            - generic: Café de Especialidad en Grano Natural 1kg de Colombia. Tueste Medio Artesano. Proceso Lavado. Café Grano Arábica para Espresso, V60 y Chemex. Boconó Specialty Coffee Beans. Colombiano
+      - generic [ref=e1398]:
+        - separator [ref=e1399]
+        - heading "De la marca" [level=2] [ref=e1400]
+        - group "Carrusel de contenido destacado" [ref=e1409]:
+          - group [ref=e1413]:
+            - list [ref=e1414]:
+              - listitem
+              - listitem [ref=e1415]:
+                - paragraph [ref=e1420]: Somos una marca que se dedica al tueste de café de especialidad, con inicios en Venezuela en 2006, donde adquirimos experiencia en fincas productoras. En 2016, abrimos nuestra cafetería en Madrid, siendo pioneros en la ciudad al ofrecer café de especialidad, prácticamente inexistente en ese momento. El 17 de junio de 2023 ganamos el título de "mejor tostador de café de especialidad en Madrid", otorgado por NAKED FESTIVAL.
+              - listitem [ref=e1421]:
+                - generic [ref=e1423]:
+                  - list [ref=e1424]:
+                    - listitem [ref=e1425]:
+                      - link "Café en grano etiopía" [ref=e1426] [cursor=pointer]:
+                        - /url: /dp/B0871P9DT2/ref=emc_bcc_2_i
+                        - img "Café en grano etiopía" [ref=e1427]
+                    - listitem [ref=e1428]:
+                      - link "Café en grano brasil" [ref=e1429] [cursor=pointer]:
+                        - /url: /dp/B0871NKFCD/ref=emc_bcc_2_i
+                        - img "Café en grano brasil" [ref=e1430]
+                    - listitem [ref=e1431]:
+                      - link "café en grano colombia" [ref=e1432] [cursor=pointer]:
+                        - /url: /dp/B08JK6XZ9D/ref=emc_bcc_2_i
+                        - img "café en grano colombia" [ref=e1433]
+                    - listitem [ref=e1434]:
+                      - link "Boconó Specialty Coffee - Café de Especialidad en grano de Etiopia - 250g Arábica - Tueste Medio ..." [ref=e1435] [cursor=pointer]:
+                        - /url: /dp/B086Z5S44L/ref=emc_bcc_2_i
+                        - img "Boconó Specialty Coffee - Café de Especialidad en grano de Etiopia - 250g Arábica - Tueste Medio ..." [ref=e1436]
+                  - generic [ref=e1437]:
+                    - heading "Nuevos productos" [level=3] [ref=e1438]
+                    - paragraph [ref=e1439]:
+                      - link "Visita la tienda de BOCONO SPECIALTY COFFEE" [ref=e1440] [cursor=pointer]:
+                        - /url: /stores/page/615A2579-76EB-4084-820C-6BAC30E3FD44?store_ref=storeRecs_dp_aplus
+                        - text: Visita la tienda
+              - listitem [ref=e1441]:
+                - generic [ref=e1444]:
+                  - generic [ref=e1445]:
+                    - heading "¿Son tostadores de café? ¿Dónde tuestan?" [level=4] [ref=e1446]
+                    - paragraph [ref=e1447]: Nuestro tostadero está ubicado en Alcorcón – Madrid.
+                  - generic [ref=e1448]:
+                    - heading "¿Qué tipo de cafés ofrecen?" [level=4] [ref=e1449]
+                    - paragraph [ref=e1450]: Ofrecemos una variedad de opciones de origen, variedad y procesos para todos los gustos. Tenemos una gama de continuidad de cafés básicos pero de gran calidad. Por otro lado, ofrecemos cafés exóticos provenientes de micro-lotes de temporada.
+                  - generic [ref=e1451]:
+                    - heading "¿Por qué es importante comprar café de especialidad en grano?" [level=4] [ref=e1452]
+                    - paragraph [ref=e1453]: El café es una bebida que muchas personas consumimos a diario, así que es importante asegurarnos de que sea de alta calidad y no dañino para nuestra salud.
+              - listitem [ref=e1454]:
+                - generic [ref=e1458]:
+                  - heading "Café en grano natural" [level=3] [ref=e1459]
+                  - paragraph [ref=e1460]: Seleccionado solo a partir de granos maduros.
+      - generic [ref=e1462]:
+        - separator [ref=e1463]
+        - heading "Detalles del producto" [level=2] [ref=e1464]
+        - list [ref=e1466]:
+          - listitem [ref=e1467]:
+            - generic [ref=e1468]: "Dimensiones del producto ‏ : ‎ 14 x 8 x 20 cm; 1 kg"
+          - listitem [ref=e1469]:
+            - generic [ref=e1470]: "Fabricante ‏ : ‎ Bocono Specialty Coffee"
+          - listitem [ref=e1471]:
+            - generic [ref=e1472]: "ASIN ‏ : ‎ B08JK6XZ9D"
+          - listitem [ref=e1473]:
+            - generic [ref=e1474]:
+              - text: "Opiniones de los clientes:"
+              - generic [ref=e1475]:
+                - generic "4,3 de 5 estrellas" [ref=e1477]:
+                  - button "4,3 de 5 estrellas" [ref=e1479] [cursor=pointer]:
+                    - text: 4,3
+                    - generic [ref=e1481]: 4,3 de 5 estrellas
+                - link "278 Reseñas" [ref=e1484] [cursor=pointer]:
+                  - /url: "#averageCustomerReviewsAnchor"
+                  - text: (278)
+      - generic "Reseñas más importantes" [ref=e1487]:
+        - separator [ref=e1488]
+        - generic [ref=e1490]:
+          - generic [ref=e1491]:
+            - generic [ref=e1496]:
+              - heading "Opiniones de clientes" [level=2] [ref=e1498]
+              - generic [ref=e1500]:
+                - generic [ref=e1503]: 4,3 de 5 estrellas
+                - generic [ref=e1506]: 4,3 de 5
+              - generic [ref=e1507]: 278 calificaciones globales
+              - list [ref=e1511]:
+                - listitem [ref=e1512]:
+                  - link "Un 59 por ciento de las reseñas tienen 5 estrellas" [ref=e1514] [cursor=pointer]:
+                    - /url: /product-reviews/B08JK6XZ9D/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1515]: 5 estrellas
+                    - progressbar [ref=e1517]
+                    - generic [ref=e1518]: 59%
+                - listitem [ref=e1519]:
+                  - link "Un 25 por ciento de las reseñas tienen 4 estrellas" [ref=e1521] [cursor=pointer]:
+                    - /url: /product-reviews/B08JK6XZ9D/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1522]: 4 estrellas
+                    - progressbar [ref=e1524]
+                    - generic [ref=e1525]: 25%
+                - listitem [ref=e1526]:
+                  - link "Un 8 por ciento de las reseñas tienen 3 estrellas" [ref=e1528] [cursor=pointer]:
+                    - /url: /product-reviews/B08JK6XZ9D/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1529]: 3 estrellas
+                    - progressbar [ref=e1531]
+                    - generic [ref=e1532]: 8%
+                - listitem [ref=e1533]:
+                  - link "Un 2 por ciento de las reseñas tienen 2 estrellas" [ref=e1535] [cursor=pointer]:
+                    - /url: /product-reviews/B08JK6XZ9D/ref=acr_dp_hist_2?ie=UTF8&filterByStar=two_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1536]: 2 estrellas
+                    - progressbar [ref=e1538]
+                    - generic [ref=e1539]: 2%
+                - listitem [ref=e1540]:
+                  - link "Un 6 por ciento de las reseñas tienen 1 estrellas" [ref=e1542] [cursor=pointer]:
+                    - /url: /product-reviews/B08JK6XZ9D/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1543]: 1 estrella
+                    - progressbar [ref=e1545]
+                    - generic [ref=e1546]: 6%
+              - button "Cómo funcionan las opiniones y las valoraciones de los clientes" [ref=e1551] [cursor=pointer]: Cómo funcionan las opiniones y las valoraciones de los clientes
+            - separator [ref=e1553]
+            - separator [ref=e1554]
+          - generic [ref=e1558]:
+            - generic [ref=e1562]:
+              - heading "Los clientes dicen" [level=3] [ref=e1563]
+              - generic [ref=e1565]: Los clientes destacan que este café tiene mucho sabor y está muy rico. Describen el producto como café de alta calidad y muy buen café de especialidad. Valoran positivamente la relación calidad-precio, considerándola muy bien. Aprecian el buen aroma y lo califican como café aromático. También mencionan la frescura del producto y que es café fresco. Los clientes también aprecian el tostado del producto.
+              - generic [ref=e1566]:
+                - generic [ref=e1567]:
+                  - generic [ref=e1568]: Generado por IA a partir del texto de las opiniones de los clientes
+                  - img [ref=e1569]
+                  - generic [ref=e1570]: Generado por IA a partir del texto de las opiniones de los clientes
+                - heading "Selecciona para obtener más información" [level=4] [ref=e1571]
+                - tablist "Selecciona para obtener más información" [ref=e1572]:
+                  - generic [ref=e1573]:
+                    - tab "Aspecto positivo, sabor, 39 menciones" [ref=e1577]:
+                      - button "Sabor(39)" [ref=e1578] [cursor=pointer]:
+                        - generic [ref=e1579]:
+                          - img [ref=e1580]
+                          - generic [ref=e1582]: Sabor(39)
+                    - tab "Aspecto positivo, calidad, 38 menciones" [ref=e1587]:
+                      - button "Calidad(38)" [ref=e1588] [cursor=pointer]:
+                        - generic [ref=e1589]:
+                          - img [ref=e1590]
+                          - generic [ref=e1592]: Calidad(38)
+                    - tab "Aspecto positivo, calidad-precio, 22 menciones" [ref=e1597]:
+                      - button "Calidad-precio(22)" [ref=e1598] [cursor=pointer]:
+                        - generic [ref=e1599]:
+                          - img [ref=e1600]
+                          - generic [ref=e1602]: Calidad-precio(22)
+                    - tab "Aspecto positivo, aroma, 18 menciones" [ref=e1607]:
+                      - button "Aroma(18)" [ref=e1608] [cursor=pointer]:
+                        - generic [ref=e1609]:
+                          - img [ref=e1610]
+                          - generic [ref=e1612]: Aroma(18)
+                    - tab "Aspecto positivo, frescura, 7 menciones" [ref=e1617]:
+                      - button "Frescura(7)" [ref=e1618] [cursor=pointer]:
+                        - generic [ref=e1619]:
+                          - img [ref=e1620]
+                          - generic [ref=e1622]: Frescura(7)
+                    - tab "Aspecto positivo, tostado, 6 menciones" [ref=e1627]:
+                      - button "Tostado(6)" [ref=e1628] [cursor=pointer]:
+                        - generic [ref=e1629]:
+                          - img [ref=e1630]
+                          - generic [ref=e1632]: Tostado(6)
+            - generic [ref=e1635]:
+              - group [ref=e1637]:
+                - generic [ref=e1638]:
+                  - heading "Reseñas con imágenes" [level=3] [ref=e1640]
+                  - link "Ver todas las fotos" [ref=e1643] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - group [ref=e1647]:
+                  - list [ref=e1648]:
+                    - listitem [ref=e1649]:
+                      - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1650] [cursor=pointer]:
+                        - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1651]
+                    - listitem [ref=e1653]:
+                      - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1654] [cursor=pointer]:
+                        - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1655]
+                    - listitem [ref=e1657]:
+                      - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1658] [cursor=pointer]:
+                        - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1659]
+                    - listitem [ref=e1661]:
+                      - button "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1662] [cursor=pointer]:
+                        - img "Imagen del cliente, haz clic para abrir la reseña del cliente" [ref=e1663]
+              - separator [ref=e1665]
+            - generic [ref=e1666]:
+              - generic [ref=e1669]:
+                - heading "Principales reseñas de España" [level=3] [ref=e1671]
+                - link "Traducir todas las opiniones al español" [ref=e1677] [cursor=pointer]:
+                  - /url: "#customerReviews"
+                - list [ref=e1680]:
+                  - listitem [ref=e1681]:
+                    - generic [ref=e1684]:
+                      - link "Laura" [ref=e1686] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AHTSIBD3UDF2KGL5HNABRDHLVTZA
+                        - img [ref=e1689]
+                        - generic [ref=e1690]: Laura
+                      - heading "5,0 de 5 estrellas Perfecta calidad/precio" [level=5] [ref=e1692]:
+                        - link "5,0 de 5 estrellas Perfecta calidad/precio" [ref=e1693] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R3Q3HE5T0I5U3F/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1695]: 5,0 de 5 estrellas
+                          - text: Perfecta calidad/precio
+                      - heading "Reseñado en España el 13 de diciembre de 2025" [level=6] [ref=e1696]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1698] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1703]: Perfecta calidad/precio. Es un café para tu día a día, con un sabor equilibrado. Totalmente recomendable, sobretodo para la moka. Lo he probado en filtro y también esta rico pero realmente brilla en procesos de extracción como la moka, quizás en expreso también merece la pena probarlo
+                      - generic [ref=e1704]:
+                        - link "Marcar la reseña como útil" [ref=e1708] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhDlyC2hllQYeQMioRx1iSYEbrsT1IocSo4%252BSJKGme4kRAAAAAGmv%252BJwAAAAB%26reviewId%3DR3Q3HE5T0I5U3F%23R3Q3HE5T0I5U3F&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1709]: Útil
+                        - generic [ref=e1711]:
+                          - img [ref=e1712]
+                          - link "Denunciar reseña de Laura" [ref=e1714] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hDlyC2hllQYeQMioRx1iSYEbrsT1IocSo4+SJKGme4kRAAAAAGmv+JwAAAAB&reviewId=R3Q3HE5T0I5U3F
+                            - text: Denunciar
+                  - listitem [ref=e1715]:
+                    - generic [ref=e1718]:
+                      - link "JORGE E FERNANDEZ" [ref=e1720] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AFDRVZAODU7UMKKTWM3WVYOSZDYQ
+                        - img [ref=e1723]
+                        - generic [ref=e1724]: JORGE E FERNANDEZ
+                      - heading "4,0 de 5 estrellas Recomendable" [level=5] [ref=e1726]:
+                        - link "4,0 de 5 estrellas Recomendable" [ref=e1727] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/RPAS8XI4P40WY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1729]: 4,0 de 5 estrellas
+                          - text: Recomendable
+                      - heading "Reseñado en España el 8 de febrero de 2026" [level=6] [ref=e1730]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1732] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1737]: Definitivamente son granos de alta calidad, consistentes en tamaño, tosta media, envasados adecuadamente; en particular, gusto de un sabor más afrutado que está variedad particular. Recomendable.
+                      - generic [ref=e1738]:
+                        - link "Marcar la reseña como útil" [ref=e1742] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhBglVYl2EtPUt4XgND35dlh%252BZUcukAaIgZCmgYtBZXH5AAAAAGmv%252BJwAAAAB%26reviewId%3DRPAS8XI4P40WY%23RPAS8XI4P40WY&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1743]: Útil
+                        - generic [ref=e1745]:
+                          - img [ref=e1746]
+                          - link "Denunciar reseña de JORGE E FERNANDEZ" [ref=e1748] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hBglVYl2EtPUt4XgND35dlh+ZUcukAaIgZCmgYtBZXH5AAAAAGmv+JwAAAAB&reviewId=RPAS8XI4P40WY
+                            - text: Denunciar
+                  - listitem [ref=e1749]:
+                    - generic [ref=e1752]:
+                      - link "Gyxks" [ref=e1754] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AGW24OYKDQMJ5NDGE2JW7TQMIJSA
+                        - img [ref=e1757]
+                        - generic [ref=e1758]: Gyxks
+                      - heading "5,0 de 5 estrellas Buenas relación calidad precio" [level=5] [ref=e1760]:
+                        - link "5,0 de 5 estrellas Buenas relación calidad precio" [ref=e1761] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R3ARU0ZNAK7GTO/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1763]: 5,0 de 5 estrellas
+                          - text: Buenas relación calidad precio
+                      - heading "Reseñado en España el 6 de agosto de 2025" [level=6] [ref=e1764]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1766] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1771]: Este café no decepciona, suave, aromático, con un gusto a caramelo y afrutado, muy rico. No es espectacular pero se deja querer.
+                      - generic [ref=e1772]:
+                        - link "Marcar la reseña como útil" [ref=e1776] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhPGUrnrY6rqbdWVX6PxHb2RcszyAB%252F1i1rdRhl4dbOcmAAAAAGmv%252BJwAAAAB%26reviewId%3DR3ARU0ZNAK7GTO%23R3ARU0ZNAK7GTO&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1777]: Útil
+                        - generic [ref=e1779]:
+                          - img [ref=e1780]
+                          - link "Denunciar reseña de Gyxks" [ref=e1782] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hPGUrnrY6rqbdWVX6PxHb2RcszyAB/1i1rdRhl4dbOcmAAAAAGmv+JwAAAAB&reviewId=R3ARU0ZNAK7GTO
+                            - text: Denunciar
+                  - listitem [ref=e1783]:
+                    - generic [ref=e1786]:
+                      - link "Pepe Pérez" [ref=e1788] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AE663NX5S6YDRQVAUMBUPDKEPVOA
+                        - img [ref=e1791]
+                        - generic [ref=e1792]: Pepe Pérez
+                      - heading "5,0 de 5 estrellas ¡¡Dejen de hablar bien de este café!!" [level=5] [ref=e1794]:
+                        - link "5,0 de 5 estrellas ¡¡Dejen de hablar bien de este café!!" [ref=e1795] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/RSEK68LZ9QNHL/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1797]: 5,0 de 5 estrellas
+                          - text: ¡¡Dejen de hablar bien de este café!!
+                      - heading "Reseñado en España el 21 de junio de 2025" [level=6] [ref=e1798]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1800] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1805]: ¡¡Dejen de hablar bien de este café!! Le suben el precio y encima se agota de vez en cuando. Es sin duda el mejor café de especialidad y yo no puedo vivir si él. Que no se corra la voz...
+                      - generic [ref=e1806]:
+                        - link "Marcar la reseña como útil" [ref=e1810] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhCMjJClU7o%252B4zdePpXjMnTWeox14qPhs5rhF%252BDW%252FCVbxAAAAAGmv%252BJwAAAAB%26reviewId%3DRSEK68LZ9QNHL%23RSEK68LZ9QNHL&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1811]: Útil
+                        - generic [ref=e1813]:
+                          - img [ref=e1814]
+                          - link "Denunciar reseña de Pepe Pérez" [ref=e1816] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hCMjJClU7o+4zdePpXjMnTWeox14qPhs5rhF+DW/CVbxAAAAAGmv+JwAAAAB&reviewId=RSEK68LZ9QNHL
+                            - text: Denunciar
+                  - listitem [ref=e1817]:
+                    - generic [ref=e1820]:
+                      - link "Quique" [ref=e1822] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AEUNKE7BZ5UQQTPVRBR7LXCYK4TA
+                        - img [ref=e1825]
+                        - generic [ref=e1826]: Quique
+                      - heading "3,0 de 5 estrellas Faltan más de 30 gramos" [level=5] [ref=e1828]:
+                        - link "3,0 de 5 estrellas Faltan más de 30 gramos" [ref=e1829] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/RMLEGWLOGIRZI/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1831]: 3,0 de 5 estrellas
+                          - text: Faltan más de 30 gramos
+                      - heading "Reseñado en España el 10 de mayo de 2022" [level=6] [ref=e1832]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1834] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1839]:
+                        - text: Suele llegar una semana antes de lo prometido, tostado del día anterior, lo que obliga, si tienes cafetera espresso, a esperar unos diez días para utilizarlo. Siempre faltan unos 30 gramos en el paquete, no sé si lo hacen por tener una mejor tarifa de transporte o simplemente por listos, preferiría que indicaran el peso y el precio, un 3 % más caro, correctamente.
+                        - text: El café es de buena calidad.
+                      - generic [ref=e1840]:
+                        - generic [ref=e1841]:
+                          - generic [ref=e1842]: A una persona le ha parecido esto útil
+                          - link "Marcar la reseña como útil" [ref=e1846] [cursor=pointer]:
+                            - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhLFRoJH1ytwyXgzrZkBzDObgyoETm%252F6bE40sNS1ukxUvAAAAAGmv%252BJwAAAAB%26reviewId%3DRMLEGWLOGIRZI%23RMLEGWLOGIRZI&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                            - generic [ref=e1847]: Útil
+                        - generic [ref=e1849]:
+                          - img [ref=e1850]
+                          - link "Denunciar reseña de Quique" [ref=e1852] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hLFRoJH1ytwyXgzrZkBzDObgyoETm/6bE40sNS1ukxUvAAAAAGmv+JwAAAAB&reviewId=RMLEGWLOGIRZI
+                            - text: Denunciar
+                  - listitem [ref=e1853]:
+                    - generic [ref=e1856]:
+                      - link "GaBi" [ref=e1858] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AF5YP2LCVHOBZOXNTZELEY5LWE2Q
+                        - img [ref=e1861]
+                        - generic [ref=e1862]: GaBi
+                      - heading "4,0 de 5 estrellas Caro y Bueno" [level=5] [ref=e1864]:
+                        - link "4,0 de 5 estrellas Caro y Bueno" [ref=e1865] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R34P8ZBSO6610H/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1867]: 4,0 de 5 estrellas
+                          - text: Caro y Bueno
+                      - heading "Reseñado en España el 7 de febrero de 2025" [level=6] [ref=e1868]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1870] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1875]: Gran café; por eso su precio. Gran aroma y cremososidad. 100% Arábica y Natural.
+                      - generic [ref=e1876]:
+                        - link "Marcar la reseña como útil" [ref=e1880] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhNHaM%252FRq%252FNpTHE6TCmmmr%252BoiNilmzi51Wtmut0fkDQ%252BHAAAAAGmv%252BJwAAAAB%26reviewId%3DR34P8ZBSO6610H%23R34P8ZBSO6610H&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1881]: Útil
+                        - generic [ref=e1883]:
+                          - img [ref=e1884]
+                          - link "Denunciar reseña de GaBi" [ref=e1886] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hNHaM/Rq/NpTHE6TCmmmr+oiNilmzi51Wtmut0fkDQ+HAAAAAGmv+JwAAAAB&reviewId=R34P8ZBSO6610H
+                            - text: Denunciar
+                  - listitem [ref=e1887]:
+                    - generic [ref=e1890]:
+                      - link "Luis" [ref=e1892] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AHKKHBDIQLGOOMQEAH7JEX4PTMDQ
+                        - img [ref=e1895]
+                        - generic [ref=e1896]: Luis
+                      - heading "5,0 de 5 estrellas Café" [level=5] [ref=e1898]:
+                        - link "5,0 de 5 estrellas Café" [ref=e1899] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R1VXSFWEKWM4I5/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1901]: 5,0 de 5 estrellas
+                          - text: Café
+                      - heading "Reseñado en España el 23 de febrero de 2026" [level=6] [ref=e1902]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1904] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1909]: Esquisito
+                      - generic [ref=e1910]:
+                        - link "Marcar la reseña como útil" [ref=e1914] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhDhjRfVNLNkmST0TmzPgTw2cnivA2%252BJQs%252BymGXrpNNXAAAAAAGmv%252BJwAAAAB%26reviewId%3DR1VXSFWEKWM4I5%23R1VXSFWEKWM4I5&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1915]: Útil
+                        - generic [ref=e1917]:
+                          - img [ref=e1918]
+                          - link "Denunciar reseña de Luis" [ref=e1920] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hDhjRfVNLNkmST0TmzPgTw2cnivA2+JQs+ymGXrpNNXAAAAAAGmv+JwAAAAB&reviewId=R1VXSFWEKWM4I5
+                            - text: Denunciar
+                        - link "Traducir reseña a Español" [ref=e1923] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e1924]:
+                    - generic [ref=e1927]:
+                      - link "Ainhoa Rodríguez-Malo" [ref=e1929] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AEQ7DMFKJL5DTDXOXFF6DMBIN5TQ
+                        - img [ref=e1932]
+                        - generic [ref=e1933]: Ainhoa Rodríguez-Malo
+                      - heading "5,0 de 5 estrellas Si te gusta el café de origen, te va a encantar." [level=5] [ref=e1935]:
+                        - link "5,0 de 5 estrellas Si te gusta el café de origen, te va a encantar." [ref=e1936] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R2650K96EIDXE5/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1938]: 5,0 de 5 estrellas
+                          - text: Si te gusta el café de origen, te va a encantar.
+                      - heading "Reseñado en España el 4 de julio de 2022" [level=6] [ref=e1939]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1941] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1946]:
+                        - text: Me considero bastante exquisita con el café y la verdad, me ha sorprendido. Tiene un precio genial para la calidad que tiene, al nivel de muchas marcas gourmet.
+                        - text: No es especialmente fuerte en boca, pero es un café colombiano, es muy rico en boca y se puede tomar tanto solo como con leche, que no defrauda. Eso sí, yo lo recomiendo solo con una nube de leche.
+                      - generic [ref=e1947]:
+                        - link "Marcar la reseña como útil" [ref=e1951] [cursor=pointer]:
+                          - /url: https://www.amazon.es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fdp%2FB08JK6XZ9D%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhNBjSsqRojdfzA6JkmqW8x4QTu9l3Ou1KUkcfLHoNik7AAAAAGmv%252BJwAAAAB%26reviewId%3DR2650K96EIDXE5%23R2650K96EIDXE5&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=esflex&openid.mode=checkid_setup&marketPlaceId=A1RKKUPIHCS9HS&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1952]: Útil
+                        - generic [ref=e1954]:
+                          - img [ref=e1955]
+                          - link "Denunciar reseña de Ainhoa Rodríguez-Malo" [ref=e1957] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hNBjSsqRojdfzA6JkmqW8x4QTu9l3Ou1KUkcfLHoNik7AAAAAGmv+JwAAAAB&reviewId=R2650K96EIDXE5
+                            - text: Denunciar
+                - generic [ref=e1959]:
+                  - separator [ref=e1960]
+                  - link "Ver más opiniones" [ref=e1961] [cursor=pointer]:
+                    - /url: /product-reviews/B08JK6XZ9D/ref=cm_cr_dp_d_show_all_btm?ie=UTF8
+              - generic [ref=e1965]:
+                - generic [ref=e1966]:
+                  - heading "Reseñas más importantes de otros países" [level=3] [ref=e1967]
+                  - link "Traducir todas las opiniones al español" [ref=e1973] [cursor=pointer]:
+                    - /url: "#customerReviews"
+                - list [ref=e1976]:
+                  - listitem [ref=e1977]:
+                    - generic [ref=e1980]:
+                      - generic [ref=e1982]:
+                        - img [ref=e1985]
+                        - generic [ref=e1986]: alstock
+                      - heading "5,0 de 5 estrellas It is what it says it is!" [level=5] [ref=e1988]:
+                        - generic [ref=e1990]: 5,0 de 5 estrellas
+                        - generic [ref=e1991]: It is what it says it is!
+                      - heading "Reseñado en Suecia el 30 de enero de 2026" [level=6] [ref=e1992]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e1994] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1999]: Good choice
+                      - generic [ref=e2000]:
+                        - link "Denunciar reseña de alstock" [ref=e2004] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hBU25wk90YcsZDil9XO6D4fm5jmZ+qbkwe+FeMrYIsS0AAAAAGmv+JwAAAAB&reviewId=R1EU8Z26KEMA3E
+                          - text: Denunciar
+                        - link "Traducir reseña a Español" [ref=e2007] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e2008]:
+                    - generic [ref=e2011]:
+                      - generic [ref=e2013]:
+                        - img [ref=e2016]
+                        - generic [ref=e2017]: Sunday
+                      - heading "5,0 de 5 estrellas I enjoyed it" [level=5] [ref=e2019]:
+                        - generic [ref=e2021]: 5,0 de 5 estrellas
+                        - generic [ref=e2022]: I enjoyed it
+                      - heading "Reseñado en Alemania el 5 de mayo de 2025" [level=6] [ref=e2023]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2025] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e2030]: Good
+                      - generic [ref=e2031]:
+                        - link "Denunciar reseña de Sunday" [ref=e2035] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hE6o8bM92hwFxN9Qh/zcUR/1a6C2Ye020WlBN5g6+74CAAAAAGmv+JwAAAAB&reviewId=R3CLAF6DLVHWYG
+                          - text: Denunciar
+                        - link "Traducir reseña a Español" [ref=e2038] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e2039]:
+                    - generic [ref=e2042]:
+                      - generic [ref=e2044]:
+                        - img [ref=e2047]
+                        - generic [ref=e2048]: frederic DEO-VAN
+                      - heading "5,0 de 5 estrellas Très bon café" [level=5] [ref=e2050]:
+                        - generic [ref=e2052]: 5,0 de 5 estrellas
+                        - generic [ref=e2053]: Très bon café
+                      - heading "Reseñado en Francia el 22 de enero de 2023" [level=6] [ref=e2054]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2056] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e2061]: Très bon café, la qualité est là!
+                      - generic [ref=e2062]:
+                        - link "Denunciar reseña de frederic DEO-VAN" [ref=e2066] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hHfmaUPBPEQl1NlB6i1E88GNwdOWRyhoTkoX6ZHHVfQVAAAAAGmv+JwAAAAB&reviewId=R3EHTVEUJKPY5
+                          - text: Denunciar
+                        - link "Traducir reseña a Español" [ref=e2069] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e2070]:
+                    - generic [ref=e2073]:
+                      - generic [ref=e2075]:
+                        - img [ref=e2078]
+                        - generic [ref=e2079]: Genia
+                      - heading "5,0 de 5 estrellas Magnifique" [level=5] [ref=e2081]:
+                        - generic [ref=e2083]: 5,0 de 5 estrellas
+                        - generic [ref=e2084]: Magnifique
+                      - heading "Revisado en Bélgica el 16 de marzo de 2023" [level=6] [ref=e2085]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2087] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e2092]: Du très très bon café. Complexe et subtil.
+                      - generic [ref=e2093]:
+                        - link "Denunciar reseña de Genia" [ref=e2097] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hKaqvwBsUEWmMK26nAJZXq9SQf8aV7GAMNKU7BCDifeoAAAAAGmv+JwAAAAB&reviewId=R3IVMSP5WYTRDY
+                          - text: Denunciar
+                        - link "Traducir reseña a Español" [ref=e2100] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e2101]:
+                    - generic [ref=e2104]:
+                      - generic [ref=e2106]:
+                        - img [ref=e2109]
+                        - generic [ref=e2110]: Jacob C. Jamieson
+                      - heading "5,0 de 5 estrellas Fresh and robust" [level=5] [ref=e2112]:
+                        - generic [ref=e2114]: 5,0 de 5 estrellas
+                        - generic [ref=e2115]: Fresh and robust
+                      - heading "Reseñado en Italia el 21 de julio de 2025" [level=6] [ref=e2116]
+                      - 'link "Compra verificada: Más información sobre cómo funcionan las opiniones de los clientes en Amazon" [ref=e2118] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e2121]:
+                        - generic [ref=e2123]:
+                          - text: From the moment you encounter a fresh bag of high-quality Colombian coffee, you're greeted by rich aromatics—think floral overtones mingling with sweet caramel and just a hint of citrus. The beans themselves show a deep, glossy sheen, indicative of perfect roasting and freshness.
+                          - text: "Once brewed, the coffee exudes a vibrant, inviting fragrance that hints at its complexity. The first sip is incredibly smooth, and the flavor profile immediately stands out for its balance:"
+                          - text: ": Medium, with a silky mouthfeel that lingers appealingly."
+                          - text: ": Bright yet not overpowering, characteristic of Colombia’s high-altitude beans."
+                          - text: ": Subtle chocolate, ripe red fruits (like cherry or plum), and a delicate floral finish."
+                          - text: What’s special about Colombian coffee is its consistent quality and versatility. Whether enjoyed as a classic espresso or a slow-poured filter cup, it delivers depth without bitterness and complexity without overwhelming the palate.
+                          - text: While I usually reserve my review energy for Italian restaurants, this Colombian coffee was a surprise pairing that would sit beautifully alongside a slice of crostata or even after a robust meal like Bistecca Florentina, letting the subtle sweetness and acidity cut through richer flavors.
+                          - text: If you appreciate coffees where each cup tells a story—from the Andes mountainsides to your table—top-tier Colombian beans are a must-try. Their harmony of brightness, complexity, and clean finish make them memorable for both seasoned aficionados and newcomers alike.
+                        - button "Lea más de esta reseña" [ref=e2126] [cursor=pointer]: Leer más
+                      - generic [ref=e2128]:
+                        - link "Denunciar reseña de Jacob C. Jamieson" [ref=e2132] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hJ9QmXS9z/3zTWzgq4mQXr3kowIjQMP2jt7obRLW7oi/AAAAAGmv+JwAAAAB&reviewId=R3K9M3MEC6CHR3
+                          - text: Denunciar
+                        - link "Traducir reseña a Español" [ref=e2135] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                - generic [ref=e2136]:
+                  - separator [ref=e2137]
+                  - link "Ver más opiniones" [ref=e2138] [cursor=pointer]:
+                    - /url: /product-reviews/B08JK6XZ9D/ref=cm_cr_dp_d_show_all_btm?ie=UTF8
+      - generic [ref=e2141]:
+        - separator [ref=e2142]
+        - generic [ref=e2143]:
+          - heading "Recursos de seguridad y productos" [level=2] [ref=e2144]
+          - generic [ref=e2145]:
+            - generic [ref=e2146]:
+              - heading "Información normativa" [level=3] [ref=e2147]
+              - paragraph [ref=e2148]: "El número de código del organismo de control ecológico: LU-BIO-04."
+            - generic [ref=e2150]:
+              - heading "Imágenes y contactos" [level=3] [ref=e2151]
+              - button "Imágenes y contactos de seguridad" [ref=e2153] [cursor=pointer]
+  - complementary "Productos que has visto recientemente y recomendaciones destacadas"
+  - generic [ref=e2154]:
+    - button "Volver arriba" [ref=e2155] [cursor=pointer]:
+      - generic [ref=e2156]: Volver arriba
+    - generic [ref=e2157]:
+      - generic [ref=e2158]:
+        - heading "Conócenos" [level=6] [ref=e2159]
+        - list [ref=e2160]:
+          - listitem [ref=e2161]:
+            - link "Trabajar en Amazon" [ref=e2162] [cursor=pointer]:
+              - /url: /gp/browse.html?node=923374031&ref_=footer_gw_m_b_careers
+          - listitem [ref=e2163]:
+            - link "Sobre Amazon.es" [ref=e2164] [cursor=pointer]:
+              - /url: https://www.amazon.es/sobreamazon
+          - listitem [ref=e2165]:
+            - link "Sostenibilidad" [ref=e2166] [cursor=pointer]:
+              - /url: https://sostenibilidad.aboutamazon.es/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e2167]:
+            - link "Amazon Science" [ref=e2168] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2170]:
+        - heading "Gana dinero con nosotros" [level=6] [ref=e2171]
+        - list [ref=e2172]:
+          - listitem [ref=e2173]:
+            - link "Vende con más de 47.250€ en incentivos" [ref=e2174] [cursor=pointer]:
+              - /url: https://services.amazon.es/sell.html?ld=AZESSOAFooter&ref_=sdes_soa
+          - listitem [ref=e2175]:
+            - link "Vender en Amazon Business" [ref=e2176] [cursor=pointer]:
+              - /url: https://sell.amazon.es/programas/amazon-business/?ld=AZESB2BRetailFooter
+          - listitem [ref=e2177]:
+            - link "Vende en Amazon Handmade" [ref=e2178] [cursor=pointer]:
+              - /url: https://services.amazon.es/handmade.htm?ref=azessoafoo&ld=AZESHNDFooter
+          - listitem [ref=e2179]:
+            - link "Desarrolla y protege tu marca" [ref=e2180] [cursor=pointer]:
+              - /url: https://sell.amazon.es/propietarios-de-marcas/?ref_=AOESABRLGNRFOOT&ld=AZESBrandRegFooter#inscribe-tu-marca
+          - listitem [ref=e2181]:
+            - link "Programa de afiliados" [ref=e2182] [cursor=pointer]:
+              - /url: https://afiliados.amazon.es/
+          - listitem [ref=e2183]:
+            - link "Logística de Amazon" [ref=e2184] [cursor=pointer]:
+              - /url: https://services.amazon.es/servicios/logistica-de-amazon/funciones-y-ventajas/?ld=AZESFBAFooter
+          - listitem [ref=e2185]:
+            - link "Suministrar a Amazon" [ref=e2186] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta
+          - listitem [ref=e2187]:
+            - link "Promociona tus productos" [ref=e2188] [cursor=pointer]:
+              - /url: https://advertising.amazon.es/products-self-serve?ref_=ext_amzn_ftr
+          - listitem [ref=e2189]:
+            - link "Publica tu libro en Kindle" [ref=e2190] [cursor=pointer]:
+              - /url: https://kdp.amazon.com/?language=es_ES
+          - listitem [ref=e2191]:
+            - link "Amazon Pay" [ref=e2192] [cursor=pointer]:
+              - /url: https://pay.amazon.com/es?ld=AWREESAPAFooter
+          - listitem [ref=e2193]:
+            - link "Alojar un Amazon Hub" [ref=e2194] [cursor=pointer]:
+              - /url: https://www.amazon.es/b?node=13350923031
+      - generic [ref=e2196]:
+        - heading "Métodos de pago Amazon" [level=6] [ref=e2197]
+        - list [ref=e2198]:
+          - listitem [ref=e2199]:
+            - link "Métodos de pago" [ref=e2200] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201262600&ref_=footer_payment
+          - listitem [ref=e2201]:
+            - link "Conversor de divisas de Amazon" [ref=e2202] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201239250&ref_=footer_tfx
+          - listitem [ref=e2203]:
+            - link "Tarjetas regalo" [ref=e2204] [cursor=pointer]:
+              - /url: /gp/gc?ref_=footer_giftcards
+          - listitem [ref=e2205]:
+            - link "Recarga online" [ref=e2206] [cursor=pointer]:
+              - /url: /gp/gc/create?ref_=footer_topup_es
+          - listitem [ref=e2207]:
+            - link "Recarga en tienda" [ref=e2208] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15417070031&ref_=footer_purchase_code
+      - generic [ref=e2210]:
+        - heading "¿Necesitas ayuda?" [level=6] [ref=e2211]
+        - list [ref=e2212]:
+          - listitem [ref=e2213]:
+            - link "Localizar o gestionar compras" [ref=e2214] [cursor=pointer]:
+              - /url: /gp/css/order-history?ref_=footer_hp_ss_comp_tmp
+          - listitem [ref=e2215]:
+            - link "Tarifas y políticas de envío" [ref=e2216] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200522630&ref_=footer_shiprates
+          - listitem [ref=e2217]:
+            - link "Amazon Prime" [ref=e2218] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=e2219]:
+            - link "Devolver o reemplazar productos" [ref=e2220] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2221]:
+            - link "Reciclaje" [ref=e2222] [cursor=pointer]:
+              - /url: /gp/browse.html?node=22380251031&ref_=footer_disposal
+          - listitem [ref=e2223]:
+            - link "Gestionar contenido y dispositivos" [ref=e2224] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e2225]:
+            - link "Retiradas y alertas de seguridad de productos" [ref=e2226] [cursor=pointer]:
+              - /url: https://www.amazon.es/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2227]:
+            - link "App Amazon" [ref=e2228] [cursor=pointer]:
+              - /url: /gp/browse.html?node=5061838031&ref_=footer_mobapp
+          - listitem [ref=e2229]:
+            - link "Atención al Cliente" [ref=e2230] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_cs
+          - listitem [ref=e2231]:
+            - link "IVA sobre los bienes" [ref=e2232] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201239260&ref_=footer_vat
+          - listitem [ref=e2233]:
+            - link "Accesibilidad" [ref=e2234] [cursor=pointer]:
+              - /url: https://www.amazon.es/gp/help/customer/display.html?nodeId=GUUVBZ8WGVFP8R8X&ref_=nav_foot_accessibility
+          - listitem [ref=e2235]:
+            - link "Listas de regalos" [ref=e2236] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e2237]:
+            - link "Denunciar contenido ilegal" [ref=e2238] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=TLtMJsPGBmJPpN3hvy&ref_=footer_report_illegal_content
+    - generic [ref=e2240]:
+      - link "Amazon Spain Home" [ref=e2243] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=e2246]:
+        - generic [ref=e2247]:
+          - link "Elige un idioma para comprar. La selección actual es Castellano." [ref=e2248] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2250]: Castellano
+          - button "Expandir para cambiar idioma o país" [ref=e2251] [cursor=pointer]
+        - button "Elige un país y región para comprar. La selección actual es España." [ref=e2252] [cursor=pointer]:
+          - generic [ref=e2254]: España
+    - generic "Más en Amazon" [ref=e2255]:
+      - generic "Más en Amazon" [ref=e2256]:
+        - list [ref=e2257]:
+          - listitem [ref=e2258]:
+            - link "Amazon Music Transmite millones de canciones" [ref=e2259] [cursor=pointer]:
+              - /url: https://music.amazon.es/?ref=dm_aff_amz_es
+              - heading "Amazon Music" [level=5] [ref=e2260]
+              - generic [ref=e2261]:
+                - text: Transmite millones
+                - text: de canciones
+          - listitem [ref=e2262]
+          - listitem [ref=e2263]:
+            - link "IberLibro Libros, arte & artículos de colección" [ref=e2264] [cursor=pointer]:
+              - /url: https://www.iberlibro.com/
+              - heading "IberLibro" [level=5] [ref=e2265]
+              - generic [ref=e2266]:
+                - text: Libros, arte
+                - text: "& artículos de colección"
+          - listitem [ref=e2267]
+          - listitem [ref=e2268]:
+            - link "Amazon Web Services Servicios Cloud Computing de Amazon" [ref=e2269] [cursor=pointer]:
+              - /url: https://aws.amazon.com/es/?sc_channel=EL&sc_campaign=ES_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2270]
+              - generic [ref=e2271]:
+                - text: Servicios Cloud Computing
+                - text: de Amazon
+          - listitem [ref=e2272]
+          - listitem [ref=e2273]:
+            - link "Kindle Direct Publishing Publica tu libro en papel y digital de manera independiente" [ref=e2274] [cursor=pointer]:
+              - /url: https://kdp.amazon.com/?language=es_ES
+              - heading "Kindle Direct Publishing" [level=5] [ref=e2275]
+              - generic [ref=e2276]:
+                - text: Publica tu libro en papel y digital
+                - text: de manera independiente
+        - list [ref=e2277]:
+          - listitem [ref=e2278]:
+            - link "Amazon Segunda mano Productos devueltos y como nuevos" [ref=e2279] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3582001031&ref_=footer_wrhsdls
+              - heading "Amazon Segunda mano" [level=5] [ref=e2280]
+              - generic [ref=e2281]: Productos devueltos y como nuevos
+          - listitem [ref=e2282]
+          - listitem [ref=e2283]:
+            - link "Shopbop Marcas de moda de diseño" [ref=e2284] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e2285]
+              - generic [ref=e2286]:
+                - text: Marcas
+                - text: de moda de diseño
+          - listitem [ref=e2287]
+          - listitem [ref=e2288]:
+            - link "Amazon Business Servicio para clientes de empresa" [ref=e2289] [cursor=pointer]:
+              - /url: /gp/browse.html?node=14862331031&ref_=nav_footer_business
+              - heading "Amazon Business" [level=5] [ref=e2290]
+              - generic [ref=e2291]:
+                - text: Servicio para
+                - text: clientes de empresa
+          - listitem [ref=e2292]
+          - listitem [ref=e2293]:
+            - link "Audible Disfruta de miles de audiolibros y podcasts originales" [ref=e2294] [cursor=pointer]:
+              - /url: https://www.audible.es
+              - heading "Audible" [level=5] [ref=e2295]
+              - generic [ref=e2296]: Disfruta de miles de audiolibros y podcasts originales
+    - generic [ref=e2297]:
+      - list [ref=e2298]:
+        - listitem [ref=e2299]:
+          - link "Condiciones de Uso y Venta" [ref=e2300] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909000&ref_=footer_cou
+        - listitem [ref=e2301]:
+          - link "Aviso de privacidad" [ref=e2302] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909010&ref_=footer_privacy
+        - listitem [ref=e2303]:
+          - link "Área legal" [ref=e2304] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909250&ref_=footer_legal_area
+        - listitem [ref=e2305]:
+          - link "Cookies" [ref=e2306] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies_notice
+        - listitem [ref=e2307]:
+          - link "Publicidad basada en intereses" [ref=e2308] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909150&ref_=footer_Interest_Based_Ads_Notice
+      - generic [ref=e2309]: © 1996-2026, Amazon.com, Inc. o sus afiliados

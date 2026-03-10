@@ -132,6 +132,19 @@ export const picks: PickProduct[] = [
       'Cafetera eléctrica portátil con carga USB-C pensada para viajes, coche, camping u oficina. Acepta café molido y cápsulas compatibles, así que es una opción muy práctica si quieres espresso en movilidad con un formato compacto.',
   },
   {
+    slug: 'bocono-specialty-coffee-colombia-1kg',
+    title: 'Bocono Specialty Coffee Colombia 1 kg',
+    brand: 'Bocono Specialty Coffee',
+    category: 'cafe',
+    priceLabel: '35,50 €',
+    affiliateUrl: 'https://amzn.to/3OXwopf',
+    image: '/images/picks/bocono-specialty-coffee-colombia-1kg.jpg',
+    shortDescription:
+      'Café de especialidad en grano 100% arábica con origen Colombia y tueste medio para espresso o filtro.',
+    description:
+      'Café en grano de 1 kg con proceso lavado y perfil versátil para espresso, V60 o Chemex. Lo propongo como opción de café de especialidad si buscas un grano equilibrado, con origen único y formato grande para el día a día.',
+  },
+  {
     slug: 'songmics-escritorio-electrico-180x80',
     title: 'SONGMICS Escritorio Eléctrico Regulable 180 x 80 cm',
     brand: 'SONGMICS',
@@ -143,6 +156,19 @@ export const picks: PickProduct[] = [
       'Escritorio elevable eléctrico amplio con memoria de alturas para alternar entre trabajo sentado y de pie.',
     description:
       'Mesa regulable en altura de 180 x 80 cm con ajuste continuo y memorias de posición. La propongo para setup de trabajo porque ofrece una superficie amplia y facilita cambiar de postura durante la jornada.',
+  },
+  {
+    slug: 'weightworld-ashwagandha-ksm-66-1500mg-180-comprimidos',
+    title: 'WeightWorld Ashwagandha KSM-66 1500 mg (180 comprimidos)',
+    brand: 'WeightWorld',
+    category: 'suplementos',
+    priceLabel: '22,99 €',
+    affiliateUrl: 'https://amzn.to/4rHDfBI',
+    image: '/images/picks/weightworld-ashwagandha-ksm-66-1500mg-180-comprimidos.jpg',
+    shortDescription:
+      'Ashwagandha KSM-66 en comprimidos con formato de 180 unidades para una rutina diaria de larga duración.',
+    description:
+      'Suplemento de ashwagandha KSM-66, en pastillas (en polvo sabe horrible). Ayuda a disminuir estrés y relajarte de manera natural. Lo uso en periodos de estrés.',
   },
 ];
 
