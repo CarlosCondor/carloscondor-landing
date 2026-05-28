@@ -170,6 +170,19 @@ export const picks: PickProduct[] = [
     description:
       'Suplemento de ashwagandha KSM-66, en pastillas (en polvo sabe horrible). Ayuda a disminuir estrés y relajarte de manera natural. Lo uso en periodos de estrés.',
   },
+  {
+    slug: 'cosori-dual-blaze-air-fryer-wifi-64l',
+    title: 'Cosori Dual Blaze Air Fryer WiFi 6,4 L',
+    brand: 'Cosori',
+    category: 'lifestyle',
+    priceLabel: '139,99 €',
+    affiliateUrl: 'https://amzn.to/4f8cSBq',
+    image: '/images/picks/cosori-dual-blaze-air-fryer-wifi-64l.jpg',
+    shortDescription:
+      'Freidora de aire de 6,4 L con control WiFi y programas ajustables para cocinar con menos aceite.',
+    description:
+      'Freidora de aire Cosori con capacidad amplia, doble resistencia y control desde app para recetas y ajustes de tiempo y temperatura. La propongo como opción práctica para preparar comidas rápidas en casa con menos aceite y limpieza sencilla.',
+  },
 ];
 
 export function getPickBySlug(slug: string) {
