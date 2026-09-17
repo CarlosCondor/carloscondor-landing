@@ -12,7 +12,7 @@ test.describe('Home Page', () => {
   test('displays profile image', async ({ page }) => {
     const profileImg = page.locator('.profile-image img');
     await expect(profileImg).toBeVisible();
-    await expect(profileImg).toHaveAttribute('src', '/images/yo.jpg');
+    await expect(profileImg).toHaveAttribute('src', '/images/foto-cv.png');
     await expect(profileImg).toHaveAttribute('alt', 'Juan Carlos Delgado');
   });
 

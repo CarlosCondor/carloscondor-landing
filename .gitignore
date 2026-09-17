@@ -28,3 +28,4 @@ playwright-report/
 dist/
 .playwright-cli/
 output/playwright/
+.superpowers/

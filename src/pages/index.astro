@@ -1,5 +1,8 @@
 ---
-
+const year = new Date().getFullYear();
+// Edita este texto para actualizar la presentación breve de tu perfil o CV.
+const profileDescription =
+  'Founding CTO con más de diez años construyendo productos digitales y equipos. Combino tecnología, producto y visión de negocio para acompañar el crecimiento de productos, equipos y compañías.';
 ---
 
 <html lang="es">
@@ -8,6 +11,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#101110" />
     <meta
       name="description"
       content="Web personal de Juan Carlos Delgado, CTO / CPO"
@@ -27,108 +31,480 @@
     </script>
     <title>Juan Carlos Delgado</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
+      :global(*) {
         box-sizing: border-box;
       }
 
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
-          sans-serif;
-        line-height: 1.5;
-        color: #000;
-        background: #fff;
-        min-height: 100vh;
+      :global(html) {
+        color-scheme: dark;
+        background: #101110;
+      }
+
+      :global(body) {
+        margin: 0;
+        color: #eeede7;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      :global(::selection) {
+        color: #101110;
+        background: #e3a181;
+      }
+
+      :global(a) {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      :global(a:focus-visible) {
+        outline: 2px solid #e3a181;
+        outline-offset: 7px;
+        border-radius: 3px;
+      }
+
+      .page {
+        position: relative;
+        isolation: isolate;
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        overflow: clip;
+      }
+
+      .page::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        pointer-events: none;
+        inset: 0;
+        background: radial-gradient(ellipse at 86% 43%, #a35f3220, transparent 48%);
+      }
+
+      .shell {
+        width: min(1120px, calc(100% - 112px));
+        margin-inline: auto;
+      }
+
+      .mono {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        z-index: 2;
+        padding: 12px 18px;
+        background: #eeede7;
+        color: #101110;
+        transform: translateY(-160%);
+      }
+
+      .skip-link:focus {
+        transform: translateY(0);
+      }
+
+      .header {
+        min-height: 104px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .brand {
+        font-size: 15px;
+        letter-spacing: -0.6px;
+      }
+
+      .brand span {
+        color: #db956f;
+      }
+
+      main {
+        flex: 1;
       }
 
       .container {
-        text-align: center;
-        max-width: 400px;
-      }
-
-      .profile-image {
-        width: 120px;
-        height: 120px;
-        margin: 0 auto 2rem;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1.25fr 1fr;
         align-items: center;
-        justify-content: center;
-        font-size: 2.5rem;
-        font-weight: 600;
-        color: white;
-      }
-      .profile-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 50%;
+        gap: clamp(40px, 6vw, 88px);
+        padding-block: 64px 94px;
       }
 
       h1 {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-        color: #000;
-        font-weight: 600;
+        margin: 0;
+        font-size: clamp(64px, 6.9vw, 96px);
+        font-weight: 550;
+        line-height: 1.04;
+        letter-spacing: -0.065em;
+      }
+
+      h1 span {
+        display: block;
+        color: #db956f;
       }
 
       .subtitle {
-        font-size: 1rem;
-        color: #666;
-        margin-bottom: 3rem;
-        font-weight: 400;
+        margin: 30px 0 0;
+        font-size: clamp(13px, 1.3vw, 15px);
+        line-height: 1.8;
+        color: #b5b5ad;
+        letter-spacing: -0.035em;
+      }
+
+      .profile-description {
+        max-width: 43ch;
+        margin: 20px 0 0;
+        color: #b5b5ad;
+        font-size: 17px;
+        line-height: 1.75;
+        overflow-wrap: anywhere;
       }
 
       .links {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
+        display: grid;
+        grid-template-columns: max-content max-content;
+        align-items: center;
+        justify-content: start;
+        gap: 32px 28px;
+        margin-top: 44px;
+        font-size: 13px;
       }
 
       .link {
-        color: #000;
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 400;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        gap: 18px;
+        transition: color 180ms ease, background 180ms ease, border-color 180ms ease;
       }
 
-      .link:hover {
-        opacity: 0.6;
+      .contact-link {
+        grid-column: 2;
+        grid-row: 1;
+        padding: 0 22px;
+        min-height: 50px;
+        border: 1px solid #9c654a;
+        border-radius: 6px;
+        color: #f0c4ab;
+        background: #b9744c18;
+      }
+
+      .contact-link:hover {
+        background: #b9744c30;
+        border-color: #db956f;
+      }
+
+      .blog-link {
+        grid-column: 1;
+        grid-row: 1;
+        color: #eeede7;
+      }
+
+      .social-link {
+        justify-content: flex-start;
+        color: #a5a59e;
+        font-size: 12px;
+      }
+
+      .blog-link:hover,
+      .social-link:hover {
+        color: #e3a181;
+      }
+
+      .arrow {
+        width: 14px;
+        height: 14px;
+        flex: none;
+        background: currentColor;
+        mask: url('/icons/arrow-up-right.svg') center / contain no-repeat;
+        transition: transform 180ms ease;
+      }
+
+      .contact-link .arrow {
+        transform: rotate(45deg);
+      }
+
+      .link:hover .arrow {
+        transform: translate(2px, -2px);
+      }
+
+      .contact-link:hover .arrow {
+        transform: translateX(3px) rotate(45deg);
+      }
+
+      .profile-image {
+        position: relative;
+        margin: 0;
+        padding: 12px;
+        border: 1px solid #ffffff1a;
+        border-radius: 18px;
+        background: linear-gradient(145deg, #30302b, #191a18 70%);
+        box-shadow: 0 28px 80px #0005, inset 0 1px 0 #ffffff0a;
+        transform: rotate(3deg);
+      }
+
+      .profile-image::before {
+        content: "";
+        position: absolute;
+        inset: 22px -13px -17px 19px;
+        z-index: -1;
+        border: 1px solid #af7c5529;
+        border-radius: 16px;
+        background: #1b1b18;
+        transform: rotate(-6deg);
+      }
+
+      .portrait {
+        overflow: hidden;
+        border-radius: 9px;
+        background: #292924;
+      }
+
+      .profile-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+        filter: grayscale(1) sepia(0.12) brightness(0.8) contrast(1.08);
+        transition: filter 500ms ease, transform 500ms ease;
+      }
+
+      @media (hover: hover) {
+        .profile-image:hover img {
+          filter: grayscale(0.25) sepia(0.08) brightness(0.88);
+          transform: scale(1.025);
+        }
+      }
+
+      .trajectory {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: clamp(40px, 6vw, 88px);
+        padding-block: 64px 88px;
+        border-top: 1px solid #ffffff12;
+      }
+
+      .trajectory h2 {
+        margin: 0;
+        color: #db956f;
+        font-size: clamp(28px, 3vw, 36px);
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.045em;
+      }
+
+      .trajectory-story {
+        max-width: 64ch;
+        color: #b5b5ad;
+        font-size: 17px;
+        line-height: 1.85;
+      }
+
+      .trajectory-story p {
+        margin: 0;
+      }
+
+      .trajectory-story p + p {
+        margin-top: 24px;
+      }
+
+      .trajectory-story strong {
+        color: #eeede7;
+        font-weight: 550;
+      }
+
+      .footer {
+        min-height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        border-top: 1px solid #ffffff12;
+        color: #92938b;
+        font-size: 11px;
+        line-height: 1.6;
+      }
+
+      .footer p {
+        margin: 0;
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .intro {
+          animation: enter 650ms ease-out both;
+        }
+
+        .profile-image {
+          animation: portrait-enter 850ms ease-out both;
+        }
+
+        @keyframes enter {
+          from { opacity: 0; translate: 0 12px; }
+          to { opacity: 1; translate: 0 0; }
+        }
+
+        @keyframes portrait-enter {
+          from { opacity: 0; translate: 0 18px; }
+          to { opacity: 1; translate: 0 0; }
+        }
+      }
+
+      @media (max-width: 760px) {
+        .shell {
+          width: calc(100% - 48px);
+          max-width: 520px;
+        }
+
+        .header {
+          min-height: 82px;
+        }
+
+        .container {
+          grid-template-columns: 1fr;
+          gap: 48px;
+          padding-block: 42px 64px;
+        }
+
+        h1 {
+          font-size: clamp(56px, 12vw, 80px);
+        }
+
+        .subtitle {
+          margin-top: 24px;
+          font-size: 12px;
+        }
+
+        .links {
+          margin-top: 30px;
+          row-gap: 12px;
+        }
+
+        .profile-description {
+          font-size: 15px;
+        }
+
+        .profile-image {
+          width: min(100% - 24px, 350px);
+          justify-self: center;
+          padding: 10px;
+        }
+
+        .trajectory {
+          grid-template-columns: 1fr;
+          gap: 28px;
+          padding-block: 40px 56px;
+        }
+
+        .trajectory-story {
+          font-size: 15px;
+        }
+
+        .footer {
+          padding-block: 24px;
+          flex-wrap: wrap;
+          gap: 8px;
+          font-size: 10px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          transition: none !important;
+        }
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="profile-image">
-        <img src="/images/yo.jpg" alt="Juan Carlos Delgado" />
-      </div>
+    <div class="page">
+      <a class="skip-link" href="#contenido">Saltar al contenido</a>
+      <header class="header shell mono">
+        <a class="brand" href="/" aria-label="CarlosCondor, inicio">carlos<span>condor</span></a>
+      </header>
 
-      <h1>Juan Carlos Delgado</h1>
-      <p class="subtitle">CTO / CPO / Software Engineer</p>
-      <div class="links">
-        <a
-          href="https://CarlosCondor.github.io/"
-          class="link"
-          target="_blank"
-          rel="noopener noreferrer">Blog</a
-        >
-        <a href="mailto:j.carloscondor@gmail.com" class="link">Contacto</a>
-        <a
-          href="https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/"
-          class="link"
-          target="_blank"
-          rel="noopener noreferrer">LinkedIn</a
-        >
-        <a
-          href="https://github.com/carloscondor"
-          class="link"
-          target="_blank"
-          rel="noopener noreferrer">GitHub</a
-        >
-      </div>
+      <main id="contenido">
+        <div class="container shell">
+          <div class="intro">
+            <h1>Juan Carlos <span>Delgado</span></h1>
+            <p class="subtitle mono">CTO / CPO / Software Engineer</p>
+            <p class="profile-description">{profileDescription}</p>
+            <nav class="links mono" aria-label="Enlaces personales">
+              <a
+                href="https://CarlosCondor.github.io/"
+                class="link blog-link"
+                target="_blank"
+                rel="noopener noreferrer">Blog<span class="arrow" aria-hidden="true"></span></a
+              >
+              <a href="mailto:j.carloscondor@gmail.com" class="link contact-link">Contacto<span class="arrow" aria-hidden="true"></span></a>
+              <a
+                href="https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/"
+                class="link social-link"
+                target="_blank"
+                rel="noopener noreferrer">LinkedIn<span class="arrow" aria-hidden="true"></span></a
+              >
+              <a
+                href="https://github.com/carloscondor"
+                class="link social-link"
+                target="_blank"
+                rel="noopener noreferrer">GitHub<span class="arrow" aria-hidden="true"></span></a
+              >
+            </nav>
+          </div>
+
+          <figure class="profile-image">
+            <div class="portrait">
+              <img
+                src="/images/foto-cv.png"
+                alt="Juan Carlos Delgado"
+                width="941"
+                height="1672"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </div>
+          </figure>
+        </div>
+
+        <section class="trajectory shell" aria-labelledby="trayectoria">
+          <h2 id="trayectoria">Mi trayectoria</h2>
+          <div class="trajectory-story">
+            <p>
+              Aprendí a programar de manera autodidacta cuando era adolescente
+              y estudié robótica para complementar esa formación.
+            </p>
+            <p>
+              Empecé como <strong>desarrollador de hardware y software</strong>,
+              diseñando dispositivos M2M (machine to machine), cuando aún no se
+              había popularizado el término IoT (internet de las cosas).
+              Desarrollaba software de bajo nivel para procesadores con recursos
+              limitados, donde la optimización era fundamental.
+            </p>
+            <p>
+              Más adelante trabajé diseñando e implementando productos para <strong>Smart Cities</strong>:
+              plataformas de control de alumbrado público, monitorización de ruido
+              y planificación de rutas eficientes para la recogida de residuos
+              según el nivel de llenado de los contenedores.
+            </p>
+            <p>
+              <strong>Posteriormente fui Founding CTO en varias startups, destacando Bipi, adquirida por
+              Grupo Renault por aproximadamente 100 millones. Allí lideré los
+              equipos de producto y desarrollo durante más de diez años.
+              Participé en distintas rondas de financiación hasta el exit,
+              en la expansión de la compañía a cinco países
+              y en su integración en Mobilize tras la venta.</strong>
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer shell mono">
+        <p>© {year} Juan Carlos Delgado</p>
+      </footer>
     </div>
   </body>
 </html>
