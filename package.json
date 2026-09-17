@@ -3,16 +3,22 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "NODE_ENV=development astro dev",
+    "build": "NODE_ENV=production astro build",
     "preview": "astro preview",
     "test": "npx playwright test",
     "test:ui": "npx playwright test --ui",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdoc": "^0.15.11",
+    "@astrojs/react": "^6.0.6",
     "@astrojs/tailwind": "^6.0.2",
+    "@keystatic/astro": "5.0.6",
+    "@keystatic/core": "^0.6.9",
     "astro": "^5.13.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "tailwindcss": "^3.4.19"
   },
   "devDependencies": {
