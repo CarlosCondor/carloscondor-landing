@@ -1,13 +1,6 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Cross-page Navigation', () => {
-  test('Home → Picks via "Productos recomendados" link', async ({ page }) => {
-    await page.goto('/');
-    await page.locator('.links a', { hasText: 'Productos recomendados' }).click();
-    await expect(page).toHaveURL('/picks');
-    await expect(page.locator('[data-purpose="hero-section"] h1')).toHaveText('Productos que recomiendo');
-  });
-
   test('Picks → Detail via product card click', async ({ page }) => {
     await page.goto('/picks');
     const firstCard = page.locator('[data-picks-grid] [data-pick-card]').first();

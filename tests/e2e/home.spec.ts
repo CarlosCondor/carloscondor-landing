@@ -27,10 +27,9 @@ test.describe('Home Page', () => {
     page,
   }) => {
     const links = page.locator('.links .link');
-    await expect(links).toHaveCount(5);
+    await expect(links).toHaveCount(4);
 
     const expectedLinks = [
-      { text: 'Productos recomendados', href: '/picks' },
       {
         text: 'Blog',
         href: 'https://CarlosCondor.github.io/',
