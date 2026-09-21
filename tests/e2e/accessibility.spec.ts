@@ -76,7 +76,7 @@ test.describe('Accessibility — External Links', () => {
     );
   });
 
-  test('home external links open in a new tab with secure rel', async ({
+  test('home links use the appropriate navigation behavior', async ({
     page,
   }) => {
     await page.goto('/');
@@ -84,10 +84,10 @@ test.describe('Accessibility — External Links', () => {
     const blogLink = page.locator('.links a', { hasText: 'Blog' });
     const linkedInLink = page.locator('.links a', { hasText: 'LinkedIn' });
 
-    for (const link of [blogLink, linkedInLink]) {
-      await expect(link).toHaveAttribute('target', '_blank');
-      await expect(link).toHaveAttribute('rel', 'noopener noreferrer');
-    }
+    await expect(blogLink).toHaveAttribute('href', '/blog');
+    await expect(blogLink).not.toHaveAttribute('target', '_blank');
+    await expect(linkedInLink).toHaveAttribute('target', '_blank');
+    await expect(linkedInLink).toHaveAttribute('rel', 'noopener noreferrer');
   });
 });
 

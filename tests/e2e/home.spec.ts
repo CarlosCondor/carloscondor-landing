@@ -30,12 +30,7 @@ test.describe('Home Page', () => {
     await expect(links).toHaveCount(3);
 
     const expectedLinks = [
-      {
-        text: 'Blog',
-        href: 'https://CarlosCondor.github.io/',
-        target: '_blank',
-        rel: 'noopener noreferrer',
-      },
+      { text: 'Blog', href: '/blog' },
       { text: 'Contacto', href: 'mailto:j.carloscondor@gmail.com' },
       {
         text: 'LinkedIn',
