@@ -39,7 +39,7 @@ test.describe('Home Page', () => {
       { text: 'Contacto', href: 'mailto:j.carloscondor@gmail.com' },
       {
         text: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/juan-carlos-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-delgado-jaramillo-200a0330/',
+        href: 'https://www.linkedin.com/in/juan-carlos-delgado-jaramillo-200a0330/',
         target: '_blank',
         rel: 'noopener noreferrer',
       },

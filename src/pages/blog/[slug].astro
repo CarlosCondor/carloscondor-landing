@@ -1,0 +1,62 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id.replace(/\.mdoc$/, '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const dateFormatter = new Intl.DateTimeFormat('es-ES', { day: '2-digit', month: 'long', year: 'numeric' });
+---
+
+<BlogLayout title={`${post.data.title} | CarlosCondor`} description={post.data.description}>
+  <article class="article shell">
+    <a class="back" href="/blog">← Blog</a>
+    <header>
+      <time datetime={post.data.publishedAt.toISOString()}>{dateFormatter.format(post.data.publishedAt)}</time>
+      <h1>{post.data.title}</h1>
+      <p class="description">{post.data.description}</p>
+      {post.data.tags.length > 0 && <ul class="tags" aria-label="Etiquetas">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>}
+    </header>
+    {post.data.coverImage && (
+      <figure class="cover">
+        <img
+          src={post.data.coverImage}
+          alt={post.data.coverAlt}
+          width="1200"
+          height="675"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </figure>
+    )}
+    <div class="prose"><Content /></div>
+  </article>
+</BlogLayout>
+
+<style>
+  .article { max-width: 760px; padding-block: 52px 100px; }
+  .back { color: #db956f; font-size: 12px; } .back:hover { color: #eeede7; }
+  header { margin-top: 56px; padding-bottom: 42px; border-bottom: 1px solid #ffffff16; }
+  time { color: #92938b; font-size: 11px; text-transform: uppercase; }
+  h1 { max-width: 13ch; margin: 20px 0 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: 550; font-size: clamp(42px, 7vw, 74px); line-height: 1.02; letter-spacing: -.065em; }
+  .description { max-width: 57ch; margin: 24px 0 0; color: #b5b5ad; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; line-height: 1.7; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 0; padding: 0; list-style: none; color: #db956f; font-size: 11px; } .tags li { padding: 5px 7px; border: 1px solid #db956f44; }
+  .cover { margin: 42px 0 0; border: 1px solid #ffffff16; background: #151614; }
+  .cover img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  .prose { max-width: 66ch; padding-top: 42px; color: #d3d2ca; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; line-height: 1.82; }
+  .prose :global(h2), .prose :global(h3) { margin: 2em 0 .65em; color: #eeede7; line-height: 1.15; letter-spacing: -.035em; }
+  .prose :global(h2) { font-size: 1.55em; } .prose :global(h3) { font-size: 1.2em; }
+  .prose :global(p), .prose :global(ul), .prose :global(ol), .prose :global(pre) { margin: 0 0 1.35em; }
+  .prose :global(a) { color: #e3a181; text-decoration: underline; text-underline-offset: .2em; }
+  .prose :global(blockquote) { margin: 1.6em 0; padding-left: 20px; border-left: 2px solid #db956f; color: #b5b5ad; }
+  .prose :global(img) { display: block; width: 100%; height: auto; margin: 2em 0; border: 1px solid #ffffff16; }
+  .prose :global(code) { padding: .15em .35em; background: #ffffff12; font-family: "SFMono-Regular", Consolas, monospace; font-size: .85em; }
+  .prose :global(pre) { overflow-x: auto; padding: 18px; border: 1px solid #ffffff16; background: #151614; } .prose :global(pre code) { padding: 0; background: none; }
+</style>

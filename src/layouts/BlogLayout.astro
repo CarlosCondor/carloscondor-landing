@@ -1,0 +1,56 @@
+---
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#101110" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="page">
+      <header class="header shell">
+        <a class="brand" href="/" aria-label="CarlosCondor, inicio">carlos<span>condor</span></a>
+        <nav aria-label="Navegación principal">
+          <a class="nav-link current" href="/blog" aria-current="page">Blog</a>
+        </nav>
+      </header>
+      <main id="contenido"><slot /></main>
+      <footer class="footer shell">© {year} Juan Carlos Delgado</footer>
+    </div>
+  </body>
+</html>
+
+<style is:global>
+  :root { color-scheme: dark; background: #101110; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #101110; color: #eeede7; font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration: none; }
+  a:focus-visible { outline: 2px solid #e3a181; outline-offset: 5px; border-radius: 2px; }
+  .page { min-height: 100svh; display: flex; flex-direction: column; background: radial-gradient(ellipse at 86% 20%, #a35f3218, transparent 42%); }
+  .shell { width: min(980px, calc(100% - 48px)); margin-inline: auto; }
+  .header { min-height: 92px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #ffffff12; }
+  .brand { font-size: 15px; letter-spacing: -0.6px; }
+  .brand span, .current { color: #db956f; }
+  nav { display: flex; align-items: center; gap: 22px; font-size: 12px; }
+  .nav-link { color: #a5a59e; transition: color 160ms ease; }
+  .nav-link:hover { color: #eeede7; }
+  main { flex: 1; }
+  .skip-link { position: absolute; top: 16px; left: 16px; z-index: 2; padding: 10px 14px; background: #eeede7; color: #101110; transform: translateY(-150%); }
+  .skip-link:focus { transform: translateY(0); }
+  .footer { min-height: 84px; display: flex; align-items: center; border-top: 1px solid #ffffff12; color: #92938b; font-size: 11px; }
+  @media (max-width: 560px) { .shell { width: min(100% - 32px, 980px); } .header { min-height: 76px; } }
+</style>
