@@ -83,9 +83,8 @@ test.describe('Accessibility — External Links', () => {
 
     const blogLink = page.locator('.links a', { hasText: 'Blog' });
     const linkedInLink = page.locator('.links a', { hasText: 'LinkedIn' });
-    const githubLink = page.locator('.links a', { hasText: 'GitHub' });
 
-    for (const link of [blogLink, linkedInLink, githubLink]) {
+    for (const link of [blogLink, linkedInLink]) {
       await expect(link).toHaveAttribute('target', '_blank');
       await expect(link).toHaveAttribute('rel', 'noopener noreferrer');
     }

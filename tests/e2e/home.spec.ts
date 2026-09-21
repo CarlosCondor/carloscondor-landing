@@ -27,7 +27,7 @@ test.describe('Home Page', () => {
     page,
   }) => {
     const links = page.locator('.links .link');
-    await expect(links).toHaveCount(4);
+    await expect(links).toHaveCount(3);
 
     const expectedLinks = [
       {
@@ -40,12 +40,6 @@ test.describe('Home Page', () => {
       {
         text: 'LinkedIn',
         href: 'https://www.linkedin.com/in/juan-carlos-delgado-jaramillo-200a0330/',
-        target: '_blank',
-        rel: 'noopener noreferrer',
-      },
-      {
-        text: 'GitHub',
-        href: 'https://github.com/carloscondor',
         target: '_blank',
         rel: 'noopener noreferrer',
       },
